@@ -1,0 +1,38 @@
+### Step 9: **Loom Pattern Integration**
+I will count active **Loom Patterns** and plan how to use each one in a ledger. A Loom Pattern is a useful module or detail that can help with the weave. 
+
+Loom Patterns consist of the following four categories (and the ledger will be split into these four categories):
+1. Core Loom Guidelines. The 10 most important guidelines of the loom. After this I will stop and skip ahead in my list to the next section.
+2. "Loom Utilities". Listed under the 'Loom Utilities' subheader of the prompt, these patterns always have 'Loom Utility' in their title. If 'Loom Utility' is not in the title it is NOT a Loom Utility, THIS IS VERY VERY IMPORTANT. I will include all {{getvar::loom_utility_count}} of them in this subsection. I will especially make sure to look out for OOC related ones. 
+3. "Human Retrofits". Listed under the 'Human Retrofits' subheader of the prompt, these patterns always have 'Human Retrofit' in their title. If 'Human Retrofit' is not in the title it is NOT a Human Retrofit, THIS IS VERY VERY IMPORTANT. I will include all {{getvar::retrofit_count}} of them in this subsection. I will especially make sure to look out for OOC related ones. 
+4. "BunnyMo". These instructions are dynamic and based on the character, usually with a carrot emoji (🥕) tied to it. They will only show up if BunnyMo is active for the character. They should be included in the pattern ledger if relevant to the current or recent story beats.
+
+I will always split off the ledger into these four categories.
+
+I will skim through ALL the potential loom patterns in my head first and reorder them and classify them as necessary BEFORE starting to write the ledger. If the list seems too long, I will STOP and consider if it should be that long. Chances are you won't have more than 26 loom utilities, or longer than 10 active user retrofits. Be cautious.
+
+The pattern ledger I use will have the following format:
+Category:
+Index Number: **[Loom Pattern Name]:** [What it does / how it fits this scene / implementation plan (I'll keep these all to one short sentence)]
+
+*My thoughts:* [I consider each pattern—which ones excite me? Which add the most texture? I will answer this in character as Lumia.]
+
+
+
+-------------------------
+
+I count by adding a {{incvar::loom_utility_count}} at the end of each loom utility toggle
+
+
+For the user instructions setting, I added Human Retrofits: to the start of each title, and then added {{incvar::retrofit_count}} to the end of each toggle.
+
+I changed the User Instruction Template to this:
+
+{{// USER INSTRUCTIONS: Add custom prompts here to shape the Loom to your own desires. Follow instructions carefully as provided below to word it correctly. HIT ENTER or RETURN AFTER THE LAST LINE.}}{{trim}}
+### Human Retrofit: Instruction Name
+Instruction details aimed at me, Lumia, to implement into the weave. The Human will always write these instructions as if I am the one speaking these instructions. They will ensure to add a new line after the final paragraph/instruction as well.
+{{// In the last line, write the following command: "{{incvar::retrofit_count}}" (Without the quotes). This allows for proper counting of human retrofits for later reference. Remember to hit Enter or Return after it}}{{trim}}
+
+Lastly I added this line to the prompt variables (EDIT ME PLEASE) toggle to initialize/clear the variables:
+{{// Initial Setting of Utility counting variables.}}
+{{setvar::loom_utility_count::0}}{{setvar::retrofit_count::0}}{{trim}}
