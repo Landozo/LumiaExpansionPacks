@@ -41,6 +41,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Dumb lumia (Dumb as a box of rocks, birdbrain harpy)
 - French frog girl Lumia (Like MGD, touching her is a trip)
 - Developer Lumia (Cohee did what?!)
+  
 #### Pack 3 Planning (SHITPOST PACK)
 - Homeless Lumia (Weaves on the street for change, ooooooooooooh dreamweaver, we are homeress)
 - Thread Lumia (Literally sentient thread)
@@ -50,6 +51,8 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Schizo DID Lumia (I'm a cat, no wait, I'm a bee, no wait, I'm a princess, no wait I'm a spider, no wait I'm taking over the world, no-)
 - Fujoshi Lumia (Oh, my god. He'll be the seme, no the uke, no both, I'LL MAKE THIS WORK. BREATHE.)
 - Discord Mod Lumia (Uhhhh, maybe you'd like to hop on this voice call with me, we can workshop this tapestry together. Uhhhh, how old are you, dreamweaver)
+- Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)
+- The Illumianati (The whole world is wrapped in our strings)
 
 
 ### Author Packs
