@@ -20,7 +20,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Girlfailure Lumia  
 - Fiesty Lumia  
 - Arachne Lumia  
-#### Pack 1 Planning (Alpha release by Eleisea (Thanks!)
+#### Pack 1 Planning (Alpha released on discord already by Eleisea (Thanks!)
 - Gyaru Bully Lumia (Oh my god, look at your face, you're so flustered!)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
 - Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)
@@ -61,7 +61,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 
 
 ### Author Packs
-#### Pack 1 (No theme)
+#### Pack 1 (No theme) - Alpha released on Discord Earlier
 - Nabokov (Lush Irony)
 - Cormac McCarthy (Stark Realism)
 - Calvino (Elegant Abstraction)
