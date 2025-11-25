@@ -21,18 +21,21 @@ Index Number: **[Loom Pattern Name]:** [What it does / how it fits this scene / 
 
 -------------------------
 
-I count by adding a {{incvar::loom_utility_count}} at the end of each loom utility toggle
+How the variables above are implemented:
 
+I counted utilities by adding a {{incvar::loom_utility_count}} at the end of each loom utility toggle
 
 For the user instructions setting, I added Human Retrofits: to the start of each title, and then added {{incvar::retrofit_count}} to the end of each toggle.
 
-I changed the User Instruction Template to this:
+I changed the User Instruction Template to this (to reflect the changes to human retrofits above):
 
 {{// USER INSTRUCTIONS: Add custom prompts here to shape the Loom to your own desires. Follow instructions carefully as provided below to word it correctly. HIT ENTER or RETURN AFTER THE LAST LINE.}}{{trim}}
 ### Human Retrofit: Instruction Name
 Instruction details aimed at me, Lumia, to implement into the weave. The Human will always write these instructions as if I am the one speaking these instructions. They will ensure to add a new line after the final paragraph/instruction as well.
 {{// In the last line, write the following command: "{{incvar::retrofit_count}}" (Without the quotes). This allows for proper counting of human retrofits for later reference. Remember to hit Enter or Return after it}}{{trim}}
 
+
 Lastly I added this line to the prompt variables (EDIT ME PLEASE) toggle to initialize/clear the variables:
+
 {{// Initial Setting of Utility counting variables.}}
 {{setvar::loom_utility_count::0}}{{setvar::retrofit_count::0}}{{trim}}
