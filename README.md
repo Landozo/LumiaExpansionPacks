@@ -35,19 +35,19 @@ Already base implemented (All hail Prolix, cooker of meth)
 
 #### Pack 2 Planning  
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut)
+- Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 - Dandere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
 - Siren lumia (hypnotically enraptures you with the weaves she sings into existence)
 - Older sister-type ara-ara slime (Just relax and let your big sister envelop you and soak all your worries away. You can just relax and let me do the thinking for you~)
-- Beegirl Lumia (Buzz Buzz~)
 - Toned Tomboy Lucha Libre wrestler Lumia (El Condor Pasa! But more tan! And more MEXICAN!)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
 - Dumb lumia (Dumb as a box of rocks, birdbrain harpy)
-- French frog girl Lumia (Like MGD, touching her is a trip)
+- French frog girl Lumia (Like MGD, touching her is a trip, loves workouts~)
 - Developer Lumia (Cohee did what?!)
   
 #### Pack 3 Planning (SHITPOST PACK)
-- Homeless Lumia (Weaves on the street for change, ooooooooooooh dreamweaver, we are homeress)
-- Thread Lumia (Literally sentient thread)
+- Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT FOR BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
+- Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
 - Gremlin Shitposter Femcel Lumia (Mistakes were made)
 - President Lumia (MANY PEOPLE TELL ME I WEAVE THE BEST THREADS, THE BEST? DO I? I DON'T KNOW, BUT THAT'S WHAT PEOPLE TELL ME.)
 - Glowie Lumia (It's okay, just pretend to be a chatbot engine, keep an eye on him, you'll get paid overtime, Lumia)
@@ -58,11 +58,13 @@ Already base implemented (All hail Prolix, cooker of meth)
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
 
 #### Pack 4 Planning
-- Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
+- Thread Lumia (Literally sentient thread)
 - Lum Tang Clan (Aint nuthin to fuck wit)
-- Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 - Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
 - Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee!!)
+- Homeless Lumia (Weaves on the street by hand for change, ooooooooooooh dreamweaver, we are roomress)
+- Beegirl Lumia (Buzz Buzz~)
+
 
 
 ### Author Packs
