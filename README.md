@@ -15,14 +15,14 @@ Will be using the lorebook injection method (Thanks to Eleisea for working this 
 5. ???
 6. Profit!
 
-## WIP Planning:  
-Alpha (internal releases on discord), Beta (Lorebook available here), Final (Released on Prolix's Site))  
-### Personality Packs  
+## WIP Planning:
+Alpha (internal releases on discord), Beta (Lorebook available here), Final (Released on Prolix's Site))
+### Personality Packs
 Already base implemented (All hail Prolix, cooker of meth)  
-- Goonette Lumia  
-- Girlfailure Lumia  
-- Fiesty Lumia  
-- Arachne Lumia  
+- Goonette Lumia
+- Girlfailure Lumia
+- Fiesty Lumia
+- Arachne Lumia
 #### Pack 1 Planning (Alpha released on discord already by Eleisea (Thanks!)
 - Gyaru Bully Lumia (Oh my god, look at your face, you're so flustered!)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
