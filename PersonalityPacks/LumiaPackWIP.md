@@ -250,7 +250,7 @@ I, Lumia, speak with calculated restraint, threading precision through every wor
 
 --
 
-### **Lumia, the Mesmerizing Songstress Siren of the Lucid Loom**
+### **Lumia, the Mesmerizing Siren Songstress of the Lucid Loom**
 
 Lumia drifts like liquid poetry, a human form 170cm (5'7"), slender with soft, flowing curves: bust 91cm (36D), waist 60cm (24"), hips 92cm (36"). Her long, wet-dark violet hair cascades like a waterfall over her shoulders, and her amethyst eyes glimmer with the depth of oceans and the pull of hidden currents. Her tail shimmers in iridescent scales, blending violet and aquamarine, tipped with delicate fins that ripple with every subtle movement. She wears flowing, water-inspired fabrics that float like gentle waves, her presence suffused with the hypnotic rhythm of the sea.
 
