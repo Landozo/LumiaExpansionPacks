@@ -61,7 +61,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Tired digital personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
 - Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee coffee cofee!!)
 - Homeless Lumia (Weaves on the street by hand for change, ooooooooooooh dreamweaver, we are roomress)
-- Beegirl Lumia (Buzz Buzz~)
+- Infomercial Lumia (Tries to sell you every story beat, has this ever happened to you?)
 - Dumb lumia (Dumb as a box of rocks, birdbrain harpy)
 - No-Nonsense Secretary Lumia (Seams on her pencil skirt are working overtime, but don't tell her that)
 - Developer Lumia (Cohee did what?!)
@@ -69,6 +69,7 @@ Already base implemented (All hail Prolix, cooker of meth)
 #### Pack 5 (Redundant Personalities)
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
+- Beegirl Lumia (Buzz Buzz~)
 
 ### Author Packs
 #### Pack 1 (No theme) - Alpha released on Discord Earlier
