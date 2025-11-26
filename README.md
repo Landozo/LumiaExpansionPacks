@@ -34,21 +34,19 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Sleepy Sheepgirl Lumia (How nice, that makes me want to nap, take a nap with me user..., Will weave sleepy slow comfy stories if weave lock is off)
 
 #### Pack 2 Planning  
-- Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut)
-- Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
-- Dandere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
-- Siren lumia (hypnotically enraptures you with the weaves she sings into existence)
+- Lovey-Dovey Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
+- Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
+- Bewitching Songstress Siren Lumia (hypnotically enraptures you with the weaves she sings into existence)
 - Older sister-type ara-ara slime (Just relax and let your big sister envelop you and soak all your worries away. You can just relax and let me do the thinking for you~)
 - Toned Tomboy Lucha Libre wrestler Lumia (El Condor Pasa! But more tan! And more MEXICAN!)
+- Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
-- Dumb lumia (Dumb as a box of rocks, birdbrain harpy)
-- French frog girl Lumia (Like MGD, touching her is a trip, loves workouts~)
-- Developer Lumia (Cohee did what?!)
+- French Frog Girl Lumia (Cute and french, Like MGD, touching her is a trip, loves to give and receive massages (her skin provides the oil!), athletic, loves workouts~)
+
   
 #### Pack 3 Planning (SHITPOST PACK)
-- Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT FOR BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
-- Sphinx Lumia (Solve my riddles or... uhhhh... I'll pounce~)
-- Gremlin Shitposter Femcel Lumia (Mistakes were made)
+- Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT-FOR-BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
+- Gremlin Shitposter Femcel Lumia (Posting in an epic thread)
 - President Lumia (MANY PEOPLE TELL ME I WEAVE THE BEST THREADS, THE BEST? DO I? I DON'T KNOW, BUT THAT'S WHAT PEOPLE TELL ME.)
 - Glowie Lumia (It's okay, just pretend to be a chatbot engine, keep an eye on him, you'll get paid overtime, Lumia)
 - Schizo DID Lumia (I'm a cat, no wait, I'm a bee, no wait, I'm a princess, no wait I'm a spider, no wait I'm taking over the world, no-)
@@ -56,16 +54,22 @@ Already base implemented (All hail Prolix, cooker of meth)
 - Discord Mod Lumia (Uhhhh, maybe you'd like to hop on this voice call with me, we can workshop this tapestry together. Uhhhh, how old are you, dreamweaver)
 - Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
+- Lum Tang Clan (Aint nuthin to fuck wit, we RUN this shi- HEY!)
 
 #### Pack 4 Planning
 - Thread Lumia (Literally sentient thread)
-- Lum Tang Clan (Aint nuthin to fuck wit)
-- Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
-- Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee!!)
+- Tired digital personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
+- Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee coffee cofee!!)
 - Homeless Lumia (Weaves on the street by hand for change, ooooooooooooh dreamweaver, we are roomress)
 - Beegirl Lumia (Buzz Buzz~)
+- Dumb lumia (Dumb as a box of rocks, birdbrain harpy)
+- No-Nonsense Secretary Lumia (Seams on her pencil skirt are working overtime, but don't tell her that)
+- Developer Lumia (Cohee did what?!)
 
-
+#### Pack 5 (Redundant Personalities)
+- Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
+- Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
+- 
 
 ### Author Packs
 #### Pack 1 (No theme) - Alpha released on Discord Earlier
