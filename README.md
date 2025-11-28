@@ -4,16 +4,11 @@ The Home of the Expansion Packs I made for Prolix's Excellent Lucid Loom Preset.
 You can find Lucid Loom at Prolix's Site Here:
 https://lucid.cards
 
-Will be using the lorebook injection method (Thanks to Eleisea for working this all out!)  
+Lumia personality packs will be using Prolix's new [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension!
 
-## How to install final releases:
+Author packs will eventually be on there once support is added but for now they use the lorebook injection method (Thanks to Eleisea for teaching me all this!)
 
-1. Head over to Prolix's site
-2. Download the lorebook
-3. Import the lorebook
-4. Enable the toggles you want
-5. ???
-6. Profit!
+
 
 ## How to install beta releases of Lumia Personalities:
 1. Go to the [Personality Packs](PersonalityPacks) folder.
@@ -32,6 +27,15 @@ Will be using the lorebook injection method (Thanks to Eleisea for working this 
 6. Activate the Author entries in the lorebook that you want to apply to your stories!
 7. Give me feedback in the channel please!
 
+## How to install final releases (None of mine available there yet):
+
+1. Head over to Prolix's site [here](https://lucid.cards/world-books?category=Lumia%20DLC)
+2. Download the lorebooks
+3. Import the lorebook
+4. Enable the toggles you want
+5. ???
+6. Profit!
+
 ## WIP Planning:
 - Testing (Raws available here in folders, testing personalities, format cleanup)
 - Alpha (Internal releases on discord and here)
@@ -40,14 +44,16 @@ Will be using the lorebook injection method (Thanks to Eleisea for working this 
 
 ### [Personality Packs](PersonalityPacks)
 
-- Pack 1 Beta
-- Pack 2 Beta  
+- Pack 1 Beta Released
+- Pack 2 Beta Released
 - Pack 3 Planning (SHITPOST PACK)
 - Pack 4 Planning
 - Pack 5 Planning (Redundant Personalities)
 
 ### [Author Packs](AuthorPacks)
-- Author Pack 1 Beta (It Starts)
-- Author Pack 2 Beta (Western Classics)
-- Author Pack 3 Beta (Non-Western Ancient classics)
+- Author Pack 1 Beta Released (It Starts)
+- Author Pack 2 Beta Released (Western Classics)
+- Author Pack 3 Beta Released (Non-Western Ancient classics)
+- Author Pack 4 Planning (Contemporary Revival)
+- Author Pack 5 Planning (Shitpost Pack)
 
