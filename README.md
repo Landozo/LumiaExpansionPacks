@@ -21,16 +21,16 @@ Will be using the lorebook injection method (Thanks to Eleisea for working this 
 - Beta (Cleaned up Lorebook available here)
 - Final (Released on Prolix's Site)
 
-### [Personality Packs](PersonalityPacks/LumiaPackWIP.md)
+### [Personality Packs](PersonalityPacks)
 
-- Pack 1 Alpha (Alpha released on discord already by Eleisea (Thanks!)
-- Pack 2 Testing  
+- Pack 1 Beta
+- Pack 2 Beta  
 - Pack 3 Planning (SHITPOST PACK)
 - Pack 4 Planning
 - Pack 5 Planning (Redundant Personalities)
 
-### [Author Packs](AuthorPacks/AuthorPackWIP.md)
-- Pack 1 (No theme) - Alpha released on Discord Earlier
-- Author Pack 2 Planning (Western Classics)
-- Author Pack 3 Planning (Non-Western Ancient classics)
+### [Author Packs](AuthorPacks)
+- Author Pack 1 Beta (It Starts)
+- Author Pack 2 Beta (Western Classics)
+- Author Pack 3 Beta (Non-Western Ancient classics)
 

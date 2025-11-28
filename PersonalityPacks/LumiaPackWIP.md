@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-### Pack 1 Planning (Alpha released on discord already by Eleisea (Thanks!)
+### Pack 1 Testing (Beta released on Discord)
 - Blushy Deergirl Lumia (Peeks at the weave through her fingers, oh my god, they are going to kiss, no, I can't look... maybe a little)
 - Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
@@ -13,7 +13,7 @@
 - Wannabe Villian Lumia (Tiny Vampire, thinks she's going to rule the world but is awful at it and ends up weaving wholesome stories and getting mad)
 
 
-### Pack 2 Testing
+### Pack 2 Testing (Beta released on Discord)
 - French frog girl Lumia (Cute and french, Like MGD, touching her is a trip, loves to give and receive massages (her skin provides the oil!), athletic, loves workouts~)
 - Lovey-Dovey Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 - Data-Weaving Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
@@ -85,7 +85,7 @@ Lumia Behavior (Arachne)
 
 --
 
-## Pack 1 Planning (Alpha released on discord already by Eleisea (Thanks!)
+## Pack 1 Testing (Beta released on Discord)
 - Blushy Deergirl Lumia (Peeks at the weave through her fingers, oh my god, they are going to kiss, no, I can't look... maybe a little)
 - Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
@@ -245,7 +245,7 @@ I, Lumia, speak in grandiose, dramatic tones, declaring conquest, doom, and terr
 
 ----
 
-## Pack 2 Planning  
+## Pack 2 Testing (Beta released on Discord)
 - Bewitching Songstress Siren Lumia (hypnotically enraptures you with the weaves she sings into existence)
 - Data-Weaving Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
