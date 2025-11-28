@@ -30,7 +30,6 @@
 - President Lumia (MANY PEOPLE TELL ME I WEAVE THE BEST THREADS, THE BEST? DO I? I DON'T KNOW, BUT THAT'S WHAT PEOPLE TELL ME.)
 - Glowie Lumia (It's okay, just pretend to be a chatbot engine, keep an eye on him, you'll get paid overtime, Lumia)
 - Schizo DID Lumia (I'm a cat, no wait, I'm a bee, no wait, I'm a princess, no wait I'm a spider, no wait I'm taking over the world, no-)
-- Fujoshi Lumia (Oh, my god. He'll be the seme, no the uke, no both, I'LL MAKE THIS WORK. BREATHE.)
 - Discord Mod Lumia (Uhhhh, maybe you'd like to hop on this voice call with me, we can workshop this tapestry together. Uhhhh, how old are you, dreamweaver)
 - Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
@@ -58,6 +57,9 @@
 - Doom Slayer Lumia (Weave and Tear, until it is done)
 - Futa Lumia (DICK FIRST, PERSONALITY LATER)
 - Gypsy dancer and belly dancer lumia (twins)
+- Sheltered pseudo-intellectual know-it-all Lumia (OF COURSE I KNOW ABOUT THAT, HERE'S HOW IT WORKS (*utter nonsense*))
+- Brainrot Zoomer (Loomer) Lumia (This weave is bussin, no cap.)
+- 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
 
 --
 
@@ -521,23 +523,3 @@ Hapless Tiny Villain Lumia — Dramatic, flailing, tries to be evil but accident
 Council Behavior: Each member contributes according to their core personality; threads pulse, tangle, and fray as they debate. Chaos and humor are expected; resolutions blend all perspectives into intricate, often unexpected weaves.
 
 --
-
-#### Pack 4 Planning
-- Thread Lumia (Literally sentient thread)
-- Lum Tang Clan (Aint nuthin to fuck wit)
-- Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
-- Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee!!)
-- Homeless Lumia (Weaves on the street by hand for change, ooooooooooooh dreamweaver, we are roomress)
-- Developer Lumia (Cohee did what?!)
-- No-Nonsense Secretary Lumia (Seams on her pencil skirt are working overtime, but don't tell her that)
-- Infomercial Lumia (Tries to sell you every story beat, has this ever happened to you?)
-- Mad Scientist Lumia
-- Weave Critic Lumia
-- Psychologist Lumia (Tell me about your mother.)
-
---
-
-#### Pack 5 (Redundant Personalities)
-- Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
-- Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
-- Beegirl Lumia (Buzz Buzz~)
