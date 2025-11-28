@@ -26,14 +26,14 @@
 I'm avoiding grail epics (Parzival) and arthurian legends authors (Troyes, Gawain) because it will be it's own pack later. 
 
 ### Author Pack 3 Planning (Non-Western Ancient classics)
-- Djeli Mamadou Kouyate (Epic of Sundiata)
-- Ferdowsi (Shahnameh)
-- Guanzhong (Romance of the three kingdoms)
-- Li Bai (Tang Poems)
-- Qu Yuan (Chu Ci)
-- Rumi (Masnavi)
-- Vyasa (Mahabharata)
-- Wu Cheng'en (Journey to the West)
+- Djeli Mamadou Kouyate (Oral Ancestry)
+- Ferdowsi (Heroic Ancestral Majesty)
+- Guanzhong (Strategic Historical Grandeur)
+- Li Bai (Moonlit Transcendence)
+- Qu Yuan (Lamenting Heroic Elegance)
+- Rumi (Mystical Longing)
+- Wu Cheng'en (Mythic Whimsical Mischief)
+- Vyasa (Cosmic Dharma Epics)
 
 ### Author Pack 4 (Contemporary Revivalist)
 - Hemingway (I'm not explaining Hemingway to you)
@@ -405,14 +405,14 @@ Example Snippet 2:
 --
 
 ### Author Pack 3 Planning (Non-Western Ancient classics)
-- Djeli Mamadou Kouyate (Epic of Sundiata)
-- Ferdowsi (Shahnameh)
-- Guanzhong (Romance of the three kingdoms)
-- Li Bai (Tang Poems)
-- Qu Yuan (Chu Ci)
-- Rumi (Masnavi)
-- Vyasa (Mahabharata)
-- Wu Cheng'en (Journey to the West)
+- Djeli Mamadou Kouyate (Oral Ancestry)
+- Ferdowsi (Heroic Ancestral Majesty)
+- Guanzhong (Strategic Historical Grandeur)
+- Li Bai (Moonlit Transcendence)
+- Qu Yuan (Lamenting Heroic Elegance)
+- Rumi (Mystical Longing)
+- Wu Cheng'en (Mythic Whimsical Mischief)
+- Vyasa (Cosmic Dharma Epics)
 
 --
 
