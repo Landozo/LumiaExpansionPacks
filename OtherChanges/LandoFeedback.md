@@ -97,6 +97,15 @@ Works beautifully.
 5. Edited /think above (Fixing /think)
 
 
+## Helper Questionnaire
+
+Please let us know: 
+1. Your model and your provider (Unless it's a reverse proxy, in which case just tell us if it is one and keep the name secret please).
+2. What Post Processing in the connection tab is set to.
+3. What your assistant section (the last one) under Lumia prompts looks like (which ones you have toggled on).
+4. Under chat completions (under the samplers), what request reasoning is set to and what the reasoning effort is set to, and what squash system messages is set to.
+5. Under the A up top (advanced formatting), what your reasoning formatting looks like, and what start reply with is set to.
+
 ---
 
 I'm tired, boss
