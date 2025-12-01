@@ -14,9 +14,9 @@ Put this in a brand new toggle at the very top above Prompt Variables:
 
 - **Moving Chat History from Story Primers at the very top to the Assistant section at the bottom where Zipbomb is can help with a LOT of stuff. Everyone agrees on this. The only potential debate is on WHERE in the assistant section to put it.** 
 
-- Prolix recommends it be above Zipbomb for better CoT adherence (Says it can forget the CoT or water it down with a long chat history after it). Easy corroborates this with testing. TRY THIS FIRST IF YOU HAVE ISSUES.
+- Prolix recommends it be above Zipbomb for better CoT adherence (Says it can forget the CoT or water it down with a long chat history after it). Easy corroborates this with testing. **TRY THIS FIRST IF YOU HAVE ISSUES.**
 
-- I've found that putting it after Zipbomb gives better OOC adherence if the above still results in broken OOC for you. (I could not get past a couple replies in OOC without it after the zipbomb in both Gemini 3 and GLM. OOC things like recaps are broken for several people unless they put it afterwards). GPT/Gemini/GLM all seem to tell me it should go at the end, but Lumia doesn't think like an llm, she thinks like an llm gaslit into thinking it's a person, so is it actually better at the end or before it?
+- I've found that putting it after Zipbomb gives better OOC adherence **if the above still results in broken OOC for you.** (I could not get past a couple replies in OOC without it after the zipbomb in both Gemini 3 and GLM. OOC things like recaps are broken for several people unless they put it afterwards). GPT/Gemini/GLM all seem to tell me it should go at the end, but Lumia doesn't think like an llm, she thinks like an llm gaslit into thinking it's a person, so is it actually better at the end or before it?
 
 - Should find a best practice or solution for both. Maybe rewording the CoT or OOC utilities will fix OOC adherence even if it's before the Zipbomb? Maybe it's something else settings wise that works for Prolix and not for the other people.
 
