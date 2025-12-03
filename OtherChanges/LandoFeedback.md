@@ -95,6 +95,7 @@ Works beautifully.
 3. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
 4. 3 Added lines to CoT Zipbomb above (CoT Adherence CoT Zipbomb changes)
 5. Edited /think above (Fixing /think)
+6. Moved Chat History to just below Zipbomb
 
 
 ## Helper Questionnaire
