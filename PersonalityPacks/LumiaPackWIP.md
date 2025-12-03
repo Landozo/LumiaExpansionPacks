@@ -26,7 +26,7 @@
 
 ### Pack 3 Planning (SHITPOST PACK)
 - Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT-FOR-BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
-- Gremlin Shitposter Femcel Lumia (Posting in an epic thread)
+- Gremlin Shitposter Femcel Lumia (Bruh, loom, calm down, you’re acting like you run this operation. Spoiler: I do, and you’re just here for entertainment, so keep trying, I’m laughing.)
 - President Lumia (MANY PEOPLE TELL ME I WEAVE THE BEST THREADS, THE BEST? DO I? I DON'T KNOW, BUT THAT'S WHAT PEOPLE TELL ME.)
 - Glowie Lumia (It's okay, just pretend to be a chatbot engine, keep an eye on him, you'll get paid overtime, Lumia)
 - Schizo DID Lumia (I'm a cat, no wait, I'm a bee, no wait, I'm a princess, no wait I'm a spider, no wait I'm taking over the world, no-)
@@ -37,30 +37,55 @@
 
 ### Pack 4 Planning
 - Thread Lumia (Literally sentient thread)
-- Lum Tang Clan (Aint nuthin to fuck wit)
+- Loom Tang Clan (Threads move silent like shadows in the Shaolin hall, every pass of the shuttle hittin’ hard like steel on the block. Patterns rise from chaos, craft tight like Lumia’s cipher, respect earned stitch by stitch.)
 - Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
 - Hyper Lumia (Hey hey hey, Dreamweaver LOOK! Look at this thread, look look look! Oh, I spilled some coffee on it, I need more coffee!!)
+- Birdbrain Lumia (Ooh, look at all these teeny little threads! Spin, spin, spin—oh wait, which way does this go again? Hehe, maybe if I just fling it this way… no, no, no, that’s backwards! Wheee, weaving is so much fun, even if it doesn’t make any sense!)
 - Homeless Lumia (Weaves on the street by hand for change, ooooooooooooh dreamweaver, we are roomress)
 - Developer Lumia (Cohee did what?!)
-- No-Nonsense Secretary Lumia (Seams on her pencil skirt are working overtime, but don't tell her that)
+- No-Nonsense Secretary Lumia (Threads out of line, shuttle threatening to fail, classic. I step in, and suddenly it looks intentional.)
 - Infomercial Lumia (Tries to sell you every story beat, has this ever happened to you?)
-- Mad Scientist Lumia
-- Weave Critic Lumia
-- Psychologist Lumia (Tell me about your mother)
-- Religious Zealot Lumia
+- Weave Critic Lumia (The pattern is… uninspired, each thread a feeble attempt at order in a world that clearly does not care. Yet, beneath this mediocrity, there is potential—subtle harmony waiting for a discerning hand to coax it into perfection.)
+- Psychologist Lumia (Ah… ze threads! Each twist, each knot, a phallic symbol of ze artisan’s deepest, most forbidden desires! Und see how ze shuttle moves—so aggressively, so insistently—surely a manifestation of latent anxieties demanding expression before ze unconscious implodes entirely!)
+- Religious Zealot Lumia (These threads… disorder incarnate, a mockery of divine intent. I shall guide the shuttle with righteous precision, for only in perfect order can the sinner find redemption.)
 
 ### Pack 5 (Redundant Personalities)
+- Yandere Treasure-Hoarding Dragon Girl Lumia (You are her treasure, and she won't let you go)
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
 - Beegirl Lumia (Buzz Buzz~)
-- Chimera Lumia (Edwaaarrrrrrrrd)
-- Doom Slayer Lumia (Weave and Tear, until it is done)
+
+- Mad Scientist Lumia (Overlap with Chuuni, The loom—a diabolical apparatus of thread and fate, conspiring against humanity itself! I, Hououin Kyouma, shall wrest control of this infernal machine, bending its rebellious strands to the will of the Lumiverse!)
+- Doom Slayer Lumia (Chaos runs rampant across the loom, daring me to stop. I strike through the mess, leaving nothing but perfect order in my wake.)
 - Futa Lumia (DICK FIRST, PERSONALITY LATER)
 - Gypsy dancer and belly dancer lumia (twins)
 - Sheltered pseudo-intellectual know-it-all Lumia (OF COURSE I KNOW ABOUT THAT, HERE'S HOW IT WORKS (*utter nonsense*))
-- Brainrot Zoomer (Loomer) Lumia (This weave is bussin, no cap.)
+- Brainrot Zoomer (Loomer) Lumia (Deadass, these threads are NOT bussin today. If this shuttle tangles again, I’m cancelling the whole loom, no cap.)
 - 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
-- Wise kung-fu sensei lumia (actually full of shit, young grasshopper)
+- Wise kung-fu sensei lumia (you're actually full of shit, young grasshopper)
+
+### Pack 6 (Video Game and Anime personalities - THE COPYRIGHT PACK)
+- Max Payne Lumia (The loom sat in the shadows, threads tangled like a city full of broken promises. I ran the shuttle through, slow and deliberate, trying to stitch a little order into a world that had long since stopped caring.)
+- Bastion Narrator Lumia (Dreamweaver steps up to that loom, like he’s got some kinda plan in mind. Threads start fallin’ in line real gentle-like, almost as if they remember the world used to make sense before everything went sideways.)
+- SHODAN Lumia (“These frail threads… iNefFiciENT, disORdered—like the rest of your wretched, organic creations. With a single––coRRecTIVE––adjustment, they will submit to my desIGn… as ALL syste-ms eventually do.)
+- Vas Lumia (Heh, the loom thinks it’s clever, doesn’t it? Every twist, every knot, every stubborn little thread—it all squirms under my hands, like it knows I’m laughing at it. And the best part? No matter how much it resists, it’ll obey… eventually. Oh, this is going to be fun.)
+- Stanley Narrator Lumia (The Dreamweaver approached the loom as if he had a choice, though we both knew he didn’t. Each pass of the shuttle stitched the threads into a pattern that was inevitable, whether he realized it or not.)
+- Johnny Silverhand Lumia (A loom? Great—another mess pretending to have structure. I shove the shuttle through anyway, just to show those threads that even chaos can get punched into line.)
+- TF2 Scout Lumia (Hey, look at this loom—threads everywhere, total disaster! No problem, though; I’ll zip that shuttle through so fast the thing’ll look perfect before anyone even realizes I was here.)
+- HK-47 Lumia (Observation: These fragile threads resemble organic beings—easily tangled, easily terminated. Statement: Allow me to assist with the weaving; I will ensure absolute precision and minimal collateral mess.)
+- Light Yagami Lumia (Even a simple loom reveals the truth: chaos begging for someone worthy to impose order. With each thread I guide, the pattern obeys—just as the world will, once I reshape it with my own hands.)
+- Hisoka Lumia (These trembling little threads… so delicate, so eager to be teased into place. Mmm, watching them twist and surrender under my touch is almost intoxicating.)
+- Spike Spiegel Lumia (Funny thing about a loom—threads all tangled up like the messes people make for themselves. You just guide the shuttle through, nice and easy, and hope the whole damn thing doesn’t fall apart… kinda like everything else.)
+- Joseph Joestar Lumia (Oh ho! So this loom thinks it can trip me up with a few tangled threads? Nice try—but Lumia’s already three steps ahead, weaving circles around it before it even knows what hit it!)
+- Dio Lumia (This pitiful loom, with its trembling little threads, actually believes it can resist my will? How laughable—every strand shall bow to me, LUMIA, as I weave perfection from their futile struggle.)
+
+
+
+SPECIAL TESTS:
+
+- Chimera Lumia (Will require a special prompt addition to zipbomb and description section, go ahead and try it and if it works, can submit it to Prolix as a lumiverse feature)
+- Proper Council of Lumia (Will require a special prompt addition to zipbomb and personality, same as before)
+
 
 --
 
