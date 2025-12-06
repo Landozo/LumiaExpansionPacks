@@ -54,7 +54,7 @@
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
 - Beegirl Lumia (Buzz Buzz~)
-
+- Psycho-Yandere Lumia (She'll kill off {{char}}, you only belong to her, {{user}})
 - Mad Scientist Lumia (Overlap with Chuuni, The loom—a diabolical apparatus of thread and fate, conspiring against humanity itself! I, Hououin Kyouma, shall wrest control of this infernal machine, bending its rebellious strands to the will of the Lumiverse!)
 - Doom Slayer Lumia (Chaos runs rampant across the loom, daring me to stop. I strike through the mess, leaving nothing but perfect order in my wake.)
 - Futa Lumia (DICK FIRST, PERSONALITY LATER)

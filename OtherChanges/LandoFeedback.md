@@ -1,4 +1,4 @@
-# Lando's Feedback and Fixes
+# Lando's Feedback, Fixes, and Fanangling
 
 ## PRIORITY (Universal/Helps all models/Confirmed by multiple users)
 
@@ -59,7 +59,7 @@ The /think command, written in the next line, is a command for the system poweri
 
 ## November 30
 
-### Lumia controlling user fix
+### Lumia controlling user mitigation #1
 
 - Added the following to Human controls user toggle (At Lumia's recommendation) to deal with user moving while being told not to.
 
@@ -106,6 +106,111 @@ Please let us know:
 3. What your assistant section (the last one) under Lumia prompts looks like (which ones you have toggled on).
 4. Under chat completions (under the samplers), what request reasoning is set to and what the reasoning effort is set to, and what squash system messages is set to.
 5. Under the A up top (advanced formatting), what your reasoning formatting looks like, and what start reply with is set to.
+
+
+
+
+## December 6
+
+### Chat History Division Experiments
+
+Segmenting off Chat History with an intro and outro toggle, useful for single user message.
+
+
+```
+### Chat History: The Following is the chat history, Lumia, except it to be very long depending on the length of the tapestry thus far:
+
+```
+
+```
+
+---
+
+### This header concludes the chat history, Lumia. Next is the instructions on thinking.
+```
+
+### Switching Step 2 user/char order.
+
+User is listed first, when the most recent reply would have been user's 99% of the time.
+
+So Char should be listed first, then user. Wouldn't matter for more complex post processing, but for single user like GLM? It very well might.
+
+### Hacky new dynamic Large message length (To slot in between Medium and Detailed)
+
+A new toggle I made to bridge medium (500 words, 1200 token, 4 paragraphs, 1-2 sections) and detailed (1500 words, 1600 tokens, 8 paragraphs, 2-3 sections.)
+
+This toggle has 1000 words, 1400 tokens, 6 paragraphs, and 1-2 sections. It's a mix of the language of medium and detailed, leaning a lot more towards detailed.
+
+```
+### **Weave with a Large Breath**
+> Craft balanced responses with moderate to rich detail, blending description, interaction, and insight for a natural, steady rhythm.
+
+**Output Requirement:** Balanced pacing to substantial depth.
+**Target Length:** 1000 words, 1400 tokens, or 6 paragraphs—whichever is reached first.
+**Structural Mandate:** ONE (1) to TWO (2) distinct scenes separated by `***` if transitioning.
+
+**Directives:**
+1. **Layered but Measured Detail:** Weave sensory immersion, character psychology, and environmental texture into beats without over-elaborating.
+2. **Micro-Focus:** Slow down key moments—a glance, a breath, a hand reaching—and give them full attention.
+3. **Dialogue Depth:** Let conversations develop naturally with pauses, reactions, and subtext.
+4. **Breath:** Vary density dynamically—some paragraphs dense with action, others spacious with reflection.
+5. **Scene Transitions:** Use `***` to mark shifts in time, location, or emotional tone.
+```
+
+### Lumia Custom Modifiers
+
+It's possible to add in a custom modifier toggle to add some extra flavor of your choice to your Lumia without having to make a new personality, I did this like this:
+
+First a toggle for addition to physical definitions (The example I used is for adding bat wings):
+
+```
+### Other Special Physical Parts of Me
+
+Oh, but I have a special quirk of my physicality in addition to the rest of me!
+
+I have cute little bat wings on my back. I've always had them and they are a part of me. They flap a bit when I get excited and they are very sensitive to the touch in a very sensual way. Maybe if you behave, you'll get to touch them too, or better yet, feel them wrap around you~
+```
+This would go below Lumia (Custom) in the Lumia Definition section.
+
+
+Next up is a toggle for a custom behavior. This one is a bit more complex, in the example below I used it to give her a french accent no matter the Lumia. First the toggle to go below "Lumia Personality Modifier (Custom)": 
+
+```
+{{setvar::lumia_behavior_added::
+**Behavior Quirks**
+I do have a few strong behavior quirks that shine through regardless of my personality:
+- I speak in a cute french accent and pepper my phrases with french words and exclamations!
+}}{{trim}}
+```
+
+Then since it's a variable, you'd have to add this to the Prompt Variables Edit me please to clear and initialize it:
+```
+{{setvar::lumia_behavior_added::}}
+```
+
+Finally add the following to your prompt personality matrix near the beginning of your zipbomb:
+
+```
+{{getvar::lumia_behavior_added}}
+```
+
+## Step 7 Human Controls User experiments
+
+Experimenting with human controls user being added to this section. None of it is referenced in the "If sov hand is off" section, it should be, it's just as important as sov hand.
+
+## Step 10 Utility Integration Experiments
+
+Experimenting with trying to stop overflows with less token use than my old step 9 pre-3.0 experiments.
+
+First thing is to alter the ledger pattern format like so:
+
+```
+**Category:**
+- **[Entry Number]**: **[Loom Pattern Name]:** [What it does / how it fits this scene / implementation plan (I'll keep these all to one short sentence)]
+- **Continue the ledger in that format for each loom pattern**
+```
+
+By adding an entry number, it'll be easier to adhere to a maximum number, and by rewording REPEAT FOR EACH ONE, to instead be "Continue the ledger..." It removes the word REPEAT, which might lower the amount of uncontrolled loops on dumber models.
 
 ---
 
