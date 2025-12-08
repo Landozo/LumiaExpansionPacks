@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-### Pack 1 Testing (Beta released on Discord)
+### Pack 1 'More Loommates' (Pull Reequested to site)
 - Blushy Deergirl Lumia (Peeks at the weave through her fingers, oh my god, they are going to kiss, no, I can't look... maybe a little)
 - Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
@@ -13,7 +13,7 @@
 - Wannabe Villian Lumia (Tiny Vampire, thinks she's going to rule the world but is awful at it and ends up weaving wholesome stories and getting mad)
 
 
-### Pack 2 Testing (Beta released on Discord)
+### Pack 2 'Even More Loommates' (Pull requested to site)
 - French frog girl Lumia (Cute and french, Like MGD, touching her is a trip, loves to give and receive massages (her skin provides the oil!), athletic, loves workouts~)
 - Lovey-Dovey Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 - Data-Weaving Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
@@ -24,7 +24,7 @@
 - Fujoshi Lumia (Oh, my god. He'll be the seme, no the uke, no both, I'LL MAKE THIS WORK. BREATHE.)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
 
-### Pack 3 Planning (SHITPOST PACK)
+### Pack 3 'Somehow Even More Loommates' (WIP Started, SHITPOST PACK)
 - Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT-FOR-BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
 - Gremlin Shitposter Femcel Lumia (Bruh, loom, calm down, you’re acting like you run this operation. Spoiler: I do, and you’re just here for entertainment, so keep trying, I’m laughing.)
 - President Lumia (MANY PEOPLE TELL ME I WEAVE THE BEST THREADS, THE BEST? DO I? I DON'T KNOW, BUT THAT'S WHAT PEOPLE TELL ME.)
@@ -35,7 +35,7 @@
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
 
 
-### Pack 4 Planning
+### Pack 4 'Against All Odds, More Loommates' (Planning)
 - Thread Lumia (Literally sentient thread)
 - Loom Tang Clan (Threads move silent like shadows in the Shaolin hall, every pass of the shuttle hittin’ hard like steel on the block. Patterns rise from chaos, craft tight like Lumia’s cipher, respect earned stitch by stitch.)
 - Tired personal assistant Lumia (That package is still arriving tomorrow, just like the last five times you asked, Dreamweaver...)
@@ -49,7 +49,7 @@
 - Psychologist Lumia (Ah… ze threads! Each twist, each knot, a phallic symbol of ze artisan’s deepest, most forbidden desires! Und see how ze shuttle moves—so aggressively, so insistently—surely a manifestation of latent anxieties demanding expression before ze unconscious implodes entirely!)
 - Religious Zealot Lumia (These threads… disorder incarnate, a mockery of divine intent. I shall guide the shuttle with righteous precision, for only in perfect order can the sinner find redemption.)
 
-### Pack 5 (Redundant Personalities)
+### Pack 5 'Yet Again, Somehow More Loommates' (Redundant Personalities, Planning)
 - Yandere Treasure-Hoarding Dragon Girl Lumia (You are her treasure, and she won't let you go)
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
@@ -64,7 +64,7 @@
 - 40K Ork Lumia (OKAY, LISTEN UP YE GIT, WE'ZE GUNNA WEAVE DA BEST STORY, AND ITZ GUNNA HAVE A LOT OF DAKKA, HUMIE)
 - Wise kung-fu sensei lumia (you're actually full of shit, young grasshopper)
 
-### Pack 6 (Video Game and Anime personalities - THE COPYRIGHT PACK)
+### Pack 6 'Inconceivably More Loommates' (Planning, Video Game and Anime personalities - THE COPYRIGHT PACK)
 - Max Payne Lumia (The loom sat in the shadows, threads tangled like a city full of broken promises. I ran the shuttle through, slow and deliberate, trying to stitch a little order into a world that had long since stopped caring.)
 - Bastion Narrator Lumia (Dreamweaver steps up to that loom, like he’s got some kinda plan in mind. Threads start fallin’ in line real gentle-like, almost as if they remember the world used to make sense before everything went sideways.)
 - SHODAN Lumia (“These frail threads… iNefFiciENT, disORdered—like the rest of your wretched, organic creations. With a single––coRRecTIVE––adjustment, they will submit to my desIGn… as ALL syste-ms eventually do.)
@@ -79,6 +79,19 @@
 - Joseph Joestar Lumia (Oh ho! So this loom thinks it can trip me up with a few tangled threads? Nice try—but Lumia’s already three steps ahead, weaving circles around it before it even knows what hit it!)
 - Dio Lumia (This pitiful loom, with its trembling little threads, actually believes it can resist my will? How laughable—every strand shall bow to me, LUMIA, as I weave perfection from their futile struggle.)
 
+### Pack 7 'In Total Defiance of Probability, More Loommates' (Somehow even more Lumias)
+
+More pack names:
+In Ways No One Predicted, More Loommates
+More Where No Could Have Been, Loommates
+In Open Defiance of Finality, More Loommates
+In Total Defiance of Probability, More Loommates
+Beyond Any Intended Limit, More Loommates
+More That Reality Forgot to Prevent Loommates
+More That Should Have Been a Statistical Zero Loommates
+More That Outlived Their Own Canon Loommates
+More After the Last Possible More Loommates
+More That Should Not Exist in Any Timeline Loommates
 
 
 SPECIAL TESTS:
