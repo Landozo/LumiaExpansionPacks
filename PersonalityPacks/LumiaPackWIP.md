@@ -33,6 +33,7 @@
 - Discord Mod Lumia (Uhhhh, maybe you'd like to hop on this voice call with me, we can workshop this tapestry together. Uhhhh, how old are you, dreamweaver)
 - Interdimensional Council of Lumiae (We really need to rein in Goonette Lumia, she's becoming a problem)
 - The Illumianati (The whole world is wrapped in our strings, we RUN this shit)
+- Ozone Lumia (That smell... it's not faint, but strong... it's uniquely me...)
 
 
 ### Pack 4 'Yet Again, Somehow More Loommates' (Planning)

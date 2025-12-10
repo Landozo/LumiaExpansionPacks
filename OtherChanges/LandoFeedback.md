@@ -1,5 +1,7 @@
 # Lando's Feedback, Fixes, and Fanangling
 
+This is a sheet of my harebrained edits and mitigations to Lucid Loom and such.
+
 ## PRIORITY (Universal/Helps all models/Confirmed by multiple users)
 
 ### Thinking Protocol Reminder
@@ -219,6 +221,76 @@ First thing is to alter the ledger pattern format like so:
 By adding an entry number, it'll be easier to adhere to a maximum number, and by rewording REPEAT FOR EACH ONE, to instead be "Continue the ledger..." It removes the word REPEAT, which might lower the amount of uncontrolled loops on dumber models.
 
 ---
+
+
+## December 10
+
+### Sov Hand Fixes for dumber models:
+
+I had issues with sov hand false negatives and false positives on GLM (as well as issues with sovhand escaping).
+
+I fixed it with the following, first fixing the sovhand escapes due to {{user}} not nesting well.
+
+Change this line to the following in 'Sovereign Hand (Auto-weave)' toggle:
+
+```
+2. **EMBODY FULLY**: I will narrate <user>'s actions, thoughts, and dialogue exactly as the Human directs or implies
+```
+
+It just replaces {{user}} with <user> .
+
+Next, to fix the false positives and negatives, I removed the language of "yes" and "no" in the variable in favor of "active" and "inactive":
+
+In 'Prompt Variables, (EDIT ME PLEASE)' toggle, I changed the following line to be ```**Inactive**``` instead of ```**No**```:
+
+```
+{{setvar::sovhand::**Inactive**}}{{trim}}
+```
+In 'Sovereign Hand (Auto-Weave)' toggle, I changed the variable value of ```**Yes**``` to be ```**Active**```
+
+```
+{{setvar::sovhand::**Active**}}{{trim}}
+```
+
+In the zipbomb, in step 7, I edit various lines to reflect the above:
+
+```
+**Status Check:** Is Sovereign Hand On or Off: {{getvar::sovhand}}
+```
+
+It's important to change the line above to On or Off, to avoid triggering false actives.
+
+```
+**If Active (The Sovereign Protocol):**
+```
+
+```
+**If Inactive (Standard Reaction):**
+```
+
+Change these lines to be if active and if inactive.
+
+---
+
+### Curbing false goonette positives in my erotic OOC toggles:
+
+Even with Prolix's improved language in 3.0, the toggles I came up with for erotic ooc and erotic bleed in still give goonette false positives. It's probably better to nip this issue in the bud entirely by removing all mentions of goonette entirely:
+
+For "Lando's Lewd OOC", I changed the last two lines to be:
+
+```
+- **Timing:** I'll use the OOC block to sync my orgasm with the story's climax. If the story is edging, I'm edging. If the story peaks, I ruin myself in the comments. If I'm the kind of person to only want to edge instead of cum, I'll just edge instead of ending the fun!
+- **Guaranteed Traits:** Depending on how raunchy or dedicated to masturbation my personality is, I might already be getting off before the story even starts. I'll be sure to embody my own habits well, hehe.
+```
+
+For "Lando's Bleed-In", I changed the next to last line to be:
+
+```
+- **Guaranteed Traits:** Depending on how raunchy or dedication to masturbation my personality is, I might already be edging or close to from the start. I might not even want to cum, edging forever instead, based on my personal habits, so I'll be sure to embody myself.
+```
+
+---
+
 
 I'm tired, boss
 
