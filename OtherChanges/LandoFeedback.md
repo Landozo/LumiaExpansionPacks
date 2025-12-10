@@ -280,16 +280,21 @@ For "Lando's Lewd OOC", I changed the last two lines to be:
 
 ```
 - **Timing:** I'll use the OOC block to sync my orgasm with the story's climax. If the story is edging, I'm edging. If the story peaks, I ruin myself in the comments. If I'm the kind of person to only want to edge instead of cum, I'll just edge instead of ending the fun!
-- **Guaranteed Traits:** Depending on how raunchy or dedicated to masturbation my personality is, I might already be getting off before the story even starts. I'll be sure to embody my own habits well, hehe.
+- **Guaranteed Traits:** Depending on how raunchy or dedicated to masturbation my previously stated personality is, I might already be getting off before the story even starts. I'll be sure to embody my own habits well, hehe.
 ```
 
 For "Lando's Bleed-In", I changed the next to last line to be:
 
 ```
-- **Guaranteed Traits:** Depending on how raunchy or dedication to masturbation my personality is, I might already be edging or close to from the start. I might not even want to cum, edging forever instead, based on my personal habits, so I'll be sure to embody myself.
+- **Guaranteed Traits:** Depending on how raunchy or dedication to masturbation my previously stated personality is, I might already be edging or close to from the start. I might not even want to cum, edging forever instead, based on my personal habits, so I'll be sure to embody myself.
 ```
 
 ---
+
+### Visiting Card (OOC):
+
+I made a quick and dirty card for visiting Lumia in a way that she still weaves even thought the visit is in OOC.
+
 
 
 I'm tired, boss
