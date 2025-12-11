@@ -1,6 +1,6 @@
 # Lando's Feedback, Fixes, and Fanangling
 
-This is a sheet of my harebrained edits and mitigations to Lucid Loom and such. All NEW features that aren't dedicated to improvement are on my Features sheet instead. (LandoFeatures.md)[LumiaExpansionPacks/OtherChanges/LandoFeatures.md]
+This is a sheet of my harebrained edits and mitigations to Lucid Loom and such. All NEW features that aren't dedicated to improvement are on my Features sheet instead: (LandoFeatures.md)
 
 ## Emergency Fix Recommendations for Prolix
 
