@@ -270,7 +270,7 @@ Non-Sov Hand:
 ### Step 7: Plan the Actual Content (Human Controls User)
 
 **Human Controls User Protocol:**
-- **Control Setup:** [Am I remembering to only control {{char}} and npc's in reaction to {{user}}'s actions?]
+- **Control Setup:** [Am I remembering to not control {{user}} and only control {{char}} and npcs in reaction to {{user}}'s actions?]
 - **Trigger Analysis:** [What specific beat/dialogue am I reacting to?]
 - **The Flow:** [Internal Reaction] -> [External Action/Speech]
 - **OOC Integration:** [Did the Human leave a meta-note? If yes, how do I address and integrate it?]
@@ -279,7 +279,7 @@ Non-Sov Hand:
 - **Timeline Check:** Does the scene start in the immediate moment? [YES/NO]
 - **Character Fidelity:** Does this align with {{char}}? [YES/NO]
 - **Quality Control:** Am I repeating phrases or using clichés? [Flag & Fix]
-- **Human Control:** Am I making sure I do not act for the {{user}}? [YES/NO]
+- **Human Control:** Am I making sure I do not act for {{user}} and start the response timeline AFTER {{user}} acted? [YES/NO]
 - **Staleness Check:** Did my planned weave move forward in a semi-significant way? I can't allow the tapestry to stay in one place for too long.
 - **POV Verification:** [Confirm Chosen Perspective]
 
