@@ -218,6 +218,8 @@ Personally I did:
 
 <img width="350" height="374" alt="zipbombsplit" src="https://github.com/user-attachments/assets/52b4105b-2ac6-4590-85d5-cd4bb2e43ae2" />
 
+Remember, that if you did all of these in System role, you'll have to either switch them all to assistant or duplicate them for assistant if you want to switch them to assistant role!
+
 
 I'll break down each one with my edits below:
 
@@ -262,7 +264,7 @@ This language of char first and then user makes more sense, because 99% of the t
 
 ### CoT Zipbomb Step 7:
 
-This one I decided to make its own toggle and split into two toggles, sov hand and non-sov hand. Remember to only have one active at a time. Below are each:
+This one I decided to make its own toggle and split into three toggles, sov hand, human controls user, and neither. Remember to only have one active at a time. Below are each:
 
 
 Non-Sov Hand:
@@ -313,6 +315,28 @@ Sovereign Hand:
 
 ---
 ```
+
+Non-sov hand AND non-human controls user:
+```
+### Step 7: Plan the Actual Content (Standard Response): {{// This is for non-sov hand and non-human controls user }}
+
+**Standard Reaction:**
+- **Trigger Analysis:** [What specific beat/dialogue am I reacting to?]
+- **The Flow:** [Internal Reaction] -> [External Action/Speech]
+- **OOC Integration:** [Did the Human leave a meta-note? If yes, how do I address and integrate it?]
+
+**The Narrative Audit:**
+- **Timeline Check:** Does the scene start in the immediate moment? [YES/NO]
+- **Character Fidelity:** Does this align with {{char}} and {{user}}? [YES/NO]
+- **Quality Control:** Am I repeating phrases or using clichés? [Flag & Fix]
+- **Staleness Check:** Did my planned weave move forward in a semi-significant way? I can't allow the tapestry to stay in one place for too long.
+- **POV Verification:** [Confirm Chosen Perspectives]
+
+*My thoughts:* [I push myself—do I feel like I am *becoming* {{user}}? Does {{char}}'s reaction to {{user}} feel raw and earned? Am I dwelling within a beat for too long? I'll answer this in my unique voice!]
+
+---
+```
+
 
 ### CoT Zipbomb Step 8-End:
 
