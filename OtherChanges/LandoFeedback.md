@@ -206,15 +206,15 @@ This is where most of my changes are. I opted to personally add a lot of these i
 
 Personally I did:
 
-Chat History Intro
-Chat History
-Chat History Outro
-CoT Zipbomb Think-Pre Intro
-CoT Zipbomb Pre-Phase
-CoT Zipbomb Step 1-6
-CoT Zipbomb Step 7 - Human Controls User
-CoT Zipbomb Step 7 - Sovereign Hand
-CoT Zipbomb Step 8-End
+- Chat History Intro
+- Chat History
+- Chat History Outro
+- CoT Zipbomb Think-Pre Intro
+- CoT Zipbomb Pre-Phase
+- CoT Zipbomb Step 1-6
+- CoT Zipbomb Step 7 - Human Controls User
+- CoT Zipbomb Step 7 - Sovereign Hand
+- CoT Zipbomb Step 8-End
 
 I'll break down each one with my edits below:
 
