@@ -16,7 +16,7 @@ This is a sheet of my harebrained edits and mitigations to Lucid Loom and such.
 
 ---
 
-## Preset Edits
+# Preset Edits
 
 Other than the above changes, I've also done a variety of edits to my Loom, I'll list them in order from the very top of the preset down to the bottom.
 
@@ -31,6 +31,8 @@ Put this in a brand new toggle at the very top above Prompt Variables:
 ## Chat History 
 
 As previously mentioned, move it from Story Primers at the top to just above your chosen CoT Zipbomb in the VERY last section (assistant).
+
+---
 
 ## Core Instructions:
 
@@ -94,7 +96,7 @@ Finally add the following to your prompt personality matrix near the beginning o
 
 Remember to enable (custom) toggles to get injections from the extension to work (this goes for defs, modifiers, and narrative styles!).
 
-
+---
 
 ## Dynamic Large Length Toggle
 
@@ -115,6 +117,8 @@ I made a hacky length toggle in between medium (500 words) and detailed (1500).
 4. **Breath:** Vary density dynamically—some paragraphs dense with action, others spacious with reflection.
 5. **Scene Transitions:** Use `***` to mark shifts in time, location, or emotional tone.
 ```
+
+---
 
 ## Utilities
 
