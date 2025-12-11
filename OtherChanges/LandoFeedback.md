@@ -246,7 +246,7 @@ I'll open by writing out <think> on it's own line followed by an empty newline. 
 Step 1, first I remove the solitary ```<think>``` from it, it seems to confuse models.
 
 
-First, I changed the below lines in Step 2 to be like this:
+Step 2, I changed the order of char and user lines to be char first:
 
 ```
 **Scene Snapshot:**
