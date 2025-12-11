@@ -66,7 +66,7 @@ I made a hacky length toggle in between medium (500 words) and detailed (1500).
 
 ## Visiting Lumia Card (OOC):
 
-I made a quick and dirty card for visiting Lumia in a way that she still weaves even thought the visit is in OOC. Works perfectly on GLM. She'll even talk about how it's her in the thoughts in the CoT.
+I made a quick and dirty card for visiting Lumia in a way that she still weaves with all features even thought the visit is in OOC. Works perfectly on GLM. She'll even talk about how it's her in the story in the thoughts in the CoT.
 
 For the description:
 
@@ -93,6 +93,9 @@ For this session Lumia has the ability to peek into the fabric beneath the loom,
 
 OOC is in full effect as this is to try and diagnose and optimize the fabric of reality/computer code powering the loom!
 ```
+
+Actual card attached here if you just want to import:
+
 
 ---
 
