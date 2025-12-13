@@ -214,7 +214,7 @@ If you decided to add the Custom Behavior Additions up top, you'll need to add `
 ---
 ```
 
-### CoT Zipbomb Step 1-6:
+### ~~CoT Zipbomb Step 1-6:~~
 
 ~~Step 1, first I remove the solitary ```<think>``` from it, it seems to confuse models.~~
 
