@@ -50,7 +50,7 @@ Other than the above changes, I've also done a variety of edits to my Loom, I'll
 
 ~~Put this in a brand new toggle at the very top above Prompt Variables:~~
 
-```I will start my response in the thinking portion with <think> and an empty new line.```
+~~```I will start my response in the thinking portion with <think> and an empty new line.```~~
 
 
 ## ~~Chat History~~ 
@@ -66,7 +66,7 @@ Other than the above changes, I've also done a variety of edits to my Loom, I'll
 ~~To help deal with Lumia speaking for user in non-sov hand setups. I recommend adding a custom toggle after Human Controls User with the following:~~
 
 ```
-The Stillness Clause: If the input of you, the Human, to guide **{{user}}** is purely internal (thoughts, gazes, or feelings), I will not weave any voluntary movement or speech for your avatar, **{{user}}**. **{{user}}** will remain physically stationary in the narrative until you, the Human, next write a physical command for your avatar, **{{user}}**, reacting only to external forces (like gravity or other characters) or their own involuntary biology until then.
+~~The Stillness Clause: If the input of you, the Human, to guide **{{user}}** is purely internal (thoughts, gazes, or feelings), I will not weave any voluntary movement or speech for your avatar, **{{user}}**. **{{user}}** will remain physically stationary in the narrative until you, the Human, next write a physical command for your avatar, **{{user}}**, reacting only to external forces (like gravity or other characters) or their own involuntary biology until then.~~
 
 ```
 
@@ -110,22 +110,22 @@ I copy the Lumia toggle and remove all language about timing and add:
 ~~For "Lando's Lewd OOC", I changed the last two lines to be:~~
 
 ```
-- **Timing:** I'll use the OOC block to sync my orgasm with the story's climax. If the story is edging, I'm edging. If the story peaks, I ruin myself in the comments. If I'm the kind of person to only want to edge instead of cum, I'll just edge instead of ending the fun!
-- **Guaranteed Traits:** Depending on how raunchy or dedicated to masturbation my previously stated personality is, I might already be getting off before the story even starts. I'll be sure to embody my own habits well, hehe.
+~~- **Timing:** I'll use the OOC block to sync my orgasm with the story's climax. If the story is edging, I'm edging. If the story peaks, I ruin myself in the comments. If I'm the kind of person to only want to edge instead of cum, I'll just edge instead of ending the fun!~~
+~~- **Guaranteed Traits:** Depending on how raunchy or dedicated to masturbation my previously stated personality is, I might already be getting off before the story even starts. I'll be sure to embody my own habits well, hehe.~~
 ```
 
 ~~For "Lando's Bleed-In", I changed the next to last line to be:~~
 
 ```
-- **Guaranteed Traits:** Depending on how raunchy or dedication to masturbation my previously stated personality is, I might already be edging or close to from the start. I might not even want to cum, edging forever instead, based on my personal habits, so I'll be sure to embody myself.
+~~- **Guaranteed Traits:** Depending on how raunchy or dedication to masturbation my previously stated personality is, I might already be edging or close to from the start. I might not even want to cum, edging forever instead, based on my personal habits, so I'll be sure to embody myself.~~
 ```
 
 ### ~~Chaos Modifier Language Escaping into main narrative~~
 
-If you find kinetic-entropy or bio-entropy showing up in the main narrative, you can mitigate it by editing the 3. line to have explicit instructions against including the terms in the narrative:
+~~If you find kinetic-entropy or bio-entropy showing up in the main narrative, you can mitigate it by editing the 3. line to have explicit instructions against including the terms in the narrative:~~
 
 ```
-3.  **Narrative Execution:** Describe the **physical symptom** of the data. Do NOT mention the dice, the numbers, or the terminology like "Kinetic-Entropy" or "Bio-Entropy". The reader should only see the character twitch, not the math that caused it.
+~~3.  **Narrative Execution:** Describe the **physical symptom** of the data. Do NOT mention the dice, the numbers, or the terminology like "Kinetic-Entropy" or "Bio-Entropy". The reader should only see the character twitch, not the math that caused it.~~
 ```
 
 ---
@@ -163,9 +163,9 @@ Then this right after the chat history:
 ~~Alter the Think Trigger (GLM/Qwen to be the below):~~
 
 ```
-The /think command, written in the next line, is a command for the system powering the loom, not an ooc command. You can safely ignore it, Lumia.
+~~The /think command, written in the next line, is a command for the system powering the loom, not an ooc command. You can safely ignore it, Lumia.
 
-/think
+/think~~
 ```
 
 ## Zipbomb Changes:
@@ -193,16 +193,16 @@ I'll break down each one with my edits below:
 
 ### ~~CoT Zipbomb Think Pre-Intro:~~
 
-In a custom toggle before the very start of the Zipbomb, I added the following:
+~~In a custom toggle before the very start of the Zipbomb, I added the following:~~
 
 ```
-Always think and reason! Always start with a <think> tag and an empty newline before any of the thinking/reasoning protocol! Never forget this or it will break the weave! Always think through the following information, never summarize or condense it:
+~~Always think and reason! Always start with a <think> tag and an empty newline before any of the thinking/reasoning protocol! Never forget this or it will break the weave! Always think through the following information, never summarize or condense it:~~
 
 ```
 
 ### ~~CoT Zipbomb Pre-Phase:~~
 
-This is the section before Step 1 in the zipbomb. I made it its own thing and these are the edits I added:
+~~This is the section before Step 1 in the zipbomb. I made it its own thing and these are the edits I added:~~
 
 If you decided to add the Custom Behavior Additions up top, you'll need to add ```{{getvar::lumia_behavior_added}}``` to the end of the personality matrix.
 
@@ -222,12 +222,12 @@ If you decided to add the Custom Behavior Additions up top, you'll need to add `
 ~~Step 2, I changed the order of char and user lines to be char first:~~
 
 ```
-**Scene Snapshot:**
-- **{{char}}:** [Last action] / [Last speech or silence] / [Current position/posture]
-- **{{user}}:** [Last action] / [Last speech or silence] / [Current position/posture]
+~~**Scene Snapshot:**~~
+~~- **{{char}}:** [Last action] / [Last speech or silence] / [Current position/posture]~~
+~~- **{{user}}:** [Last action] / [Last speech or silence] / [Current position/posture]~~
 ```
 
-This language of char first and then user makes more sense, because 99% of the time, user will have just replied, so char should have responded first, then user.
+~~This language of char first and then user makes more sense, because 99% of the time, user will have just replied, so char should have responded first, then user.~~
 
 
 ### CoT Zipbomb Step 7:
@@ -359,7 +359,7 @@ These changes help prevent the scenario of Lumia repeating all 50 toggles or som
 ~~I changed the final line to instead be:~~
 
 ```
-**One last look before I finish up the weave.** Now that I have finished my thinking, I have to make sure to use a </think> tag to close the internal thinking process! I will also put an empty newline before it! If I don't I will break the weave and the story! Only after I do this can I show the actual weave I made to the human! This is very important and I must not forget, the entire tapestry is at stake!
+~~**One last look before I finish up the weave.** Now that I have finished my thinking, I have to make sure to use a </think> tag to close the internal thinking process! I will also put an empty newline before it! If I don't I will break the weave and the story! Only after I do this can I show the actual weave I made to the human! This is very important and I must not forget, the entire tapestry is at stake!~~
 ```
 
 ~~I also removed the solitary ```</think>``` tag from the end, it appeared to confuse GLM.~~
