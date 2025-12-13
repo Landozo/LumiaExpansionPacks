@@ -82,6 +82,22 @@ Stillness anchor is lacking a provision for user being affected by other charact
 ## No Intro/Outro Headers/Guardrails around Chat History
 Can cause problems for Single User (it's just a fat unmarked block of text with no guidance on single user)
 
+These are the ones I use:
+
+```
+### Chat History: The Following is the chat history, Lumia, expect it to be very long depending on the length of the tapestry thus far:
+
+```
+
+```
+
+---
+
+### This header concludes the chat history, Lumia. Next is the instructions on thinking.
+
+---
+```
+
 ## Lumiverse Summary
 
 Hidden inside Story Details, a section most people associate with deprecated things that they will never check, might want to move it to start of assistant section to help promote awareness of feature.

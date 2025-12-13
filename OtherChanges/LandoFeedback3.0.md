@@ -378,13 +378,13 @@ GLM 4.6 (Non-V) Native reasoning is working 100% of the time for me with:
 1. .85 Temperature, .93 Top P, 40 Top-K, 1.05 Rep Penalty
 2. Custom (openai compatible), Request reasoning on, maximum reasoning effort, **NO SRW (Start Reply With)**, deepseek formatting, single user post-proc, make sure your preset sends "/think" somewhere to enable thinking
 ### Loom Specific (For 3.0):
-3. My new think toggle added to start
-4. Added stillness clause toggle, Edit {{user}} in sov hand to ```<user>```
+~~3. My new think toggle added to start~~
+~~4. Added stillness clause toggle, Edit {{user}} in sov hand to ```<user>```~~
 5. Dynamic Medium or (my new custom) Dynamic Large Length, going bigger is problematic
 6. Reorder utilities (character ooc above lumia ooc, all trackers to bottom), I only use global positioning tracker
 7. Remove math from OOC by making it every turn (remove all timing variables and info)
 8. Split zipbomb into pre zip, zip step 1-6, zip 7 (sov or non sov), and zip 8-end (see changes and edits for all above)
-9. Edited 'Think Trigger (GLM/Qwen)' (Fixes /think triggering false ooc, see above in this readme)
+~~9. Edited 'Think Trigger (GLM/Qwen)' (Fixes /think triggering false ooc, see above in this readme)~~
 
 
 ---
