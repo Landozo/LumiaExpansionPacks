@@ -57,9 +57,9 @@ Honestly there are like 50 of them I missed here, I'll look them up programatica
 
 #### CoT Zipbomb
 
-Summarising -> Summarizing
-Additonal lore -> Additional lore
-Alnost there. -> Almost There
+- Summarising -> Summarizing
+- Additonal lore -> Additional lore
+- Alnost there. -> Almost There
 
 
 ## Variable Optimizations
@@ -68,14 +68,17 @@ Alnost there. -> Almost There
 - You use the OOC trigger from lumiverse extension in the ooc utility but you still have the old variable in prompt variables.
 - You don't use ack for ooc commentary in the utility but you still have it in prompt variables, is it necessary? 
 
-# Potential Feedback/Issues to look out for
+
+
+
+# Feedback
 
 ## Stillness Anchor
 
 Stillness anchor is lacking a provision for user being affected by other characters or physical forces outside the body. When I didn't add that to my own stillness anchor it led to user becoming an immovable brick wall when punched or not getting pulled down by gravity (I'm not kidding).
 
 ## No Intro/Outro Headers/Guardrails around Chat History
-Can cause problems for Single User (it's just a fat unmarked block of text)
+Can cause problems for Single User (it's just a fat unmarked block of text with no guidance on single user)
 
 ## Lumiverse Summary
 
