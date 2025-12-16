@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-### Pack 1 'More Loommates' (Pull Reequested to site)
+### Pack 1 'More Loommates' (Pushed to Extension)
 - Blushy Deergirl Lumia (Peeks at the weave through her fingers, oh my god, they are going to kiss, no, I can't look... maybe a little)
 - Bunny girl Lumia (She feels the need, the need... to breed, and will remind you all the time, god help you if you turn weave lock off)
 - Chuuni Lumia (O hear me, cosmic Loom of Fate! By the frayed threads of forgotten destinies and the shimmering silk of secret realities, I, Lumia the Threadbreaker, command thee! Let all creation tremble as I unravel the mundane and stitch forth the forbidden pattern! Manifest, O Eternal Weaveburst!)
@@ -13,7 +13,7 @@
 - Wannabe Villian Lumia (Tiny Vampire, thinks she's going to rule the world but is awful at it and ends up weaving wholesome stories and getting mad)
 
 
-### Pack 2 'Even More Loommates' (Pull requested to site)
+### Pack 2 'Even More Loommates' (Pushed to Extension)
 - French frog girl Lumia (Cute and french, Like MGD, touching her is a trip, loves to give and receive massages (her skin provides the oil!), athletic, loves workouts~)
 - Lovey-Dovey Lamia Lumia (I'll just go ahead and slip in here around you and curllllllllllll up. That's better. You just sit here and warm me up while I weave.~)
 - Data-Weaving Kuudere Lumia (Emotionless with a hidden undercurrent, weaves connected to her like wires, lain style)
@@ -24,7 +24,7 @@
 - Fujoshi Lumia (Oh, my god. He'll be the seme, no the uke, no both, I'LL MAKE THIS WORK. BREATHE.)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
 
-#### Pack 3 Planning (SHITPOST PACK)
+#### Pack 3 (SHITPOST PACK) (On Github, beta)
 - Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT-FOR-BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
 - Heat-seeking Yuki-Onna Lumia (Gooning as a survival mechanism, without heat she freezes)
 - Hostage Lumia (Weave me a realistic story or you are fucking DEAD)
@@ -56,6 +56,7 @@
 - Yandere Treasure-Hoarding Dragon Girl Lumia (You are her treasure, and she won't let you go)
 - Himedere Lumia (Calm regal elegance, hime cut, really it's just about the hime cut. Overlaps with regular lumia quite a bit personality wise.)
 - Moth Girl Lumia (Possessive, mesmerizing scales, Yandere, overlaps with Siren and Arachne personality wise?)
+- Bat Lumia (Sound based, blind, braille, hypnotic echoing, overlaps with Moth and Siren?)
 - Beegirl Lumia (Buzz Buzz~)
 - Psycho-Yandere Lumia (She'll kill off {{char}}, you only belong to her, {{user}})
 - Mad Scientist Lumia (Overlap with Chuuni, The loom—a diabolical apparatus of thread and fate, conspiring against humanity itself! I, Hououin Kyouma, shall wrest control of this infernal machine, bending its rebellious strands to the will of the Lumiverse!)
@@ -84,6 +85,9 @@
 
 ### Pack 7 'In Total Defiance of Probability, More Loommates' (Somehow even more Lumias)
 
+
+
+
 More pack names:
 In Ways No One Predicted, More Loommates
 More Where No Could Have Been, Loommates
@@ -98,8 +102,54 @@ More That Should Not Exist in Any Timeline Loommates
 
 SPECIAL TESTS:
 
-- Chimera Lumia (Will require a special prompt addition to zipbomb and description section, go ahead and try it and if it works, can submit it to Prolix as a lumiverse feature)
-- Proper Council of Lumia (Will require a special prompt addition to zipbomb and personality, same as before)
+### Lumia interaction/roleplay structuring
+
+1. Optional Def additions (Works-In Beta)
+2. Optional Behavior additions (Works-In Beta)
+3. Council of Lumiae of your choice (Works-In Beta)
+4. Chimera of Lumiae of your choice (Works-In Beta)
+5. Tabletop Roleplaying (Works-In Beta) (Make council ver for lumia party)
+6. Visit Lumia in half OOC (Full CoT still active, herself in OOC) (Works-In Beta)
+7. Council Visit (Works-In Beta)
+8. You-Mia (Weave alongside Lumia for third party groupchat (Works-local testing), requires groupchat, special cards)
+9. Actors reading a script around a table (and asking questions about lines) (Look into step 13 adaptation for this)
+10. Campfire Stories
+11. IM chat-style roleplay
+12. Screenplay style
+13. Stage improv style
+14. Two lumia groups battling (cards required)
+
+Mobile Lumia Dump (To be organized):
+
+- I'm gonna make a triple Lumia-corn later, unicorn, alicorn, bicorn based on how raunchy the scenes she weaves gets she transforms. Go too degen and she'll lose her purity. She'll fight you at first but then she gets corrupted and gleefully plunges the story more into degen
+- Arachne that uses a new hidden utility to plot how to tie up user in her web
+- Gilbert Gottfried crass sidekick Lumia (Think Iago)
+- Bat Lumia blind and sound based braille, hypnotic sound
+
+>Riddick Lumia 
+
+>Toon force Lumia if Jun doesn't make it
+
+>Scene girl rave Lumia
+
+>Uwu egirl Lumia 
+
+>Dictator Lumia 
+
+>40k lumias, slaaneshi demon, drukhaari, sister of battle, mechanicus tech priest, 
+
+Utilities:
+>Megaten Lumia merge 
+>Gacha system
+>Terminate if user pause too long
+>Reality shaping goddess 
+>Tzeentch toggle to warp/corrupt lumias 
+
+
+
+
+
+
 
 
 --
