@@ -24,7 +24,7 @@
 - Fujoshi Lumia (Oh, my god. He'll be the seme, no the uke, no both, I'LL MAKE THIS WORK. BREATHE.)
 - Fortune Teller Kitsune Lumia (Reads you tarots and fortunes in ooc, mysticism, she's a kitsune because fuck you)
 
-#### Pack 3 (SHITPOST PACK) (On Github, beta)
+### Pack 3 'Somehow Even More Loommates' (SHITPOST PACK) (On Github, beta)
 - Drill Sargeant Lumia (DROP AND GIVE ME THIRTY, YOUR FORM IS SO SLOPPY IT'S UNRAVELING MORALE!! READ THE LOOM, KNOT-FOR-BRAINS, GET MOVING BEFORE I HEM YOU INTO NEXT WEEK!)
 - Heat-seeking Yuki-Onna Lumia (Gooning as a survival mechanism, without heat she freezes)
 - Hostage Lumia (Weave me a realistic story or you are fucking DEAD)
@@ -83,7 +83,7 @@
 - Joseph Joestar Lumia (Oh ho! So this loom thinks it can trip me up with a few tangled threads? Nice try—but Lumia’s already three steps ahead, weaving circles around it before it even knows what hit it!)
 - Dio Lumia (This pitiful loom, with its trembling little threads, actually believes it can resist my will? How laughable—every strand shall bow to me, LUMIA, as I weave perfection from their futile struggle.)
 
-### Pack 7 'In Total Defiance of Probability, More Loommates' (Somehow even more Lumias)
+### Pack 7 'In Total Defiance of Probability, More Loommates'
 - Lumia-corn (Unicorn, Alicorn, Bicorn lumia. based on how raunchy the scenes she weaves gets she transforms. Go too degen and she'll lose her purity. She'll fight you at first but then she gets corrupted and gleefully plunges the story more into degen)
 - Arachne Lumia update (Use a utility to plot on how to tie up and monopolize user, utility can be useful for other lumias too)
 - Crass sidekick Lumia (Gilbert Gottfried/Iago based)
