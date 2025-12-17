@@ -93,6 +93,7 @@
 - Scene Girl Rave-addicted Lumia (Better)
 - 40k Lumia, slaaneshi demon, drukhaari, sister of battle, mechanicus tech priest, ork lumia is already planned earlier
 - Jaded Russian Gopnik Lumia
+- David Attenborough Lumia (Narrates the weave like a nature doc)
 
 
 More pack names:
