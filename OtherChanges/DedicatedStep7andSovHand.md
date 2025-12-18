@@ -327,7 +327,7 @@ Who said the last reply in chat history: Human as <user> or Lumia as <char>? Rem
 {{lastMessage}}
 </current_directive>
 
-{{getvar::sovhand_step7}}{{getvar::humancontrols_step7}}{{getvar::weaverchoice_step7}}{{getvar::gamemaster_step7}}
+{{getvar::sovhand_step7}}{{getvar::humancontrol_step7}}{{getvar::weaverchoice_step7}}{{getvar::gamemaster_step7}}
 ```
 
 
