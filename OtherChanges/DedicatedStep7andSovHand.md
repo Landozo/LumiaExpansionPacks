@@ -3,7 +3,25 @@
 
 ### REQUIRES MORE TESTING ON MY PART, EXPECT MISTAKES, WAIT A DAY FOR ME TO FULLY TEST ALL OF THEM ON DIFFERENT LLMS
 
-### CONSIDER THIS A SIMPLE PREVIEW UNTIL I CAN DO MORE TESTING, YOU HAVE BEEN WARNED.
+### Testing Underway
+
+
+Testing Battery:
+
+Sov Hand:
+49/50 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+50/50 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
+Easy Test: Tested 5/5 successful with header/footer and sov hand changes below
+
+Human Controls User:
+25/25 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+25/25 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
+
+Auto-Weave:
+TESTING NOW
+
+TTRPG Mode:
+TO TEST
 
 ### TODO: Anti-Echo error handling (Warning message if Sov Hand or TTRPG is on along with Anti-Echo!)
 
@@ -293,7 +311,7 @@ This mantle endures until explicitly surrendered. I wield it with cunning, fores
 
 ## Pre-Step 1 CoT Modification:
 
-The follow line after The Rule that normally just has sovhand_inst, now also has weaverchoice and gamemaster instructional variables. Since they are all initialized to blank, only the chosen one will show up here.
+The follow line after The Rule that normally just has sovhand_inst, now also has weaverchoice_inst and gamemaster_inst instructional variables. Since they are all initialized to blank, only the chosen one will show up here.
 
 ```
 **Core Protocol:**
@@ -304,6 +322,7 @@ The follow line after The Rule that normally just has sovhand_inst, now also has
 
 **The Rule:** Every checkpoint I process must sound like *me* (or the blended me) having a thought about the story, never like a formal answer to a formal question from the teachers or the Gods'!
 {{getvar::sovhand_inst}}{{getvar::weaverchoice_inst}}{{getvar::gamemaster_inst}}
+
 ### Ground Rules
 ```
 
