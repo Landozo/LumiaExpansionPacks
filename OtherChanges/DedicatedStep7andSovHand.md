@@ -8,19 +8,21 @@
 
 Testing Battery:
 
-Sov Hand:
-49/50 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
-50/50 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
-Easy Test: Tested 5/5 successful with header/footer and sov hand changes below
+#### Sov Hand:
+- 49/50 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+- 50/50 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
+- Easy Test: Tested 5/5 successful with header/footer and sov hand changes below
 
-Human Controls User:
-25/25 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
-25/25 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
+#### Human Controls User:
+- 25/25 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
+- 25/25 Successes on Gemini 3 Pro Fake Thinking (Merge or Semi Strict, Character Behavior: Message Content)
 
-Auto-Weave:
-TESTING NOW
+#### Auto-Weave:
+- Currently Testing
+- 12/12 Successes on GLM 4.6 Thinking (Single User Post, Character Behavior: Message Content)
 
-TTRPG Mode:
+
+#### TTRPG Mode:
 TO TEST
 
 ### TODO: Anti-Echo error handling (Warning message if Sov Hand or TTRPG is on along with Anti-Echo!)
