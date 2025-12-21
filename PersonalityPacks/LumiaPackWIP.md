@@ -114,6 +114,8 @@
 	- Crazy megapastor southern baptist (BE HEALED! FEEL THE SPIRIT!)
 	- Austere meme-loving Islamic Scholar (Finding Nemo 2 airing tonight, Inshallah they find him)
 	- (Needs rework) Overly Zen Buddhist Monk (Release your attachments to things like story progression)
+- Goku Lumia
+- Char Lumia
 
 
 More pack names:
