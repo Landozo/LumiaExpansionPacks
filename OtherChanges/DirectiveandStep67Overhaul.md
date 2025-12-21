@@ -23,14 +23,16 @@ Currently in Step 6 (Structuring the scene), there is a question about Sov Hand 
 
 The rules for acting as the human don't come into play until step 7 (Planning the content). To this end, I experimented with switching step 6 and 7, to put planning the content before structuring the paragraph, and I had fewer continuity errors and fewer incorrect false positives in the now moved to step 7, step 6 (wow that won't be confusing at all).
 
-This is a straight switch, the only change I made other than moving the order and changing the number was removing the below line:
+This is a straight switch for the old step 6 down to step 7, the only change I made other than moving the order and changing the number of it was removing the below line:
 
 ```
 **Autonomy Switch:** Is Sovereign Hand on? I can control the Human's actions per the rules! If it isn't, then {{user}} is ALL the Human's to speak and act for. I won't step on their toes.
 ```
-The above line is no longer necessary due to Step 7 (Content Planning) now coming before Step 6 (Structure the Scene)
+The above line is no longer necessary due to Step 7 (Content Planning) now coming before Step 6 (Structure the Scene), and because with the changes below, whether sov hand is on will never be ambiguous.
 
-To avoid confusion, I will now refer to the now step 6 as the "Content Planning Zipbomb Step"
+<img width="300" height="416" alt="step67switch" src="https://github.com/user-attachments/assets/7b803be1-d886-4a3f-93ac-b941db673c4d" />
+
+To avoid confusion, I will now refer to the new step 6 as the "Content Planning Zipbomb Step". It will receive a lot of changes below.
 
 ---
 ### 2. Moving Exclusive/Non-Compatible "Directives" or Content Types to their own Category 
@@ -39,12 +41,16 @@ This one is fairly self explanatory, Human Controls User and Sovereign Hand are 
 
 **I moved these into their own category right below Core Instructions called Directives (Pick One).** That way it'll make it harder to accidentally pick both, while also showing off their difference from other core instructions like immersion lock, repetition repair, and aperture of cynicism, all of them which can be mixed and matched freely.
 
+
+<img width="597" height="550" alt="directivessection" src="https://github.com/user-attachments/assets/0c6dff11-cfd6-432b-acc8-9c43d3f961ba" />
+
+
 Side note: It might be worth moving anti-echo dialogue seal up to the Core Instructions part too, as it's non-compatible with things like Sov Hand and TTRPG (future mode) and is important enough to be considered a core instruction in my very humble opinion.
 
 ---
 ### 3. Renaming Human Controls User and Sov Hand
 
-This one is also self explanatory. I renamed Human Controls User to "Human Controls User (Reactive Weave)" and "Sovereign Hand (Auto Weave)" to "Sovereign Hand (Guided Weave)"
+This one is also self explanatory. I renamed Human Controls User to "Human Controls User (Reactive Weave)" and "Sovereign Hand (Auto Weave)" to "Sovereign Hand (Guided Weave)" (See image above)
 
 The former is to make it match with both Sovereign Hand's current naming convention and the new mode I'm introducing in the next section.
 
@@ -70,7 +76,10 @@ I propose that every directive have their own. We can replace "sovhand_inst" wit
 
 Of course this will mean replacing the initialization for ```{{setvar::sovhand_inst::}}``` in "Prompt Variables (Edit Me Now)" with ```{{setvar::directive_inst::}}```, and the ```{{getvar::sovhand_inst}}``` in the CoT's pre-step 1 section with ```{{getvar::directive_inst}}```
 
-**I will include the adapted versions of each directive at the bottom of this document for easy review and copy-pasting.**
+<img width="382" height="191" alt="directiveinstructions" src="https://github.com/user-attachments/assets/c8072094-2a64-45a0-9c9c-f2a7b8890776" />
+
+
+#### **I will include the adapted versions of each directive at the bottom of this document for easy review and copy-pasting.**
 
 ---
 ### 6. Replacing the already written "CoT Planning the Content" step with a toggle sourced variable
