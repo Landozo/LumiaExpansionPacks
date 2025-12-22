@@ -69,7 +69,6 @@ People who agree that Lumia should still have control over {{user}}:
 
 
 People we still need opinions from:
-- Suban
 - Sezam
 
 
