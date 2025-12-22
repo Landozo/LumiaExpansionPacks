@@ -52,8 +52,9 @@ People who never use continuation mode at all so it doesn't apply:
 <img width="311" height="386" alt="easyresponse" src="https://github.com/user-attachments/assets/734ab9c0-ad45-4bb2-a623-bd18ac056f2f" />
 
 
-People who agree that Lumia should still have control over {{user}}:
+People who agree that Lumia should still have control over {{user}} in continuation mode:
 - Lando (Hey that's me! Obviously I know what I want! Lumia should be able to have her way with me!)
+  
 - Eleisea
 
 <img width="476" height="121" alt="eleisearesponse" src="https://github.com/user-attachments/assets/66902985-21c9-444b-841d-f7d299f1816c" />
@@ -67,9 +68,23 @@ People who agree that Lumia should still have control over {{user}}:
 
 <img width="395" height="280" alt="subanreply" src="https://github.com/user-attachments/assets/fa8da080-0bc1-4259-8331-ddbb0928775b" />
 
-
-People we still need opinions from:
 - Sezam
+
+<img width="474" height="217" alt="sezamresponse" src="https://github.com/user-attachments/assets/c94080b0-29ef-4172-b1e9-82f1999cf691" />
+
+-Quack
+
+<img width="833" height="124" alt="quackresponse" src="https://github.com/user-attachments/assets/4e58e0f7-138f-4209-a105-fbe8fa72151b" />
+
+- Killpiss
+
+<img width="372" height="82" alt="killpissresponse" src="https://github.com/user-attachments/assets/0e469119-6a42-4afc-95a3-37e960c79359" />
+
+
+People who said they don't want Lumia controlling user in continuation turns:
+
+- Nobody thus far.
+
 
 
 ## Smart Changes to Step 7 (Planning Step) for Extension Sov
