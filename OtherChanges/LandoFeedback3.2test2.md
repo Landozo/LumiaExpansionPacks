@@ -34,7 +34,7 @@ Maybe even add a line to it like "If the ooc calls for stopping the narrative, s
 
 ## Zipbomb Step Swaps
 
-Remember to swap steps 6 and 7 in the zipbomb (like you did in the other CoT).
+Remember to swap steps 6 and 7 in the zipbomb (like you did in the other CoT). This will also mean you can remove the "autonomy check" line in old step 6 since it comes before the planning step now.
 
 ## Loom Utilities (Custom) Camelscript
 
