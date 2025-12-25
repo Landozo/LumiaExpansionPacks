@@ -102,9 +102,6 @@ Have not been updated for the new header titles and divisions, for example the l
 
 Lumia OOC extension has \<lumiaooc> instead of \<lumia_ooc> like the other non extension one. \<loomledger> in auto-loom. Regexes have \<lumia_ooc> and \<loom_ledger> instead.
 
-###
-
-
 ### Lumia OOC Controls
 
 Minor formatting error in the second OOC example, missing the closing quote.
