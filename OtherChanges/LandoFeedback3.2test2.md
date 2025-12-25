@@ -6,7 +6,7 @@ It's perfect, everything works a lot better. Chat History handrailing works flaw
 
 ## Only Use One CoT Warning
 
-The most common question we get in loom chat is from people having issues due to having multiple CoT's active. Try adding a warning category above it like this:
+The most common question we get in loom chat is from people having issues due to having multiple CoT's active. They don't notice CoT Experimental is on and activate CoT Zipbomb out of habit without turning the other one off. Maybe make CoT Zipbomb the default one that is on (update with the below tweaks first though). Also try adding a warning category above the cot sections like this:
 
 <img width="260" height="163" alt="ONLYONECOT" src="https://github.com/user-attachments/assets/e2122b39-ee28-47b1-b9ad-c699d578d6c6" />
 
