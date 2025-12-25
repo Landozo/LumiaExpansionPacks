@@ -90,6 +90,10 @@ Remember to replace the names in the template with their actual names! Remember 
 
 ## Formatting issues:
 
+### Audit List in last step of CoT still checks old names
+
+Have not been updated for the new header titles and divisions
+
 ### Lumia OOC Controls
 
 Minor formatting error in the second OOC example, missing the closing quote.
