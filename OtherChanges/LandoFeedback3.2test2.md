@@ -92,16 +92,16 @@ Remember to replace the names in the template with their actual names! Remember 
 
 ### Audit List in last step of CoT still checks old names
 
-Have not been updated for the new header titles and divisions
+Have not been updated for the new header titles and divisions, for example the last step says \<\loomtarget> but the actual category is \<\loomstorytarget>
 
 ### Lumia OOC Controls
 
 Minor formatting error in the second OOC example, missing the closing quote.
 
-### Double <loomcore>  in core instructions and the first core instruction
+### Double \<\loomcore>  in core instructions and the first core instruction
 
-What it says on the tin
+Title
 
-### Dialogue Header opens <loomnsfw> instead of dialogue
+### Dialogue Header opens \<\loomnsfw> instead of dialogue
 
 Title
