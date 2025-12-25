@@ -4,6 +4,10 @@
 
 It's perfect, everything works a lot better. Chat History handrailing works flawlessly now.
 
+## Only Use One CoT Warning
+
+The most common question we get in loom chat is from people having issues due to having multiple CoT's active. Try adding a warning category above it like this:
+
 
 
 ## OOC Adherence in Zipbomb (Easy Fix)
@@ -94,6 +98,13 @@ Remember to replace the names in the template with their actual names! Remember 
 
 Have not been updated for the new header titles and divisions, for example the last step says \<loomtarget> but the actual category is \<loomstorytarget>
 
+### Lumia OOC (Extension) has incorrect tag
+
+Lumia OOC extension has \<lumiaooc> instead of \<lumia_ooc> like everything else ()
+
+###
+
+
 ### Lumia OOC Controls
 
 Minor formatting error in the second OOC example, missing the closing quote.
@@ -105,3 +116,19 @@ Title
 ### Dialogue Header opens \<loomnsfw> instead of dialogue
 
 Title
+
+
+.lumia-ooc-content {
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.lumia-ooc-content em, .lumia-ooc-content i {
+    color: rgba(186, 135, 255, 0.9);
+    font-style: italic;
+}
+
+
+.lumia-ooc-content strong, .lumia-ooc-content b {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 600;
+}
