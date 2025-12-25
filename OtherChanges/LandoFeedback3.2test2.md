@@ -2,7 +2,7 @@
 
 ## Your structure
 
-It's perfect, everything works a lot better. Chat History handrailing works flawlessly now.
+It's perfect, everything works a lot better. Chat History handrailing works flawlessly now. However you haven't updated some of the tags and the audit checklist in zipbomb for your new tags.
 
 ## Only Use One CoT Warning
 
