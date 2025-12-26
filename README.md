@@ -6,10 +6,14 @@ https://lucid.cards
 
 Lumia personality packs will be using Prolix's new [Lumiverse Helper](https://github.com/prolix-oc/SillyTavern-LumiverseHelper) extension!
 
-Author packs will eventually be on there once support is added but for now they use the lorebook injection method (Thanks to Eleisea for teaching me all this!)
+Author Packs and Lumia packs can both be downloaded from there!
 
 Check out Jun's lovely Lumias at well on her github [here](https://github.com/sakanomichi/LumiaDLC)!
 
+## How to install my final releases of Lumia Packs!
+1. Get the Lumiverse Helper Extension from the link above
+2. Browse lucid packs in extension settings
+3. Hit download on my packs!
 
 ## How to install beta releases of Lumia Personalities:
 1. Go to the [Personality Packs](PersonalityPacks) folder.
@@ -28,14 +32,6 @@ Check out Jun's lovely Lumias at well on her github [here](https://github.com/sa
 6. Activate the Author entries in the lorebook that you want to apply to your stories!
 7. Give me feedback in the channel please!
 
-## How to install final releases (None of mine available there yet):
-
-1. Head over to Prolix's site [here](https://lucid.cards/world-books?category=Lumia%20DLC)
-2. Download the lorebooks
-3. Import the lorebook
-4. Enable the toggles you want
-5. ???
-6. Profit!
 
 ## WIP Planning:
 - Testing (Raws available here in folders, testing personalities, format cleanup)
@@ -45,16 +41,15 @@ Check out Jun's lovely Lumias at well on her github [here](https://github.com/sa
 
 ### [Personality Packs](PersonalityPacks)
 
-- Pack 1 Beta Released
-- Pack 2 Beta Released
-- Pack 3 Planning (SHITPOST PACK)
-- Pack 4 Planning
+- Pack 1 Released
+- Pack 2 Released
+- Pack 3 Released
+- Pack 4 Released
 - Pack 5 Planning (Redundant Personalities)
 
 ### [Author Packs](AuthorPacks)
-- Author Pack 1 Beta Released (It Starts)
-- Author Pack 2 Beta Released (Western Classics)
-- Author Pack 3 Beta Released (Non-Western Ancient classics)
-- Author Pack 4 Planning (Contemporary Revival)
+- Author Pack 1 Released (It Starts)
+- Author Pack 2 Released (Western Classics)
+- Author Pack 3 Released (Non-Western Ancient classics)
+- Author Pack 4 Underway (Contemporary Revival)
 - Author Pack 5 Planning (Shitpost Pack)
-

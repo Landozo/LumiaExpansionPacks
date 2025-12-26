@@ -29,7 +29,7 @@ Did the **Human** provide an OOC instruction to me in their weave? Let's run thr
 ---
 ```
 
-Maybe even add a line to it like "If the ooc calls for stopping the narrative, skip the checklist?" I've noticed it go through the rest of the zipbomb saying shit like "not relevant" over and over.
+Maybe even add a line to it like "If the ooc calls for stopping the narrative, skip to step 10 of the checklist." I've noticed it go through the rest of the zipbomb saying shit like "not relevant" over and over.
 
 
 ## Zipbomb Step Swaps
