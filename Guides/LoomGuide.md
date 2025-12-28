@@ -2,14 +2,31 @@
 
 So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
 
-Table of Contents:
+## Table of Contents:
 
 - About LLMs and Picking a model
+	- About LLMs
+	- Frontier Models
+	- Open Weight Models
+	- Frontier Model Recommendations
+	- Open Weight Model Recommendations
+	- My Third Party Provider Recommendation (NanoGPT)
 - About Sillytavern and setting it up
 - Downloading and Importing Lucid Loom
 - Lucid Loom's Structure and Categories
-- Configuring Reasoning to Work for Loom in Sillytavern
-- Best practices and recommended settings for each model
+- Reasoning
+	- Reasoning or Non-Reasoning
+	- What is a CoT
+	- The kinds of Loom CoTs
+- Reasoning Options in Sillytavern
+	- Prompt post processing
+	- Reasoning Formatting
+	- Request Model Reasoning and Reasoning Effort
+- Non-Reasoning Related Options
+	- Context Size and Max Response
+	- Streaming
+	- Most commonly changed samplers (Temp, Top P, and Top K)
+- Best Settings for each model (For Loom 3.1.1)
 	- Fake Reasoning
 		- Gemini 3 Pro/Flash
 		- Claude Sonnet/Opus
@@ -208,9 +225,13 @@ Once you download it, it'll be in a json format, you can import it into sillytav
 
 Sillytavern has a variety of api connection points you can use to connect to your model of choice. The important thing is that you choose Chat Completion in the dropdown for API, since Lucid Loom is a chat completion preset. It will not work in text completion mode.
 
+-- Insert Picture of this here --
+
 ## Importing Lucid Loom into Sillytavern
 
 To import it, after picking Chat Completion open the left hand panel (leftmost icon on the top bar of sillytavern) and click the imnport button and select your json! This will cause the panel below to switch to Lucid Loom.
+
+-- Insert Picture of this here --
 
 I'll go over the best options for Loom later, but first, let's scroll down in this panel 
 
@@ -224,25 +245,37 @@ There is an extension to allow things to collapse into nice categories, I'll go 
 
 Important things like card, user persona, and scenario information are pulled in first thing in the "Story Primers" category (Loom does not use the default Sillytavern prompts for those, hence why those are still in but off later).
 
-Then comes the core instructions and modes for the Loom, I'll go over these later.
+-- Insert Picture of this here --
+
+Then comes the core instructions and modes for the Loom. Human Controls User and Sov Hand are the two options here. The former limits control of {{user}} to only you, the Human. The latter is more complex, see the appendix for details on Sov Hand.
 
 ### Lumia Definitions and Personalities
 
 Then Lumia definitions (physical description) and personalities. Loom's main claim to fame is that it causes the AI to assume the role of a storyteller called Lumia. There are dozens of Lumias with different personalities available through an extension I'll talk about later by the same dev of Loom. For now, you get 7 personalities built in with a custom option to allow pulling in extra lumias from the extension.
 
+-- Insert Picture of this here --
+
 One thing to keep in mind under personalities is "Weave Lock". This helps mitigate the personality from affecting the story too much.
+
+-- Insert Picture of this here --
 
 ### Various Story and Response related Categories
 
 Then the rest of the toggles are all things that affect the generated story, like the point of view of the storyteller, genres, narrative styles, plot progression options, response length options, text formatting, prose guidelines, dialogue options, nsfw options, and story details.
 
+-- Insert Picture of this here --
+
 ### Utilities and Trackers
 
 Utilities and Trackers are categories that have little useful utilities like OOC commentary, time lookups, summarization utilities, and the like. Trackers are various little trackers that help Lumia keep track of what has happened thus far in the story.
 
+-- Insert Picture of this here --
+
 ### Story Details
 
 After that is Story Details, where the only important things are World History (Lorebooks) and the optional extension summarization toggle (I'll go over this later) which is off by default. **The reason this section is full of turned off toggles is because Loom does not use them. But if you delete them, Sillytavern breaks, so we leave them here and off.**
+
+-- Insert Picture of this here --
 
 ### Chat History
 
@@ -250,11 +283,15 @@ This is where Chat History lives, it's the best place for it from experimentatio
 
 ### Planning Effort
 
-This helps tell your LLM how much work to put into the reasoning phase.
+This helps tell your LLM how much work to put into the reasoning phase. Some models ignore this. I recommend keeping it on extreme.
+
+-- Insert Picture of this here --
 
 ### CoT Selections
 
 These are the reasoning checklists for Loom. I'll explain them in more detail in the next section.
+
+-- Insert Picture of this here --
 
 ## Reasoning or non-Reasoning? CoT?
 
@@ -272,7 +309,7 @@ CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning proce
 
 **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
 
-You'll see that the Loom CoT sections are split up into three section.
+You'll see that the Loom CoT sections are split up into three section (In 3.2).
 
 ### CoT Selections (System) - The Old and Small
 
