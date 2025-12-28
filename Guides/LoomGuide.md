@@ -665,6 +665,7 @@ https://github.com/prolix-oc/SillyTavern-SimTracker
 
 https://github.com/SillyTavern/SillyTavern-GroupSendAs
 - Timelines (Visual Novel Timeline based navigation for Branching Chat Histories)
+
 https://github.com/SillyTavern/SillyTavern-Timelines
 
 Better Memories:
