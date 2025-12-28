@@ -527,6 +527,16 @@ Top P: .95
 Hit save in the profile preset after setting these.
 
 
+# Where to Go for Help!
+
+In the AI Presets discord:
+https://discord.gg/y6JPs948
+
+There is a Lucid Loom Channel in said discord:
+https://discordapp.com/channels/1357259252116488244/1414663352428396574
+
+I hang out there, as well as other regulars.
+
 ---
 
 
