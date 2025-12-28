@@ -10,6 +10,18 @@ Table of Contents:
 - Lucid Loom's Structure and Categories
 - Configuring Reasoning to Work for Loom in Sillytavern
 - Best practices and recommended settings for each model
+	- Fake Reasoning
+		- Gemini 3 Pro/Flash
+		- Claude Sonnet/Opus
+	- Native Reasoning
+		- GLM 4.7
+		- Deepseek 3.2 Thinking
+- Appendix
+	- What is Sov Hand?
+	- Lumiverse Helper Extension
+	- Nemo Preset Extension
+	- You mentioned 3.2?
+	- My Sillytavern Extension Recommendations
 
 ## What do I need to use Lucid Loom? First, pick a Model
 
