@@ -6,7 +6,8 @@ AFTER doing the below feedback fixes/corrections. I've done the following Tests:
 
 - CoT Zip Beta (Lumi Sov) - 50 Tests GLM 4.7 (single user, global think trigger), no obvious issues
 - CoT Zipbomb (Lumiverse) - 50 Tests GLM 4.7 (single user, global think trigger), no obvious issues
-- Reasoner Zipbomb (Lumiverse) - 100 tests GLM 4.7 (semi-strict, no global think trigger), no obvious issues
+- Reasoner Zip Beta (Lumiverse) - 50 tests GLM 4.7 (semi-strict, no global think trigger), no obvious issues
+- Reasoner Zipbomb (Lumiverse, yes I Lumiversed it) - 50 tests GLM 4.7 (semi-strict, no global think trigger), no obvious issues
 
 This is again with the below issues fixed by hand.
 
