@@ -1,4 +1,4 @@
-# Feedback for 3.2 Last Call
+# ~~Feedback for 3.2 Last Call~~
 
 # Testing:
 
@@ -14,11 +14,11 @@ This is again with the below issues fixed by hand.
 Only issues I saw were the occasional message repeat (I think that's an ST problem).
 
 
-## CoT Feedback
+## ~~CoT Feedback~~
 
-### Missing Lumia Council Instructions and incorrect wording on main
+### ~~Missing Lumia Council Instructions and incorrect wording on main~~
 
-**In CoT Zip Beta (Lumiverse Sov Hand), {{lumiaCouncilInst}} is written as {{loomCouncilInst}} making it not work.**
+~~In CoT Zip Beta (Lumiverse Sov Hand), {{lumiaCouncilInst}} is written as {{loomCouncilInst}} making it not work.~~
 
 ~~{{lumiaCouncilInst}} is missing from:~~
 

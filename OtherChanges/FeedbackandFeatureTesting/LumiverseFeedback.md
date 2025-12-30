@@ -1,4 +1,6 @@
-# Lando's Lumiverse Feedback
+# Lando's Lumiverse and LoomBuilder Feedback
+
+# Lumiverse
 
 ## Clear All Button in the sidebar like there is for normal Lumias
 
@@ -52,3 +54,33 @@ In the meantime can just have an optional toggle to setvar the extension macros 
 Currently to make any changes you have to make them in the lorebook editor, then delete what you have in the extension and reimport the json to test.
 
 An edit button for these would be nice, like how Lumias have one. It would only have to be a big text edit modal, since all 3 are just essentially a text prompt with no individual picture unlike Lumia defs.
+
+# LoomBuilder
+
+## Current Workflow:
+
+New update of Loom came out?
+
+1. Export old preset from Sillytavern
+2. Import into loom builder
+3. Select All, deselect the custom toggles I want to keep (can't invert so have to work backwards/use deselect)
+4. Hit delete to delete all unwanted toggles
+5. Delete each category one by one with a confirmation page (No mass deletion for folders/categories)
+6. Hit Export
+7. Open json in text editor
+8. Delete all standard ST toggles (Can't do this in LoomBuilder)
+9. Delete all prompt positions
+10. Edit header to match format for importing prompt list (instead of preset)
+11. Import on top of new preset in ST.
+
+## Ability to export selected
+
+## MINOR - Ability to Batch Delete Categories
+
+Right now I can select 150 prompts and delete them, but then I'm left with 25 categories to manually delete one by one with a confirmation popup for each one.
+
+Even an option to disable the confirmation popup would make this so much faster.
+
+## MINOR - Ability to invert selections (selections, not toggle)
+
+You have the ability to select all prompts (select, not toggle), and delete them, but you don't have the ability to invert selection. This means you can't select your 15 toggles, invert, and delete the rest for easy export. You have to select all prompts, hunt through and uncheck your 15.
