@@ -232,13 +232,13 @@ Once you download it, it'll be in a json format, you can import it into sillytav
 
 Sillytavern has a variety of api connection points you can use to connect to your model of choice. The important thing is that you choose Chat Completion in the dropdown for API, since Lucid Loom is a chat completion preset. It will not work in text completion mode.
 
--- Insert Picture of this here --
+<img width="390" height="411" alt="image" src="https://github.com/user-attachments/assets/529be64e-5648-4983-8a2d-c19bc5af49a3" />
 
 ## Importing Lucid Loom into Sillytavern
 
 To import it, after picking Chat Completion open the left hand panel (leftmost icon on the top bar of sillytavern) and click the imnport button and select your json! This will cause the panel below to switch to Lucid Loom.
 
--- Insert Picture of this here --
+<img width="641" height="335" alt="image" src="https://github.com/user-attachments/assets/7c623dd5-0251-4c56-8ed9-1772e4d942eb" />
 
 I'll go over the best options for Loom later, but first, let's scroll down in this panel 
 
@@ -248,11 +248,15 @@ Lucid Loom, like most presets, relies on a category system to make things less c
 
 There is an extension to allow things to collapse into nice categories, I'll go over it later. First, the categories.
 
+### Prompt Variables (EDIT ME PLEASE)
+
+This toggle allows you to edit some variables and choose how long the "Custom Response Length" toggle makes your reply, change the LLM's main output language, or change how often OOC happens (unless you use the extension, that one works better, more on that in the appendix).
+
 ### Story Primers and Core Instructions
 
 Important things like card, user persona, and scenario information are pulled in first thing in the "Story Primers" category (Loom does not use the default Sillytavern prompts for those, hence why those are still in but off later).
 
--- Insert Picture of this here --
+<img width="390" height="411" alt="image" src="https://github.com/user-attachments/assets/bbd25b89-6c13-4d77-98d0-1c0502cf1584" />
 
 Then comes the core instructions and modes for the Loom. Human Controls User and Sov Hand are the two options here. The former limits control of {{user}} to only you, the Human. The latter is more complex, see the appendix for details on Sov Hand.
 
@@ -260,29 +264,29 @@ Then comes the core instructions and modes for the Loom. Human Controls User and
 
 Then Lumia definitions (physical description) and personalities. Loom's main claim to fame is that it causes the AI to assume the role of a storyteller called Lumia. There are dozens of Lumias with different personalities available through an extension I'll talk about later by the same dev of Loom. For now, you get 7 personalities built in with a custom option to allow pulling in extra lumias from the extension.
 
--- Insert Picture of this here --
+<img width="371" height="695" alt="image" src="https://github.com/user-attachments/assets/3a73edcd-f4bf-42db-ac50-5e5db1149e26" />
 
 One thing to keep in mind under personalities is "Weave Lock". This helps mitigate the personality from affecting the story too much.
 
--- Insert Picture of this here --
+<img width="354" height="80" alt="image" src="https://github.com/user-attachments/assets/4463b626-368d-45bc-b658-916c6da99229" />
 
 ### Various Story and Response related Categories
 
 Then the rest of the toggles are all things that affect the generated story, like the point of view of the storyteller, genres, narrative styles, plot progression options, response length options, text formatting, prose guidelines, dialogue options, nsfw options, and story details.
 
--- Insert Picture of this here --
+<img width="394" height="616" alt="image" src="https://github.com/user-attachments/assets/da56a4ad-53b5-4847-b6c7-7a0e91b11048" />
 
 ### Utilities and Trackers
 
 Utilities and Trackers are categories that have little useful utilities like OOC commentary, time lookups, summarization utilities, and the like. Trackers are various little trackers that help Lumia keep track of what has happened thus far in the story.
 
--- Insert Picture of this here --
-
 ### Story Details
 
 After that is Story Details, where the only important things are World History (Lorebooks) and the optional extension summarization toggle (I'll go over this later) which is off by default. **The reason this section is full of turned off toggles is because Loom does not use them. But if you delete them, Sillytavern breaks, so we leave them here and off.**
 
--- Insert Picture of this here --
+<img width="397" height="486" alt="image" src="https://github.com/user-attachments/assets/95a48010-88ba-4822-809d-cd32aac611b4" />
+
+Keep these off except for World Info (Before and After). Lumiverse summary can be turned on if you use the extension.
 
 ### Chat History
 
@@ -292,13 +296,13 @@ This is where Chat History lives, it's the best place for it from experimentatio
 
 This helps tell your LLM how much work to put into the reasoning phase. Some models ignore this. I recommend keeping it on extreme.
 
--- Insert Picture of this here --
+<img width="377" height="150" alt="image" src="https://github.com/user-attachments/assets/aa70b5ec-8d4e-4b92-8c7c-eb1e03ff4c7a" />
 
 ### CoT Selections
 
 These are the reasoning checklists for Loom. I'll explain them in more detail in the next section.
 
--- Insert Picture of this here --
+<img width="383" height="315" alt="image" src="https://github.com/user-attachments/assets/717dda8a-64b1-4cb0-9db8-fcb85fecc1ac" />
 
 ## Reasoning or non-Reasoning? CoT?
 
@@ -352,7 +356,7 @@ Thankfully there are only a few places we'll have to look to get reasoning up an
 
 In the API Tab underneath where you select the model is a dropdown called Prompt Post Processing. This alters the raw prompt sent out to the LLM to better help it understand which things are from the system and which are from the user.
 
--- Insert screenshot of prompt post processing --
+<img width="343" height="333" alt="image" src="https://github.com/user-attachments/assets/5b458d0a-d147-4761-9a7d-a3f012664b17" />
 
 There are several options:
 - None (no processing applied) 
@@ -367,17 +371,17 @@ Additionally there is tools or no tools for each of these. Tool calling lets llm
 
 In the advanced formatting tab (The A up top to the right of the API icon), you'll find that most of it is grayed out since most of these options are for text completion. However we still have a few important sections here.
 
--- Insert screenshot of button for advanced formatting --
+<img width="36" height="34" alt="image" src="https://github.com/user-attachments/assets/21d92c67-aca6-42ea-85df-f37ec03ac215" />
 
 To the lower left are three checkboxes under the context formatting section. These are user preference except for Trim Incomplete Sentences, you'll want this one UNCHECKED, or it can break loom tags and formatting.
 
--- Insert screenshot of context formatting --
+<img width="287" height="236" alt="image" src="https://github.com/user-attachments/assets/b84ef3e0-a4c2-4920-be27-463a5098041b" />
 
 On the lower right is the Reasoning formatting section.
 
-First are three checkmarks
+First are three checkmarks:
 
-Auto-Parse should always be on, it enables the below section to be able to capture text into a reasoning box if the tags are correct. This is the only way "fake reasoning", which is what we use for Gemini, Claude, and GPT, can work.
+Auto-Parse should ALWAYS be on, it enables the below section to be able to capture text into a reasoning box if the tags are correct. This is the only way "fake reasoning", which is what we use for Gemini, Claude, and GPT, can work.
 
 Auto-Expand expands the little thinking box containing the reasoning upon each new message, this is user preference.
 
@@ -385,9 +389,9 @@ Show Hidden shows the reasoning time for models with hidden reasoning, I recomme
 
 Below that is a **Reasoning Formatting** dropdown you can expand. This is where you set the reasoning formats.
 
--- Insert screenshot of reasoning formatting section --
+<img width="427" height="553" alt="image" src="https://github.com/user-attachments/assets/519bd64b-c947-4f65-8eb0-58c7cb04cc26" />
 
-I recommend for pretty much everything that you pick Deepseek here. Gemini uses it, Claude uses it, GLM uses it, and of course Deepseek uses it. Both fake and native reasoning models will use deepseek formatting, and if they don't, there's no harm in leaving this on deepseek anyways.
+I recommend for pretty much everyone that you pick Deepseek here. Gemini uses it, Claude uses it, GLM uses it, and of course Deepseek uses it. Both fake and native reasoning models will use deepseek formatting, and if they don't, there's no harm in leaving this on deepseek anyways.
 
 The dropdown sets the next two boxes, Prefix and Suffix, which are what will open and close the reasoning block.
 
@@ -399,7 +403,7 @@ Separator is usually always empty.
 
 Below that in miscellaneous is one box that we care about, **Start Reply With**
 
--- Insert screenshot of start reply with section here --
+<img width="193" height="92" alt="image" src="https://github.com/user-attachments/assets/ee23890f-8ca3-42bb-be44-3a6b72bce3e7" />
 
 Start Reply With is ALWAYS empty for native reasoning models like GLM and Deepseek, and usually filled with the same thing you have in the prefix for fake reasoning models like Gemini and Claude.
 
@@ -407,8 +411,7 @@ This is important! If your reasoning doesn't work, Start Reply With is the first
 
 These reasoning models save with your API settings, so hit SAVE on the api page after editing them (yes, they save with the api profile, not with the preset settings).
 
--- Insert Photo of API Save Button here --
-
+<img width="315" height="190" alt="image" src="https://github.com/user-attachments/assets/24d63f36-6f64-4d26-91fa-35f5bb39b996" />
 
 ### Chat Completion Reasoning Settings
 
@@ -420,17 +423,32 @@ The important sectino is below that. Two options both related to Reasoning.
 
 Request Model Reasoning affects the ability of Sillytavern to show incoming native/non-fake reasoning at all. If you are using native reasoning, this checkbox MUST BE ON (you'll still receive reasoning without it on, but sillytavern will not show it, meaning you just wasted tokens for no reason).
 
-Next is Reasoning Effort, this one is important for every model. For native reasoning models like Deepseek or GLM, you want it on Maximum. For models where you don't want to use the reasoning and instead want to use "Fake" reasoning, you want it on minimum or auto (sometimes auto means off, your mileage may vary).
+Next is Reasoning Effort, this one is important for every model. For native reasoning models like Deepseek or GLM, you want it on Maximum. 
+
+<img width="373" height="165" alt="image" src="https://github.com/user-attachments/assets/37f54d62-8518-4184-b361-6fd318bbe90a" />
+
+For models where you don't want to use the reasoning and instead want to use "Fake" reasoning, you want it on minimum or auto (sometimes auto means off, your mileage may vary).
+
+<img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
 So it's ON / Maximum for GLM and Deepseek, OFF / Minimum for Gemini and Claude!
+
 
 ### Zipbomb Choice
 
 I'll go over this in more detail in the per model best options, but typically you want CoT zipbombs for fake reasoning models (Gemini, Claude), and reasoner zipbomb for native reasoning models (GLM, Deepseek).
 
-As for what "Mini" means, they are 
+<img width="375" height="188" alt="image" src="https://github.com/user-attachments/assets/07f4b597-a27a-484c-993a-6cecd6ef3b60" />
+CoT Zipbomb for Gemini, Claude, or GLM 4.6
+
+<img width="379" height="191" alt="image" src="https://github.com/user-attachments/assets/11ed54ca-4575-46af-8b8b-d493f13347bb" />
+Reasoner Zipbomb for GLM 4.7 or Deepseek
+
+As for what "Mini" means, they are new zipbombs rewritten to use language that is lighter on tokens. Try either or, they should work the same.
 
 If you use the lumiverse extension, you should pick the Zipbombs from the CoT Selections (Lumiverse) category instead. Custom Lumias and Extension Sov Hand will NOT work without it!
+
+<img width="378" height="180" alt="image" src="https://github.com/user-attachments/assets/630362e8-c1b4-48b0-a9e8-9facf1a3d532" />
 
 ## Non-Reasoning Related Options
 
@@ -466,7 +484,7 @@ Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\
 
 Start Reply With: \<think\> followed by an empty newline.
 
--- Insert picture of this here --
+<img width="427" height="560" alt="image" src="https://github.com/user-attachments/assets/63d6f764-51dc-4e96-a24a-dcc547d8a207" />
 
 Hit save on your api profile after this since it's saved there.
 
@@ -476,7 +494,7 @@ Request Model Reasoning should be OFF/Unchecked
 
 Model Reasoning Effort should be Minimum.
 
--- Insert Picture of this here --
+<img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
 Hit save on the preset panel after setting the above.
 
@@ -486,7 +504,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Zipbomb (System) [Lumiverse if using ext]
+CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini [Lumiverse if using extension]
 
 Context and Samplers:
 Context Size 600k-1000k
@@ -496,7 +514,7 @@ Temperature: 1
 Top K: 255
 Top P: .96
 
--- Insert picture of this here --
+<img width="368" height="183" alt="image" src="https://github.com/user-attachments/assets/62970b4d-43d6-4c43-a1b8-630ae305c0c6" />
 
 Hit save in the profile preset after setting these.
 
@@ -506,7 +524,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Zipbomb (System) [Lumiverse if using ext]
+CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini  [Lumiverse if using extension]
 
 Context and Samplers:
 Context Size 600k-1000k
@@ -515,7 +533,7 @@ Streaming ON
 Temperature: 1
 Top P: 1
 
--- Insert picture of this here --
+<img width="368" height="183" alt="image" src="https://github.com/user-attachments/assets/62970b4d-43d6-4c43-a1b8-630ae305c0c6" />
 
 Hit save in the profile preset after setting these.
 
@@ -540,7 +558,7 @@ Request Model Reasoning should be ON/Checked
 
 Model Reasoning Effort should be MAXIMUM.
 
--- Insert Picture of this here --
+<img width="383" height="174" alt="image" src="https://github.com/user-attachments/assets/fb983139-bb22-4887-8086-0a57b0d3fddc" />
 
 Hit save on the preset panel after setting the above.
 
@@ -550,7 +568,7 @@ Prompt Post Processing: Semi-Strict
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini [Lumiverse if using ext]
+CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini [Lumiverse if using extension]
 
 Global Think Trigger: OFF (The one at the start of the preset)
 
@@ -564,7 +582,7 @@ Temperature: .85-1
 Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
 Top P: .93
 
--- Insert picture of this here --
+<img width="369" height="185" alt="image" src="https://github.com/user-attachments/assets/b827f070-a0ac-4313-afca-792f60f30fa9" />
 
 Hit save in the profile preset after setting these.
 
@@ -580,7 +598,7 @@ Global Think Trigger: ON (The one at the very start of the preset)
 
 GLM Think Trigger: On (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
 
-CoT Choice in Loom: CoT Zipbomb Mini or CoT Zipbomb (System) [Lumiverse if using ext]
+CoT Choice in Loom: CoT Zipbomb Mini or CoT Zipbomb (System) [Lumiverse if using extension]
 
 Context and Samplers:
 Context Size 128-200k
@@ -590,8 +608,9 @@ Temperature: .85-1
 Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
 Top P: .93
 
-Hit save in the profile preset after setting these.
+<img width="384" height="196" alt="image" src="https://github.com/user-attachments/assets/d2f30046-bd54-461f-8e69-d8253b9de83b" />
 
+Hit save in the profile preset after setting these.
 
 #### Deepseek 3.2 Thinking
 
@@ -611,7 +630,7 @@ Temperature: 1-1.5
 Top K: 0 (Might not support it)
 Top P: .95
 
--- Insert picture of this here --
+<img width="369" height="185" alt="image" src="https://github.com/user-attachments/assets/71c70080-8c22-4c6b-9df7-2b8ffda41ac1" />
 
 Hit save in the profile preset after setting these.
 
