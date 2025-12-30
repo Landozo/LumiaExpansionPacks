@@ -485,7 +485,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Zipbomb (System)
+CoT Choice in Loom: CoT Zipbomb (System) [Lumiverse if using ext]
 
 Context and Samplers:
 Context Size 600k-1000k
@@ -505,7 +505,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Zipbomb (System)
+CoT Choice in Loom: CoT Zipbomb (System) [Lumiverse if using ext]
 
 Context and Samplers:
 Context Size 600k-1000k
@@ -549,7 +549,7 @@ Prompt Post Processing: Semi-Strict
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini
+CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini [Lumiverse if using ext]
 
 Global Think Trigger: OFF (The one at the start of the preset)
 
@@ -577,7 +577,7 @@ Hit save on the api profile to save the above after setting it.
 
 Global Think Trigger: ON (The one at the very start of the preset)
 
-GLM Think Trigger: Off (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
+GLM Think Trigger: On (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
 
 CoT Choice in Loom: CoT Zipbomb Mini or CoT Zipbomb (System) [Lumiverse if using ext]
 
