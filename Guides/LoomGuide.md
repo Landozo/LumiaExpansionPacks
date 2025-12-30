@@ -567,7 +567,7 @@ Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\
 
 Start Reply With: *EMPTY, ALWAYS EMPTY FOR EVERY CHINESE REASONING MODEL*
 
--- Insert picture of this here --
+<img width="405" height="98" alt="image" src="https://github.com/user-attachments/assets/a3840793-962e-412c-9762-3b2cf688bb54" />
 
 Hit save on your api profile after this since it's saved there.
 
