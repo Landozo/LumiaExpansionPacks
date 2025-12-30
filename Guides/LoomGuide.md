@@ -490,7 +490,9 @@ To save these you also hit the preset save button up top.
 
 So which setting is best for each model? The following is collected from the common users of the Lucid Loom discord chat.
 
-## Best Settings for each model (Current as of Lucid Loom 3.2)
+## Best Settings for each model 
+
+These best settings are current as of Lucid Loom 3.2 (December 30, 2025).
 
 ### Fake Reasoning Models (Gemini, Claude)
 
