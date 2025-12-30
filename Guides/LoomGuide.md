@@ -10,42 +10,44 @@ Warning: 3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you 
 
 ## Table of Contents:
 
-- About LLMs and Picking a model
-	- About LLMs
-	- Frontier Models
-	- Open Weight Models
-	- Frontier Model Recommendations
-	- Open Weight Model Recommendations
-	- My Third Party Provider Recommendation (NanoGPT)
-- About Sillytavern and setting it up
-- Downloading and Importing Lucid Loom
-- Lucid Loom's Structure and Categories
-- Reasoning
-	- Reasoning or Non-Reasoning
-	- What is a CoT
-	- The kinds of Loom CoTs
-- Reasoning Options in Sillytavern
-	- Prompt post processing
-	- Reasoning Formatting
-	- Request Model Reasoning and Reasoning Effort
-- Non-Reasoning Related Options
-	- Context Size and Max Response
-	- Streaming
-	- Most commonly changed samplers (Temp, Top P, and Top K)
-- Best Settings for each model (For Loom 3.2 Release)
-	- Fake Reasoning
-		- Gemini 3 Pro/Flash (CoT Zipbomb)
-		- Claude Sonnet/Opus (CoT Zipbomb)
-	- Native Reasoning
-		- GLM 4.7 (Reasoning Zip)
-		- GLM 4.6 (Fallback, CoT Zipbomb)
-		- Deepseek 3.2 Thinking
-- Appendix
-	- What is Sov Hand?
-	- What is Regex?
-	- Lumiverse Helper Extension
-	- Nemo Preset Extension
-	- My Sillytavern Extension Recommendations
+- [About LLMs and Picking a model](#what-do-i-need-to-use-lucid-loom-first-pick-a-model)
+	- [About LLMs](#about-llms)
+	- [Frontier Models](#frontier-models)
+	- [Open Weight Models](#frontier-models)
+	- [Frontier Model Recommendations](#frontier-model-recommendations)
+	- [Open Weight Model Recommendations](#open-weight-model-recommendations)
+	- [My Third Party Provider Recommendation (NanoGPT)](#my-recommended-third-party-provider-for-open-weight-models)
+- [About Sillytavern and setting it up](#what-else-do-i-need-to-use-lucid-loom-sillytavern)
+- [Downloading and Importing Lucid Loom](#getting-lucid-loom)
+- [Lucid Loom's Structure and Categories](#getting-the-lay-of-the-loom-the-categories)
+- [Reasoning](#reasoning-or-non-reasoning-cot)
+	- [Reasoning or Non-Reasoning](#reasoning-or-non-reasoning-cot)
+	- [What is a CoT](#cots-what-are-those)
+	- [The kinds of Loom CoTs](#cot-selections-zipbomb---the-latest-and-greatest)
+- [Reasoning Options in Sillytavern - Configuring Lucid Loom](#configuring-lucid-loom)
+	- [Prompt post processing](#prompt-post-processing)
+	- [Reasoning Formatting](#advanced-formatting---context-formatting-and-reasoning-formatting)
+	- [Request Model Reasoning and Reasoning Effort](#chat-completion-reasoning-settings)
+    - [Zipbomb Choices](#zipbomb-choice)
+- [Non-Reasoning Related Options](#non-reasoning-related-options)
+	- [Context Size and Max Response](#non-reasoning-related-options)
+	- [Streaming](#non-reasoning-related-options)
+	- [Most commonly changed samplers (Temp, Top P, and Top K)](#non-reasoning-related-options)
+- [Best Settings for each model (For Loom 3.2 Release)](#best-settings-for-each-model)
+	- [Fake Reasoning](#fake-reasoning-models-gemini-claude)
+		- [Gemini 3 Pro/Flash (CoT Zipbomb)](#google-gemini-3-pro--flash-25-pro--flash)
+		- [Claude Sonnet/Opus (CoT Zipbomb)](#claude-sonnet-and-opus-1)
+	- [Native Reasoning](#native-reasoning-models-glm-deepseek---common-settings)
+		- [GLM 4.7 (Reasoning Zip)](#zai-glm-47)
+		- [GLM 4.6 (Fallback, CoT Zipbomb)](#zai-glm-46)
+		- [Deepseek 3.2 Thinking](#deepseek-32-thinking)
+- [Where to Ask for Help! Loom Chat](#where-to-go-for-help)
+- [Appendix](#appendix)
+	- [What is Sov Hand?](#what-is-sovereign-hand-sov-hand)
+	- [What is Regex?](#what-is-regex)
+	- [Lumiverse Helper Extension](#lumiverse-helper-extension)
+	- [Nemo Preset Extension](#nemo-preset-extension-better-organization-for-prompts)
+	- [My Sillytavern Extension Recommendations](#recommended-extensions-my-personal-favorites)
 
 ## What do I need to use Lucid Loom? First, pick a Model
 
@@ -453,9 +455,11 @@ To save these you hit the save button by the preset dropdown up top:
 I'll go over this in more detail in the per model best options, but typically you want CoT zipbombs for fake reasoning models (Gemini, Claude), and reasoner zipbomb for native reasoning models (GLM, Deepseek).
 
 <img width="375" height="188" alt="image" src="https://github.com/user-attachments/assets/07f4b597-a27a-484c-993a-6cecd6ef3b60" />
+
 CoT Zipbomb for Gemini, Claude, or GLM 4.6
 
 <img width="379" height="191" alt="image" src="https://github.com/user-attachments/assets/11ed54ca-4575-46af-8b8b-d493f13347bb" />
+
 Reasoner Zipbomb for GLM 4.7 or Deepseek
 
 As for what "Mini" means, they are new zipbombs rewritten to use language that is lighter on tokens. Try either or, they should work the same.
@@ -494,7 +498,7 @@ So which setting is best for each model? The following is collected from the com
 
 These best settings are current as of Lucid Loom 3.2 (December 30, 2025).
 
-### Fake Reasoning Models (Gemini, Claude)
+## Fake Reasoning Models (Gemini, Claude)
 
 For all fake reasoning models like Gemini 3 Pro/Flash and Claude Sonnet/Opus we want the following settings in common:
 
@@ -518,7 +522,7 @@ Model Reasoning Effort should be Minimum.
 
 Hit save on the preset panel after setting the above.
 
-#### Google Gemini 3 Pro / Flash, 2.5 Pro / Flash
+### Google Gemini 3 Pro / Flash, 2.5 Pro / Flash
 
 Prompt Post Processing: Semi-strict or Merge
 
@@ -538,7 +542,7 @@ Top P: .96
 
 Hit save in the profile preset after setting these.
 
-#### Claude Sonnet and Opus
+### Claude Sonnet and Opus
 
 Prompt Post Processing: Semi-strict or Merge
 
@@ -557,7 +561,7 @@ Top P: 1
 
 Hit save in the profile preset after setting these.
 
-### Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
+## Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
 
 For all native reasoning models like GLM and Deepseek we want the following settings in common:
 
@@ -581,7 +585,7 @@ Model Reasoning Effort should be MAXIMUM.
 
 Hit save on the preset panel after setting the above.
 
-#### ZAI GLM 4.7
+### ZAI GLM 4.7
 
 Prompt Post Processing: Semi-Strict
 
@@ -607,7 +611,7 @@ Hit save in the profile preset after setting these.
 
 If these don't work you can use the below settings as a fallback.
 
-#### ZAI GLM 4.6
+### ZAI GLM 4.6
 
 Prompt Post Processing: Single User
 
@@ -631,7 +635,7 @@ Top P: .93
 
 Hit save in the profile preset after setting these.
 
-#### Deepseek 3.2 Thinking
+### Deepseek 3.2 Thinking
 
 Prompt Post Processing: Merge
 
@@ -652,7 +656,6 @@ Top P: .95
 <img width="369" height="185" alt="image" src="https://github.com/user-attachments/assets/71c70080-8c22-4c6b-9df7-2b8ffda41ac1" />
 
 Hit save in the profile preset after setting these.
-
 
 ### Settings for not using reasoning at all
 
