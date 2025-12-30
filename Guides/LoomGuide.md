@@ -2,6 +2,8 @@
 
 So you want to use Prolix's wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
 
+This is an UNOFFICIAL Guide to Lucid Loom by me, Landozo. I am NOT Prolix, the dev of Lucid Loom. If you have any feedback on this guide or questions, you can find me on the Lucid Loom Thread on the AI Presets discord (Link [here](#where-to-go-for-help)).
+
 This Loom guide is current as of 3.2 release (December 30, 2025)!
 
 The latest release is 3.2 from https://lucid.cards/chat-presets
