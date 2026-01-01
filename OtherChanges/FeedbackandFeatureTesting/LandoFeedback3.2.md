@@ -3,14 +3,14 @@
 New hotness, new me!
 
 - [Fixes and mitigations](#fixes-and-mitigations)
- - [Diagnostic Utility for Loom](#diagnostic-utility-for-loom)
- - [Remove Accidental Core Lumia Physdef](#remove-the-accidental-core-lumia-physdef-in-core-instructions-category)
- - [loomstyle Tag misabeled in Zip Step 11](#tag-mislabeled-in-zipbomb-and-zip-mini)
- - [Step 11 Zip Category Skipping Mitigation](#step-11-zipbomb-mini-skipped-category-mitigation)
+  - [Diagnostic Utility for Loom](#diagnostic-utility-for-loom)
+  - [Remove Accidental Core Lumia Physdef](#remove-the-accidental-core-lumia-physdef-in-core-instructions-category)
+  - [loomstyle Tag misabeled in Zip Step 11](#tag-mislabeled-in-zipbomb-and-zip-mini)
+  - [Step 11 Zip Category Skipping Mitigation](#step-11-zipbomb-mini-skipped-category-mitigation)
 - [Suggestions and Features](#suggestions-and-features)
- - [Anti-Echo core to prose remote Activation](#leave-anti-echo-in-the-core-directives-part-so-its-visible-next-to-sov-but-have-it-activate-down-in-prose)
- - [Collapse CoT and Reasoner Zips into a single one](#collapse-cot-and-reasoner-variants-into-a-single-zipbomb)
- - [Collapse Extension and Non-Extension Zips into a single one](#collapse-cot-and-reasoner-variants-into-a-single-zipbomb)
+  - [Anti-Echo core to prose remote Activation](#leave-anti-echo-in-the-core-directives-part-so-its-visible-next-to-sov-but-have-it-activate-down-in-prose)
+  - [Collapse CoT and Reasoner Zips into a single one](#collapse-cot-and-reasoner-variants-into-a-single-zipbomb)
+  - [Collapse Extension and Non-Extension Zips into a single one](#collapse-cot-and-reasoner-variants-into-a-single-zipbomb)
 
 # Fixes and Mitigations
 
