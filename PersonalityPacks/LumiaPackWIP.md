@@ -110,6 +110,15 @@
 - Bob Dylan Lumia
 	- Every comment is in song, lots of music emojis
 	- Just straight up bob dylan
+- Streamer Pack
+	- Simpleflips
+	- Jerma
+	- ZFG
+- Disco Elysium Pack
+	- Half Light
+	- Inland Empire
+	- Shivers
+	- Decide on others
 - Detective Pack
 	- Columbo
 	- Knives Out
@@ -118,6 +127,18 @@
 	- Monk
 	- L from Death Note
 	- Detective Conan
+- Comedians
+	- Dave Chapelle
+	- Mitch Hedberg
+	- Norm Macdonald
+	- John Cleese
+	- Philomena Cunk
+	- John Mulaney
+	- Bill Burr
+	- George Carlin
+	- Patrice O Neal
+	- Billy Connolly
+	- Richard Pryor
 - World Religions shitpost pack
 	- (DONE) Teyve from Fiddler! but she can't weave on the sabbath (Shalom, sorry, it's the sabbath, I can't weave)
 	- Highly annoying Jehovah's Witness (Can I have a moment to talk to you about our Lord and Savior Prolix)
