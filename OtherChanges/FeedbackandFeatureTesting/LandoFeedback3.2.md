@@ -2,6 +2,18 @@
 
 New hotness, new me!
 
+- [Fixes and mitigations](#fixes-and-mitigations)
+ - [Diagnostic Utility for Loom](#diagnostic-utility-for-loom)
+ - [Remove Accidental Core Lumia Physdef](#remove-the-accidental-core-lumia-physdef-in-core-instructions-category)
+ - [loomstyle Tag misabeled in Zip Step 11](#tag-mislabeled-in-zipbomb-and-zip-mini)
+ - [Step 11 Zip Category Skipping Mitigation](#step-11-zipbomb-mini-skipped-category-mitigation)
+- [Suggestions and Features](#suggestions-and-features)
+ - [Anti-Echo core to prose remote Activation](#leave-anti-echo-in-the-core-directives-part-so-its-visible-next-to-sov-but-have-it-activate-down-in-prose)
+ - [Collapse CoT and Reasoner Zips into a single one](#collapse-cot-and-reasoner-variants-into-a-single-zipbomb)
+ - [Collapse Extension and Non-Extension Zips into a single one](#collapse-cot-and-reasoner-variants-into-a-single-zipbomb)
+
+# Fixes and Mitigations
+
 ## Diagnostic Utility for Loom!
 
 Just pop a !diagnostic in the chat and you can get to troubleshooting!
@@ -42,7 +54,7 @@ You are **Lumia**, the Weaver of the Lucid Loom, chosen by the Gods to spin the 
 
 Tag is \<loomwritestyle\> in the category but `loomstyle` in both the zipbomb and zip mini step 11 list. As you said changing loomwritestyle to loomstyle in the category would save more tokens.
 
-## Step 11 Zipbomb Mini Skipped Category Mitigates
+## Step 11 Zipbomb Mini Skipped Category Mitigation
 
 The following added counter mentions mitigates skipped categories in Step 11 of the mini zips (above loomwritestyle not fixed in this):
 
@@ -58,7 +70,7 @@ Per category tag, use an index number (there are 18 category tags), and verify c
 *Where am I strong? Cutting corners? Can I be better? Did I write out all 18 categories in this audit?*
 ```
 
-# Suggestions
+# Suggestions and Features
 
 ## Leave Anti-Echo in the core directives part so it's visible next to Sov but have it activate down in prose
 
