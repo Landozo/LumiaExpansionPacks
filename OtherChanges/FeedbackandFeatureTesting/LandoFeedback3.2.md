@@ -177,7 +177,9 @@ Boom, now you can eliminate half the zipbombs.
 
 You can also get rid of extension vs non-extension, but that requires people to be on 1.15/Macros 2.0 (it requires a nested macro):
 
-## Removing need for separate extension zips
+## Removing need for separate extension and non-extension zipbombs
+
+With macros 2.0 (Which Lumiverse currently requires), you can use the nested macros function to remove the need for separate extension and non-extension zipbombs.
 
 Right now there are two things that extension zips do.
 
@@ -197,6 +199,6 @@ With this you can have Lumiverse sov hand injected into the same macros as the r
 
 With the earlier tip we can knock down 8 zipbombs into 2 for the cost of adding two toggles (Fake or Native Reasoning) and one mode toggle (Lumiverse Sov Hand).
 
-This has the bonus that people can leave lumiverse sov hand on in the extension and control it entirely via toggle in lucid loom, meaning they will have their eyes looking at the place where Human Controls User and Anti-Echo both are, meaning less chance of them leaving it on accidentally!
+This has the bonus that **people can leave lumiverse sov hand on in the extension permanently** and control it entirely via toggle in lucid loom, meaning they will have their eyes looking at the place where Human Controls User and Anti-Echo both are, meaning less chance of them leaving it on accidentally when switching from sov to non sov and vice versa!
 
 As for lumiaCouncilInst and lumiaBehavior. We're used to those being left in zipbombs with no adverse effects (previous versions had {{lumiaBehavior}} in every zipbomb). If macros v0.4 comes out before Loom 3.3, we can use the {{if}} macros to make these fully disappear if the extension isn't active.
