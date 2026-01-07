@@ -13,3 +13,7 @@ Somatic Lock is currently in sov hand, it should be in human controls user. Also
 ## Claude Killer/Gemini Saver variables not added to Zip Full
 
 They were only added to Zip Mini
+
+## Anti Slop is 3 2 heirarchy
+
+Instead of 3 4 (to fit into rest of loom)
