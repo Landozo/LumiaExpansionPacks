@@ -813,6 +813,7 @@ https://github.com/prolix-oc/BananaBread
 
 ## 3.3 Beta 1 Settings flowchart:
 
+```mermaid
 flowchart TD
     A(Reasoning: Yes) --> B{Planning Effort}
     B --> C(Low/High/Extreme) & D(Custom)
@@ -822,3 +823,4 @@ flowchart TD
     E -->|GLM/DS/Kimi| G[Reasoner Triggers]
     F & G--> H{Unified Zip Type}
     H --> I(Zip Full) & J(Zip Mini)
+```
