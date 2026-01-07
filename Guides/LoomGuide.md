@@ -502,6 +502,8 @@ So which setting is best for each model? The following is collected from the com
 
 These best settings are current as of Lucid Loom 3.2 (December 30, 2025).
 
+
+
 ## Fake Reasoning Models (Gemini, Claude)
 
 For all fake reasoning models like Gemini 3 Pro/Flash and Claude Sonnet/Opus we want the following settings in common:
@@ -641,7 +643,7 @@ Hit save in the profile preset after setting these.
 
 ### Deepseek 3.2 Thinking
 
-Prompt Post Processing: Merge
+Prompt Post Processing: Semi-Strict or Merge
 
 Global Think Trigger: OFF (The one at the start of the preset)
 
@@ -805,3 +807,18 @@ https://github.com/Coneja-Chibi/VectHare
 - BananaBread (A vectorization/embedding server, you'd use the above to connect to it)
 
 https://github.com/prolix-oc/BananaBread
+
+
+# FUTURE MEMES (References for future versions)
+
+## 3.3 Beta 1 Settings flowchart:
+
+flowchart TD
+    A(Reasoning: Yes) --> B{Planning Effort}
+    B --> C(Low/High/Extreme) & D(Custom)
+    C --> E{Reasoning Type}
+    D -->|Set token vars| E{Reasoning Type}
+    E -->|Gemini/Claude| F[CoT Triggers]
+    E -->|GLM/DS/Kimi| G[Reasoner Triggers]
+    F & G--> H{Unified Zip Type}
+    H --> I(Zip Full) & J(Zip Mini)
