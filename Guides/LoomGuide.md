@@ -472,6 +472,23 @@ If you use the lumiverse extension, you should pick the Zipbombs from the CoT Se
 
 <img width="378" height="180" alt="image" src="https://github.com/user-attachments/assets/630362e8-c1b4-48b0-a9e8-9facf1a3d532" />
 
+A flowchart of which CoT to pick (More details in the sections below!)
+
+```mermaid
+flowchart TD
+    A(Reasoning: Yes) --> B{Planning Effort}
+    B --> C(Low/High/Extreme)
+    C --> D{Reasoning Type}
+    D -->|Gemini/Claude| E[Fake Reasoning]
+    D -->|GLM/DS/Kimi| F[Native Reasoning]
+    E --> G(Lumiverse?)
+    F --> H(Lumiverse?)
+    G -->|Yes| I(CoT Zipbomb/Zip Mini #lpar;Lumiverse#rpar;)
+    G -->|No| J(CoT Zipbomb/Zip Mini #lpar;System#rpar;)
+    H -->|Yes| K(Reasoner Zipbomb/Zip Mini #lpar;Lumiverse#rpar;)
+    H -->|No| L(Reasoner Zipbomb/Zip Mini #lpar;System#rpar;)   
+```
+
 ## Non-Reasoning Related Options
 
 There are some universally useful options for every model.
