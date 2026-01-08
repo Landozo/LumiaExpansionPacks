@@ -36,7 +36,7 @@ Available below:
 https://docs.sillytavern.app
 
 > [!TIP]
-> Typically you'll be installing release version, but if you want a staging feature (staging is an unstable bleeding edge version that changes with every single new github commit), you can typically switch to it with the 'git switch staging' command in your sillytavern directory. If you have the sillytavern launcher, you might have an option to switch in there.
+> Typically you'll be installing release version, but if you want a staging feature (staging is an unstable bleeding edge version that changes with every single new github commit), you can typically switch to it with the 'git switch staging' command run from git bash in your sillytavern directory. If you have the sillytavern launcher, you might have an option to switch in there.
 
 ## Installing Sillytavern
 
