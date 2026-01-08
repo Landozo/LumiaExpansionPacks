@@ -2,19 +2,19 @@
 
 # Quick Fixes
 
-## Both Gemini Killer and Claude Killer are on by default in the beta, only one will work at a time
+## a Both Gemini Killer and Claude Killer are on by default in the beta, only one will work at a time
 
 They the same other than min and max set in the variables, so the later one will just overwrite the previous one
 
-## Somatic Lock is in the wrong directive and not-initialized
+## a Somatic Lock is in the wrong directive and not-initialized
 
 Somatic Lock is currently in sov hand, it should be in human controls user. Also the setvar is not initialized in prompt variables.
 
-## Claude Killer/Gemini Saver variables not added to Zip Full
+## a Claude Killer/Gemini Saver variables not added to Zip Full
 
 They were only added to Zip Mini
 
-## Anti Slop is 3 2 heirarchy
+## a Anti Slop is 3 2 heirarchy
 
 Instead of 3 4 (to fit into rest of loom)
 
@@ -44,3 +44,4 @@ Listed wrong in zip full
 **Pause > Puppeteer:** If scene demands response {{user}} hasn't given, pause AT demand. Don't force Avatar action.
 
 **Test:** Before weaving {{user}} action: "Did Human declare this, or am I assuming?" If assuming → DELETE.}}{{trim}}
+

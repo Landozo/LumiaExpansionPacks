@@ -539,7 +539,7 @@ Chat Completions Reasoning Section:
 
 Request Model Reasoning should be OFF/Unchecked
 
-Model Reasoning Effort should be Minimum.
+Model Reasoning Effort is PER MODEL.
 
 <img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
@@ -550,6 +550,8 @@ Hit save on the preset panel after setting the above.
 Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
+
+Model Reasoning Effort is Minimum!
 
 CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini [Lumiverse if using extension]
 
@@ -570,6 +572,8 @@ Hit save in the profile preset after setting these.
 Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
+
+Model Reasoning Effort is Auto!
 
 CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini  [Lumiverse if using extension]
 
@@ -841,3 +845,19 @@ flowchart TD
     F & G--> H{Unified Zip Type}
     H --> I(Zip Full) & J(Zip Mini)
 ```
+
+
+flowchart TD
+    A(Reasoning: Yes) --> B{Planning Effort}
+    B --> C(Low/High/Extreme)
+    C --> D{Reasoning Type}
+    D -->|Gemini/Claude| E[Fake Reasoning]
+    D -->|GLM/DS/Kimi| F[Native Reasoning]
+    E --> G(Lumiverse?)
+    F --> H(Lumiverse?)
+    G -->|Yes| I(CoT Zipbomb #lpar;Lumiverse#rpar;) & J(CoT Zip Mini #lpar;Lumiverse#rpar;)
+    G -->|No| K(CoT Zipbomb #lpar;System#rpar;) & L(CoT Zip Mini #lpar;System#rpar;)
+    H -->|Yes| M(Reasoner Zipbomb #lpar;Lumiverse#rpar;) & N(Reasoner Zip Mini #lpar;Lumiverse#rpar;)
+    H -->|No| O(Reasoner Zipbomb #lpar;System#rpar;) & P(Reasoner Zip Mini #lpar;System#rpar;)
+
+
