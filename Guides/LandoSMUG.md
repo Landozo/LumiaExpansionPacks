@@ -69,7 +69,7 @@ Simple steps:
 
 Full Explanation:
 
-First, ensure the preset you want to add it to is selected in the Chat Completion Presets panel. Toggles are added per preset, not globally.
+First, ensure the preset you want to add it to is selected in the Chat Completion Presets panel. *Toggles are added per preset, not globally.*
 
 Next scroll down to the start of the list of toggles. There you will see a Prompts Dropdown and to the right of it some buttons. The last button, the one with the plus icon, is the New Prompt button.
 
@@ -94,9 +94,10 @@ Select your new prompt in the dropdown just above the prompt list.
 
 Click the chain icon to insert your prompt into the list below.
 
-Drag your prompt to where you want it and hit save.
+Drag your prompt to where you want it and hit save on the preset way up top.
 
-You can use nemo preset extension to help you navigate giant presets more easily, but it can be a bit glitchy, so remember to save often!
+> [!TIP]
+> You can use nemo preset extension to help you navigate giant presets more easily, but it can be a bit glitchy, so remember to save often!
 
 ### Editing my Prompt
 
@@ -177,13 +178,14 @@ Note how I first instructed the addressed the assistant by name. If your Preset 
 1. If your preset has personalities (Vex, Lumia), pick analytical, smart, or developer related ones (For example, in Prolix's Lucid Loom I specifically created a personality that is a developer with knowledge of LLMs and Sillytavern and prompt engineer for this purpose).
 2. Ensure add to prompts is set to 1 so your model can examine it's CoT too.
 3. Check to see if your preset has pre-built diagnostic prompts! I added one to Prolix's Lucid Loom in the upcoming update, your preset might have one built in too!
-4. Check the system prompt to see if there are rules 
+4. Check the system prompt to see if there are OOC controls or rules that can help that you might have shut off to try and save tokens. Remember, the LLM can't see what is toggled off!
 
-### Things to stress in follow up responses:
+### Things to stress to the LLM in follow up responses:
 
 1. I don't want to toss around blame, I want to implement solutions. Let's find the root cause.
 2. We cannot do a context fix, we need to implement a rules change in the actual system prompt, give me potential rules to add and where to add them.
 3. Remember, this is OOC, drop the character traits and let's work on this logically.
+4. Can we make this fix more drop in ready? Also narrow down the location a bit more!
 
 Remember to use swipes or regens to get other angles and explanations!
 
@@ -256,7 +258,8 @@ To the right on the same row as your target extension will be a trash can icon, 
 
 Sometimes a developer will have a test or dev branch of an extension. To switch to it you use the switch branch button to the right in the same row. A dropdown window will then appear and you can select your branch from it.
 
-Historically I've had issues with this feature, so I'd recommend uninstalling and reinstalling but with the proper branch name in the install extension dialog if switching branches like this doesn't work.
+> [!NOTE]
+> Historically I've had issues with this feature, so I'd recommend uninstalling and reinstalling but with the proper branch name in the install extension dialog if switching branches like this doesn't work.
 
 ## What extensions do you recommend
 
