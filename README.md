@@ -2,6 +2,7 @@
 
 THE LOOM GUIDE:
 [The Loom Guide](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LoomGuide.md)
+
 LANDO'S Sillytavern M.U.G. (Mostly Useful Guide):
 [LANDO SMUG](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md)
 
