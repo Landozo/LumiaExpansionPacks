@@ -56,6 +56,9 @@ Then on the right click turn on "Experimental Macro Engine." It will have a litt
 
 You can test if it works by trying out a nested macro in a chat message like ```{{setvar::greeting::Hello, {{user}}}} {{getvar::greeting}}```. If it works and shows Hello and your own persona name, grats, you have macros 2.0 up and running.
 
+> [!TIP]
+> You can turn this back off at any time by unchecking it. {{pick}} macros used in chats in macro 2.0 will not be compatible if you switch back. If you don't use {{pick}} macros feel free to switch back and forth (Keep in mind macro 2.0 extension macros will usually only work in 2.0, and non-2.0 might not work with 2.0).
+
 # Preset/Prompt Questions
 
 ## How can I import a preset?
