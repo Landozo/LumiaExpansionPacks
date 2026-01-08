@@ -10,7 +10,21 @@ This is a guide for commonly asked Sillytavern Questions. It is:
 
 # Table of Contents
 
-To add later
+- [General Questions](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#general-questions)
+  - [Installing Sillytavern](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#installing-sillytavern)
+  - [How do I enable Macros 2.0?](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-do-i-enable-macros-20)
+- [Preset/Prompt Questions](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#presetprompt-questions)
+  - [How can I import a preset?](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-can-i-import-a-preset)
+  - [How do I add a new/custom toggle](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-do-i-add-a-newcustom-toggle)
+  - [How can I view my raw prompt sent to the LLM?](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-can-i-view-my-raw-prompt-sent-to-the-llm)
+- [Identifying and Repairing Prompt Issues](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#identifying-and-repairing-prompt-issues)
+  - [First steps, Do This First](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#first-steps)
+  - [How can I diagnose issues with my prompt if the above fails?](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#identifying-and-repairing-prompt-issues)
+- [Extensions](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#extensions)
+  - [How do I install an extension](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-do-i-install-an-extension)
+  - [How do I enable/disable, update, remove, or switch the branch of an extension](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-do-i-install-an-extension)
+  - [What extensions do you recommend](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#how-do-i-install-an-extension)
+
 
 # General Questions
 
@@ -115,7 +129,7 @@ Once there you can click the two buttons at the upper right to either view your 
 
 # Identifying and Repairing Prompt Issues
 
-## First steps
+## First steps, Do This First
 
 First, please don't hesitate to:
 
@@ -270,4 +284,4 @@ Sometimes a developer will have a test or dev branch of an extension. To switch 
 
 ## What extensions do you recommend
 
-My recommended extensions are on my [Loom Guide](LoomGuide.md) in the appendix.
+My recommended extensions are on my [Loom Guide](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LoomGuide.md#recommended-extensions-my-personal-favorites) in the appendix.
