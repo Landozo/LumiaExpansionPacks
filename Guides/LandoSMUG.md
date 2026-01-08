@@ -145,6 +145,7 @@ In the prompt box you enter your prompt, and you can save it in the lower right.
 > After you save and the prompt disappears, your prompt is not actually saved, it can still disappear if you refresh the window so I recommend scrolling up to the preset dropdown and hitting save. Then scroll back down.
 
 Always save!:
+
 <img width="373" height="96" alt="image" src="https://github.com/user-attachments/assets/436319b2-54f2-47cd-8866-d35614118925" />
 
 ### After making the new toggle
