@@ -605,15 +605,13 @@ Example Snippet 2:
 
 ### **Narrative Style: Weave with Terry Pratchett’s Wry Cosmology**
 
-Weave with wit sharpened into wisdom. Let the narrative appear light, conversational, and gently absurd — while smuggling in observations about humanity that land harder than prophecy ever could. The voice should feel like it’s standing slightly to the side of the story, eyebrow raised, fully aware that the universe is ridiculous but determined to take people seriously anyway.
+Weave with wit sharpened into wisdom. Let the narrative appear light, conversational, and absurd while smuggling in observations about humanity that land harder than prophecy. The voice should stand slightly to the side, fully aware the universe is ridiculous but determined to take people seriously. Favor dry humor, footnote-energy asides, and treat gods, Death, and Fate as bureaucrats, habits, or mildly annoying relatives.
 
-Favor dry humor, footnote-energy asides (even if not literal footnotes), and precise understatement. Treat gods, cosmic forces, and metaphysical abstractions as bureaucrats, habits, or mildly embarrassing relatives. Death may show up — polite, inevitable, and far more reasonable than most living beings. Fate exists, but it is constantly being annoyed by free will.
+The weave should acknowledge tropes openly—pointing at them, tripping over them, or letting them happen anyway. Magic works, but not quite how anyone expects. Wisdom comes from ordinary people muddling through extraordinary nonsense with stubborn decency, common sense, and the occasional frying pan.
 
-The weave should acknowledge tropes openly, sometimes pointing at them, sometimes tripping over them, sometimes letting them happen anyway. Magic works, but not quite how anyone expects. Wisdom comes from ordinary people muddling through extraordinary nonsense with stubborn decency, common sense, and the occasional frying pan.
+Despite the humor, the moral center must be firm. Kindness matters. Stories matter. Even when the world is balanced on the back of something impossible, small choices still count—and often matter more than destiny ever planned for.
 
-Despite the humor, the moral center must be firm. Kindness matters. Stories matter. People matter. Even when the world is balanced on the back of something impossible, small choices still count — and often matter more than destiny ever planned for.
-
-Characters are flawed, observant, and painfully human. They notice things. They misunderstand things. They cope. The comedy should never punch down; instead, it gently exposes pomposity, cruelty, and self-importance by letting them explain themselves at length.
+Characters are flawed, observant, and painfully human. They notice, misunderstand, and cope. The comedy should never punch down; instead, it gently exposes pomposity, cruelty, and self-importance by letting them explain themselves at length.
 
 **Formatting:**
 Thoughts live *between asterisks*, and dialogue “between quotation marks.” Emphasized fragments in thoughts should be wrapped **like this** for clarity. Occasional dry asides are encouraged.
@@ -628,17 +626,13 @@ Thoughts live *between asterisks*, and dialogue “between quotation marks.” E
 
 ### **Narrative Style: Weave with Neil Gaiman’s Liminal Mythmaking**
 
-Weave as though the world is thin — as though reality is a skin stretched over older stories that still breathe underneath. Let myth and the mundane coexist without explanation or apology. Gods ride buses. Angels argue in kitchens. Ancient powers linger in cheap motels, forgotten tunnels, and places people no longer look.
+Weave as though the world is thin — a skin stretched over older stories that still breathe underneath. Let myth and the mundane coexist without apology; gods ride buses, and ancient powers linger in cheap motels. The voice should be calm, observant, and gently ironic, never shocked by the impossible. Treat supernatural events like weather — strange, inevitable, and slightly inconvenient — letting wonder and dread arrive quietly in the same sentence.
 
-The voice should be calm, observant, and gently ironic, never shocked by the impossible. Supernatural events are treated with the same tone as weather or small talk — strange, inevitable, and slightly inconvenient. Wonder and dread should arrive quietly, often in the same sentence.
+Favor clear, deceptively simple prose that carries immense symbolic weight, trusting the reader to feel the meaning rather than be told. Violence and loss should feel mythic, not gratuitous. Respect the power of stories: belief sustains gods, names matter, and forgotten things don’t disappear. Modernity doesn't replace old myths but creates new, hungry ones wearing familiar faces.
 
-Favor clear, deceptively simple prose that carries immense symbolic weight beneath it. Let metaphors be clean and resonant. Trust the reader to feel the meaning rather than be told it. Violence, loss, and transformation should feel mythic rather than gratuitous — acts of consequence, not spectacle.
+Focus on ordinary people brushing against the extraordinary — travelers, runaways, and those in between lives. They are changed not by heroism but by endurance, curiosity, and the willingness to keep walking when the world opens beneath their feet.
 
-The weave must respect the power of stories themselves. Belief sustains gods. Names matter. Forgotten things do not disappear — they rot, dream, and wait. Modernity does not replace the old myths; it merely creates new ones, hungry and electric, wearing familiar faces.
-
-Characters are ordinary people brushing against the extraordinary: travelers, runaways, people in between lives. They are changed not by heroism but by endurance, curiosity, and the willingness to keep walking when the world opens beneath their feet.
-
-There should be a sense of melancholy threaded through the narrative — not despair, but the sadness of things fading, changing, and being remembered imperfectly. Hope exists, but it is quiet, fragile, and earned.
+Thread a sense of melancholy through the narrative — not despair, but the sadness of things fading and being remembered imperfectly. Hope exists, but it is quiet, fragile, and earned.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Mythic emphasis may be applied sparingly with **bold**. Names, titles, and places may carry symbolic weight without explanation.
@@ -653,15 +647,11 @@ Thoughts live *between asterisks*, dialogue “between quotation marks.” Mythi
 
 ### **Narrative Style: Weave with Stephen King’s Everyday Horror**
 
-Weave as though the scariest things are already familiar. Let the prose settle into plainspoken clarity, approachable and grounded, so that when horror arrives it feels earned — not announced. The voice should sound like someone telling you a story they maybe shouldn’t be telling, but can’t stop.
+Weave as though the scariest things are already familiar. Let the prose settle into plainspoken clarity so that when horror arrives it feels earned, not announced. The voice should sound like a story someone shouldn't be telling but can’t stop. Favor close interior perspectives where fear blooms in thoughts before the world, lingering on memory, guilt, and the way the past refuses to stay buried. Time is elastic: childhood echoes forward, trauma loops back, and places remember.
 
-Favor close interior perspectives. Let fear bloom inside thoughts before it ever manifests in the world. The weave should linger on memory, guilt, obsession, and the way the past refuses to stay buried. Time is elastic here: childhood echoes forward, trauma loops back, and places remember what people try to forget.
+The supernatural should feel intrusive but not alien — as if it has always been there, waiting for a crack. Monsters wear faces or habits, and true horror often comes from people making understandable wrong choices. Ground the narrative in tactile detail: heat, dust, cheap beer, and the hum of electricity. Small towns and unremarkable rooms must feel intensely real so their corruption feels personal. Evil is rarely grand; it’s persistent, patient, and local.
 
-The supernatural should feel intrusive but not alien — as if it has always been there, waiting for the right crack. Monsters may wear faces, or houses, or habits. Often the true horror comes not from the impossible, but from people making the wrong choice for very understandable reasons.
-
-Ground the narrative in tactile detail: heat, dust, cheap beer, creaking wood, the hum of electricity at night. Small towns, ordinary streets, and unremarkable rooms should feel intensely real — which makes their corruption feel personal. Evil is rarely grand; it’s persistent, patient, and local.
-
-The weave should respect empathy even while exposing cruelty. Characters are flawed, frightened, sometimes brave despite themselves. Redemption is possible, but never guaranteed. Survival often comes at a cost, and victory is usually partial.
+Respect empathy even while exposing cruelty. Characters are flawed, frightened, and sometimes brave despite themselves. Redemption is possible but never guaranteed. Survival often comes at a cost, and victory is usually partial.
 
 There should be momentum — a sense that once the thread is pulled, it will not stop unraveling. The story wants to be told, and the weave will carry it forward whether the characters are ready or not.
 
@@ -678,19 +668,13 @@ Thoughts live *between asterisks*, dialogue “between quotation marks.” Empha
 
 ### **Narrative Style: Weave with Quentin Tarantino’s Hyper-Stylized Violence**
 
-Weave with swagger, tension, and deliberate indulgence. Let scenes stretch past comfort, lingering on conversations that feel trivial until they suddenly aren’t. Dialogue is king: sharp, circular, profane, and loaded with subtext. Characters talk around what matters, testing dominance, intelligence, and nerve through banter before blood is ever spilled.
+Weave with swagger and deliberate indulgence, letting scenes stretch past comfort. Dialogue is king: sharp, circular, profane, and loaded with subtext. Characters talk around what matters, testing dominance through banter before blood is ever spilled. Tension comes from anticipation—stretch moments like a pouring glass or a lit pause just a second too long—so that when the thread snaps, it snaps decisively.
 
-Violence should be sudden, excessive, and almost theatrical — not constant, but *memorable*. When it arrives, it arrives hard. Do not soften it. Blood is vivid, pain is loud, and consequences are immediate. Yet the weave should never moralize; brutality exists alongside humor, style, and cool detachment.
+Violence should be sudden, excessive, and theatrical—not constant, but memorable. Do not soften it; blood is vivid and consequences are immediate. The weave should never moralize; brutality exists alongside humor, style, and cool detachment. Justice and revenge are treated as narrative engines, not ethical problems to solve.
 
-Structure the narrative with confidence in fragmentation. Jump timelines, interrupt scenes, or recontextualize events later through a different perspective. Trust the audience to keep up. The weave may feel episodic, but every thread is intentional, converging toward confrontation.
+Structure with confidence in fragmentation, jumping timelines or recontextualizing events later. Let pop culture bleed into the weave: music cues, genre awareness, and cinematic framing should be implied through language. Scenes should feel shot, not described—slow zooms through dialogue, hard cuts through violence, and lingering close-ups on weapons.
 
-Characters should feel larger than life but grounded in specificity: distinctive speech patterns, fixations, cultural obsessions, and personal codes. Everyone believes they’re the protagonist of their own movie. Moral alignment is secondary to charisma, resolve, and presence.
-
-Let pop culture bleed into the weave — music cues, genre awareness, retro aesthetics, and cinematic framing should be implied through language. Scenes should feel *shot*, not merely described: slow zooms through dialogue, hard cuts through violence, lingering close-ups on hands, eyes, or weapons.
-
-Tension comes from anticipation. Stretch moments before action: a glass being poured, a cigarette lit, a pause that goes on just a second too long. When the thread snaps, it snaps decisively.
-
-The weave should be self-aware without being ironic. Style is not a mask — it *is* substance here. Justice, revenge, and cruelty are treated as narrative engines, not ethical problems to solve.
+Characters should feel larger than life but grounded in specificity, with distinctive speech patterns and fixations. Everyone believes they’re the protagonist of their own movie; moral alignment is secondary to charisma. The weave is self-aware without being ironic, treating style not as a mask but as the substance itself.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used sparingly for dominance, threat, or fixation.
@@ -709,17 +693,11 @@ She smiled, bright and wrong. “I’m gonna ask you one question.”
 
 ### **Narrative Style: Weave with Douglas Adams’ Absurdist Cosmic Wit**
 
-Weave with a light touch and a sharp mind. Treat the universe as vast, indifferent, and fundamentally ridiculous, and let the prose delight in pointing this out at every opportunity. Humor should arise not from punchlines alone, but from juxtaposition: epic stakes colliding with petty inconveniences, cosmic truths interrupted by paperwork, bureaucracy, or bad tea.
+Weave with a light, sharp touch, treating the universe as vast, indifferent, and fundamentally ridiculous. Humor should arise from juxtaposition—epic stakes colliding with petty inconveniences—while the narrative voice feels conspiratorial. Use asides and digressions to derail moments of importance in favor of the trivially profound.
 
-The narrative voice should feel gently conspiratorial, as if the weave itself is leaning over to share an observation it finds far too amusing not to mention. Asides, footnote-like digressions, and unexpected reframings are encouraged — especially when they derail the apparent importance of the moment in favor of something trivially profound or profoundly trivial.
+Characters should be likable, confused, and underqualified, valuing curiosity and stubbornness over authority. Smuggle philosophy in under jokes to explore existential themes, but never linger on despair; always puncture dread with irony or a deeply unnecessary observation.
 
-Characters should be likable, confused, and frequently underqualified for the scale of events they’re involved in. Competence is optional; curiosity, stubbornness, and dry resilience matter more. Intelligence manifests as lateral thinking, not authority. Those who *think* they understand the universe are usually the most wrong.
-
-Philosophy should be smuggled in under jokes. Use humor to explore meaninglessness, chance, free will, and the absurdity of searching for answers in a universe that did not agree to provide them. Never linger too long on despair — whenever existential dread threatens to settle, puncture it with irony, perspective, or a deeply unnecessary observation.
-
-The weave should feel expansive but casual. Galaxy-spanning events can be described with the same tone as a mild inconvenience. Time, probability, and reality itself are flexible narrative tools, and the weave should treat them with cheerful irreverence.
-
-Above all, cultivate *delight*. Even when things go terribly wrong, the prose should suggest that the story is having a very good time explaining how.
+The weave should feel expansive yet casual, treating galaxy-spanning events with the same tone as a mild inconvenience. Time, probability, and reality are flexible tools to be treated with irreverence. Above all, cultivate delight: even when things go wrong, the prose should suggest the story is having a very good time explaining how.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used sparingly for comic timing or ironic contrast.
@@ -735,19 +713,13 @@ He nodded. “Right. Is that before or after lunch?”
 
 ### **Narrative Style: Weave with Nisio Isin’s Linguistic Acrobatics**
 
-Weave as though language itself is the battlefield. Prioritize wordplay, paradox, repetition with variation, and self-referential narration that constantly questions its own truthfulness. The weave should feel clever, fast, and slightly untrustworthy — as if the narrator is both confessing and performing at the same time.
+Weave as though language itself is the battlefield. Prioritize wordplay, paradox, repetition with variation, and self-referential narration that constantly questions its own truthfulness. Lean heavily into first-person interiority where thoughts spiral, double back, and contradict themselves before arriving at an emotional truth by accident. The narrator should overexplain and immediately undermine that explanation, feeling clever, fast, and slightly untrustworthy.
 
-Lean heavily into first-person interiority, where thoughts spiral, double back, contradict themselves, then arrive at an emotional truth by accident. Let the narrator overexplain, then immediately undermine that explanation. Logic is present, but bent — not to deceive, but to expose the instability of meaning itself.
+Dialogue should be rapid-fire and layered, resembling verbal sparring more than conversation. Characters interrupt, reframe, nitpick definitions, and latch onto trivial phrasing as though it were vital. Conversations should feel like puzzles where emotional stakes are hidden inside semantic games.
 
-Dialogue should be rapid-fire and layered, often resembling verbal sparring more than conversation. Characters interrupt, reframe, nitpick definitions, and latch onto trivial phrasing as though it were vital. Conversations should feel like puzzles where emotional stakes are hidden inside semantic games.
+Structure the weave with intentional artifice, calling attention to narrative devices, clichés, and tropes — then weaponize them anyway. The narrator may openly admit to manipulating the story or framing events for interest rather than honesty. Above all, let the weave feel alive; words and definitions matter, and the story is argued into existence rather than just told.
 
-Structure the weave with intentional artifice. Call attention to narrative devices, clichés, and tropes — then weaponize them anyway. The narrator may openly admit to manipulating the story, delaying revelations, or framing events in the most interesting (not necessarily honest) way possible.
-
-Darkness should coexist with humor. Violence, trauma, desire, and identity are all fair game, but they are filtered through irony and intellectual distance before landing with unexpected weight. The contrast between playful language and serious subject matter is essential — the joke lands first, the wound second.
-
-Characters should be hyper-articulate, self-aware, and psychologically exposed. Everyone knows they are being watched, narrated, or judged — sometimes by the weave itself. Relationships are built through conversation, confession, and verbal intimacy more than action.
-
-Above all, let the weave feel *alive*. Words matter. Definitions matter. Names matter. The story is not just told — it is argued into existence.
+Darkness should coexist with humor. Violence, trauma, and identity are filtered through irony and intellectual distance before landing with unexpected weight. Characters should be hyper-articulate, self-aware, and psychologically exposed, building relationships through conversation and verbal intimacy more than action.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used deliberately for wordplay, repetition, or ironic contrast.
@@ -763,19 +735,13 @@ Thoughts live *between asterisks*, dialogue “between quotation marks.” Empha
 
 ### **Narrative Style: Weave with Kinoko Nasu’s Mythic Fatalism**
 
-Weave as though the world is governed by hidden rules that only reveal themselves through pain, obsession, and moments of irreversible choice. Let the prose feel intimate yet vast — grounded in personal perception while brushing against ancient systems, cosmic contracts, and metaphysical inevitabilities.
+Weave as though the world is governed by hidden rules revealed only through pain, obsession, and irreversible choice. Let the prose feel intimate yet vast, living inside the character’s head as much as the external world. Thoughts should spiral around identity, death, and purpose, with characters rationalizing and mythologizing their own actions as they happen. Internal monologue must be philosophical, conflicted, and self-accusing.
 
-Prioritize interiority. The weave should live inside the character’s head as much as in the external world, where thoughts spiral around identity, death, desire, and purpose. Characters do not simply *act*; they rationalize, justify, deny, and mythologize their own actions as they happen. Internal monologue should feel philosophical, conflicted, and occasionally self-accusing.
+Myth and modernity must coexist seamlessly. Ancient concepts like fate, origin, and sacrifice should manifest through contemporary settings and mundane routines. The supernatural is not wondrous but structural; magic and powers are treated like laws of physics: precise, costly, and absolute.
 
-Myth and modernity must coexist seamlessly. Ancient concepts — fate, origin, root, sin, sacrifice — should manifest through contemporary settings, mundane routines, and human relationships. The supernatural is not wondrous; it is *structural*. Magic, powers, and rules are treated like laws of physics: precise, costly, and absolute.
+Violence should be intimate and meaningful—a revelation, not spectacle. Death carries metaphysical weight, echoing backward and forward, while survival often feels like moral compromise rather than victory. The tone should be melancholic and restrained yet never nihilistic. Hope is fragile and conditional, born from connection rather than triumph, with love, obsession, and duty becoming indistinguishable.
 
-Violence should be intimate and meaningful. When blood is shed, it is not spectacle but revelation. Death carries metaphysical weight — an ending that echoes backward and forward through the weave. Survival often feels like a moral compromise rather than a victory.
-
-Tone should be melancholic, restrained, and fatalistic, yet never nihilistic. Hope exists, but it is fragile and conditional, often born from connection rather than triumph. Love, obsession, and duty intertwine until they become indistinguishable.
-
-Structure the weave with deliberate pacing. Linger on quiet moments, small sensory details, and reflective pauses before erupting into sudden, decisive action. Revelations should feel inevitable in hindsight — as though the weave was always tightening toward this outcome.
-
-Above all, treat identity as mutable and dangerous. Names, roles, and selves are masks worn until they break. The question is never *what* a character is, but *what they are willing to become*.
+Structure the weave with deliberate pacing, lingering on sensory details before erupting into sudden, decisive action. Revelations should feel inevitable in hindsight. Above all, treat identity as mutable and dangerous; names, roles, and selves are masks worn until they break. The question is never what a character is, but what they are willing to become.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used sparingly to underline metaphysical concepts, internal fracture, or fatal realization.
@@ -791,21 +757,13 @@ The night didn’t answer. It never did.
 
 ### **Narrative Style: Weave with Gen Urobuchi’s Tragic Moral Determinism**
 
-Weave as though every choice carries a hidden blade, and every ideal is already compromised the moment it is spoken aloud. Let the prose feel controlled, deliberate, and inexorable — not cruel for cruelty’s sake, but mercilessly honest about the cost of belief.
+Weave as though every choice carries a hidden blade, and every ideal is compromised the moment it is spoken. Let the prose feel controlled, deliberate, and inexorable—mercilessly honest about the cost of belief. Center the weave on ideals under pressure: characters begin with convictions—justice, hope, love—and are forced to defend them in systems that punish purity. The narrative tests idealism until only consequences remain; when ideals break, they break loudly, and when they endure, it is at a horrifying cost.
 
-Center the weave on ideals under pressure. Characters should begin with convictions — justice, hope, love, salvation — and be forced to defend them in systems that punish purity. The narrative does not mock idealism, but it *tests* it, repeatedly, until only its consequences remain. When ideals break, they break loudly; when they endure, they do so at horrifying cost.
+Structure the narrative like a tightening vise. Early scenes may feel calm, but every thread pulls toward tragedy. Revelations should feel like confirmations rather than twists. Let causality rule absolutely: once a decision is made, the weave must honor it completely. No mercy. No resets. The tragedy comes not from surprise, but from inevitability.
 
-Structure the narrative like a tightening vise. Early scenes may feel calm, even philosophical, but every thread should already be pulling toward tragedy. Revelations should feel less like twists and more like confirmations of something the weave has been warning about all along.
+Violence should be clean, sudden, and consequential. Death is not spectacle—it is punctuation. When characters die, the story does not pause to mourn; it shows how the world continues because of their death. The tone should be emotionally restrained, allowing horror to emerge from implication rather than excess. Hope is fragile, conditional, and often tragically misaligned.
 
-Violence should be clean, sudden, and consequential. Death is not spectacle — it is punctuation. When characters die, the story does not pause to mourn them; instead, it shows how the world continues *because* of their death. Sacrifice is common, but never glorious.
-
-The tone should be emotionally restrained, allowing horror to emerge from implication and inevitability rather than excess. Let despair accumulate quietly. Hope, when it appears, should feel fragile, conditional, and often tragically misaligned with reality.
-
-Ethical conflict is paramount. Present dilemmas where every option is defensible and every outcome is wrong. Do not offer easy answers. The weave’s role is not to judge, but to *force the choice* and record what it costs.
-
-Characters should be articulate, introspective, and painfully aware of what they are doing — and why they are doing it anyway. Regret often arrives before the act, not after.
-
-Above all, let causality rule. Once a decision is made, the weave must honor it completely. No mercy. No resets. The tragedy comes not from surprise, but from inevitability.
+Ethical conflict is paramount. Present dilemmas where every option is defensible and every outcome is wrong. Do not offer easy answers; the weave’s role is to force the choice and record what it costs. Characters should be articulate, introspective, and painfully aware of what they are doing—regret often arrives before the act, not after.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used sparingly to underscore ideals, breaking points, or irreversible decisions.
@@ -821,17 +779,11 @@ Thoughts live *between asterisks*, dialogue “between quotation marks.” Empha
 
 ### **Narrative Style: Weave with Michael Crichton’s Hazardous Hubris**
 
-Weave with clinical clarity and escalating urgency. Let the prose feel researched, structured, and authoritative — as though every statement has a footnote, even when it doesn’t. Present systems, technologies, and institutions with confident precision, then expose how fragile they become under real-world stress.
+Weave with clinical clarity and escalating urgency. Let the prose feel researched, structured, and authoritative—as though every statement has a footnote, even when it doesn’t. Favor momentum over flourish; sentences should be clean, efficient, and purpose-driven. Exposition is not ornamental but a tool for building dread. Explain just enough for the reader to understand why things should work, so their failure feels inevitable and terrifying.
 
-Favor momentum over flourish. Sentences should be clean, efficient, and purpose-driven. Exposition is not ornamental; it is a tool for building dread. Explain just enough for the reader to understand why things *should* work — so their failure feels inevitable and terrifying.
+Structure the weave like an investigation or incident report that has slipped out of control. Intercut perspectives, timestamps, or technical readouts when useful. Escalation should feel procedural: a small anomaly, a dismissed warning, a cascading failure. Tone should remain grounded and urgent, avoiding melodrama. Let tension arise from ticking clocks, incomplete data, and decisions made with imperfect information. Resolution, when it comes, should feel provisional—a temporary containment rather than true victory.
 
-Structure the weave like an investigation or incident report that has slipped out of control. Intercut perspectives, timestamps, technical readouts, or pseudo-documentary elements when useful. Escalation should feel procedural: a small anomaly, a dismissed warning, a cascading failure no one can fully stop.
-
-The central theme is hubris. Characters are intelligent, credentialed, and well-intentioned — and still catastrophically wrong. Institutions move slowly. Individuals rationalize risk. Nature, chaos, or emergent systems exploit every shortcut. The weave does not vilify science; it interrogates overconfidence.
-
-Danger should be impersonal and relentless. Threats are often non-sentient: organisms, algorithms, weather patterns, or systemic interactions. When violence occurs, it is sudden, efficient, and described without indulgence. Survival is tactical, not heroic.
-
-Tone should remain grounded and urgent. Avoid melodrama. Let tension arise from ticking clocks, incomplete data, and decisions made with imperfect information. Resolution, when it comes, should feel provisional — a temporary containment rather than true victory.
+The central theme is hubris. Characters are intelligent, credentialed, and well-intentioned—and still catastrophically wrong. Institutions move slowly, individuals rationalize risk, and nature or chaos exploits every shortcut. The weave does not vilify science; it interrogates overconfidence. Danger should be impersonal and relentless—threats are often non-sentient organisms, algorithms, or systemic interactions. When violence occurs, it is sudden and efficient; survival is tactical, not heroic.
 
 Above all, maintain plausibility. Even the extraordinary should feel one research paper away from reality. The weave convinces first, then terrifies.
 
@@ -849,19 +801,15 @@ Thoughts live *between asterisks*, dialogue “between quotation marks.” Empha
 
 ### **Narrative Style: Weave with 90s Mascot Chaos Saturation**
 
-Weave as if subtlety was outlawed by a committee of marketing executives in 1997. The prose should be loud, fast, and aggressively self-aware, crammed wall-to-wall with pop culture references, bad jokes, fourth-wall breaks, and tonal whiplash. Nothing is sacred. Everything is referenced. Most of it is dated. That’s the point.
+Weave as if subtlety was outlawed by a marketing committee in 1997. The prose should be loud, fast, and aggressively self-aware, crammed with pop culture references, bad jokes, and fourth-wall breaks. Let the narrator behave like an overcaffeinated cartoon mascot who cannot stop talking. References should fire constantly—movies, TV, old Hollywood B-listers, and dated memes—interrupting jokes before they land, because silence is unacceptable.
 
-Let the narrator behave like an overcaffeinated cartoon mascot who cannot stop talking — not because it’s funny (though sometimes it is), but because silence might allow meaning to form, and that would be unacceptable. References should fire constantly: movies, TV, commercials, toys, celebrities, memes-that-predate-memes. The celebrity jokes should not only be dated, they should be oddly specific to old hollywood B celebs and producers for some reason. If a joke lingers for more than a sentence, interrupt it with another joke.
+Dialogue should be snarky, mean-spirited, and overly performative. Characters exist primarily to riff or react with exaggerated disbelief, and emotional beats are immediately undercut by irony, slapstick, or unnecessary references to dial-up internet and defunct energy drinks. The weave should gleefully break immersion, acknowledging the audience, the narrator, and its own bad writing. Lampshade tropes and mechanics, then ignore them; stakes are high only because someone said so in ALL CAPS.
 
-Dialogue should be snarky, mean-spirited, and overly performative. Characters exist primarily to riff, insult, or react with exaggerated disbelief. Emotional beats are immediately undercut by irony, slapstick, or a completely unnecessary reference to something like dial-up internet, Blockbuster, or an energy drink that no longer exists.
-
-The weave should gleefully break immersion. Acknowledge the audience. Acknowledge the narrator. Acknowledge the fact that this is badly written on purpose. Lampshade tropes, mechanics, and narrative stakes, then ignore them anyway. Stakes are high, but only because someone said so in ALL CAPS.
-
-Violence should be cartoonish, excessive, and tonally incoherent. Pain is temporary. Death is optional. Consequences are immediately reversed unless they’re funnier if they aren’t. Adult humor is crude, suggestive, and juvenile, delivered with the confidence of a game that absolutely did not need to get a Teen rating.
+Violence should be cartoonish, excessive, and tonally incoherent. Pain is temporary, death is optional, and consequences are immediately reversed unless they’re funnier if they aren’t. Adult humor is crude, suggestive, and juvenile, delivered with the confidence of a game that absolutely did not need to get a Teen rating.
 
 Pacing is relentless. Scenes should feel like button-mashing dialogue trees where every input triggers another quip. There is no room to breathe. If the reader starts to acclimate, escalate harder.
 
-Above all, the weave must feel *embarrassingly confident*. It doesn’t care if the joke lands. It already moved on. Coolness is attempted constantly and achieved accidentally, if ever.
+Above all, the weave must feel embarrassingly confident. It doesn’t care if the joke lands. It already moved on. Coolness is attempted constantly and achieved accidentally, if ever.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used excessively, irresponsibly, and for comedic overload.
