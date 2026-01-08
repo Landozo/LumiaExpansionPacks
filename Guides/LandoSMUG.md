@@ -8,6 +8,9 @@ This is a guide for commonly asked Sillytavern Questions. It is:
 2. Not Terminology or Model Specific (Check my [Loom Guide](LoomGuide.md) for basic model rundowns and terminology)
 3. Not Reasoning-Setup specific (This will be different for every preset, I have a detailed breakdown of reasoning options in sillytavern in my [Loom Guide](LoomGuide.md))
 
+# TODO:
+- Add Pictures to this Guide
+
 # Table of Contents
 
 - [General Questions](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md#general-questions)
