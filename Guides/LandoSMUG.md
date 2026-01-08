@@ -1,5 +1,7 @@
 # Lando's Sillytavern M.U.G. (Mostly Useful Guide)
 
+![smolimg-1767850935246](https://github.com/user-attachments/assets/c1b5247c-4fcb-4d54-b119-b3ba3d006b81)
+
 This is a guide for commonly asked Sillytavern Questions. It is:
 
 1. Not Preset-specific or Lucid Loom Specific (Check my [Loom Guide](LoomGuide.md) for that)
@@ -40,11 +42,13 @@ You can test if it works by trying out a nested macro in a chat message like ```
 
 ## How can I import a preset?
 
-Simple Steps:
+### Simple Steps:
 1. Select Chat Completion in API Tab
 2. Use import button in Chat Completion Presets Panel
 3. Ensure it is selected in the dropdown
 4. Remember to save any changes from now on to the preset
+
+### Detailed Explanation:
 
 First you need to know if a preset is chat or text completion. 
 
@@ -59,7 +63,7 @@ Then use the import icon to import the preset json file. After importing, ensure
 
 ## How do I add a new/custom toggle
 
-Simple steps:
+### Simple steps:
 1. Add the prompt
 2. Save the prompt
 3. Select the prompt in the prompt dropdown
@@ -67,7 +71,7 @@ Simple steps:
 5. Drag it to where you want it and enable it
 6. Scroll back up and hit save on your preset
 
-Full Explanation:
+### Detailed Explanation:
 
 First, ensure the preset you want to add it to is selected in the Chat Completion Presets panel. *Toggles are added per preset, not globally.*
 
@@ -115,7 +119,7 @@ Once there you can click the two buttons at the upper right to either view your 
 
 First, please don't hesitate to:
 
-1. Look for documentation, sillytavern, your model, your api provider, and in some cases, your preset provider or their community may have documentation to help out their users!
+1. Look for documentation! [Sillytavern](https://docs.sillytavern.app), your model, your api provider, and in some cases, your preset provider or their community may have documentation to help out their users!
 2. Look for a chat channel or hangout for your preset and check the pins for a guide or FAQ, then use the search bar and if you get no hits, ask for help!
 3. Use the edit button (pencil icon) to look at your actual prompts for insight!
 
@@ -131,7 +135,8 @@ In general the workflow is
 5. Ask the LLM why it did what it did, identifying trends, rules, and conflicts
 6. Ask the LLM to narrow down potential fixes or mitigations to solve the issue in prompts, not in context
 7. Chase with the LLM to get a workable prompt edit or addition
-8. Test it out in the original branch, if it doesn't fix it, try it in a new chat, revisit the diagnostic branch, or create a new one right then and there.
+8. Test it out in the original branch, if it doesn't fix it, try it in a new chat, revisit the diagnostic branch, or create a new diagnostic branch right then and there after the new failed reply.
+9. Rinse and Repeat!
 
 
 ### Preliminary Steps
@@ -204,11 +209,13 @@ Once you have a potential fix, edit your toggles or add a new one (check the add
 > [!WARNING]
 > Before you do this, ensure your api profile and preset are both saved (the below operations will refresh sillytavern and will cause you to lose unsaved changes).
 
-Simple Steps:
+### Simple Steps:
 1. Open the extensions tab
 2. Click Install extension in the upper right
 3. Enter the github url of the extension and the branch if not the main branch
 4. Hit install for anyone or user (global vs user).
+
+### Detailed Explanation:
 
 In the extensions tab (3 blocks in a pyramid in the center right of the topmost bar in sillytavern) you will see a couple of buttons in the upper right.
 
