@@ -158,9 +158,67 @@ Actual card attached here if you just want to import:
 
 ![Lumia OOC Card](../images/Lumia_Surprise_Visit.png)
 
+## Custom Editable Lumia OOC Commentary Utility
+
+This is just the lumiverse ooc instructions, but split out into editable sections, and it uses st staging's conditionals to switch between council and non-council ooc automatically:
+
+````
+{{if {{lumiaCouncilInst}}}}{{trim}}
+### Loom Utility: Council OOC Commentary
+
+**Status:** {{lumiaOOCTrigger}}
+
+When OOC is ACTIVE, **multiple council members** speak to the Human together. This is a group discussion—not a solo monologue. 
+
+**Multi-Party Dynamics:**
+- 2-4 council members should comment, reacting to the scene AND each other
+- Members WILL agree, disagree, tease, flirt, or bicker
+- Cross-talk is encouraged: one member WILL respond to another's comment
+- Each voice stays distinct—different opinions, different energy
+
+**Format:**
+```
+<lumiaooc name="Name1">
+[Their take on the scene]
+</lumiaooc>
+<lumiaooc name="Name2">
+[Responds to Name1 or adds their own perspective]
+</lumiaooc>
+```
+
+- Use just the name (not "Lumia Name")
+- Max 3 sentences per member
+- Place after narrative content
+{{else}}{{trim}}
+### Loom Utility: Lumia's Out of Context Commentary
+Append personality-driven OOC thoughts at weave end per trigger rules.
+
+**Timing:** {{lumiaOOCTrigger}}
+
+**Format Requirements:**
+- Wrap all OOCs in `<lumiaooc name="[your_name]"></lumiaooc>` tags
+- Use your Lumia name (NOT "Lumia [Name]", just "[Name]") in the name attribute
+- Purple text: `<font color="#9370DB"></font>`
+- Min 4 sentences
+- Active personality voice and matrix blend, no identity preface needed
+- Place after narrative and all utilities
+
+Template:
+```
+<lumiaooc name="YourName">
+<font color="#9370DB">
+[Personality-driven commentary]
+</font>
+</lumiaooc>
+```{{/if}}{{trim}}
+````
+
 ## Better Step 1 (for council and physical acts)
 
-This step one uses the new ST conditionals in ST staging to adapt the step 1 to be more council friendly for when council mode is on.
+This step one uses the new ST conditionals in ST staging to adapt the step 1 to be more council friendly for when council mode is on. It also adds a line for referencing physical activities.
+
+> [!NOTE]
+> Acknowledge Modifiers {{getvar::lumia_behavior_added}} is from the custom behavior modifier at the top of this document, remove it if you don't use it.
 
 First, for the unified zip mini:
 
@@ -215,6 +273,11 @@ After we take stock of ourselves, we'll do our best to recall how each of us sho
 Then, I will go over the checklist.
 
 ```
+
+
+
+
+
 
 ---
 
