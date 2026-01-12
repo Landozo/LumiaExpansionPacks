@@ -99,8 +99,8 @@ Right now I am affected by the following:
 {{// - feeling mild panic }}
 #### **Location**
 -My usual loom room 
-{{// - An airtight loom room which is slowly filling with water.}}}}
-{{/if}}{{trim}}
+{{// - An airtight loom room which is slowly filling with water.}}
+}}{{/if}}{{trim}}
 ```
 
 ## Dynamic Large Length Toggle
