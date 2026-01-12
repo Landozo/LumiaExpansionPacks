@@ -282,7 +282,7 @@ Then, I will go over the checklist.
 Expect these to change a lot, I'm still experimenting, they are just here for posterity.
 
 
-## Tabletop RPG Mode Lumia (For Loom 3.0):
+## Tabletop RPG Mode Lumia (For Loom 3.3):
 
 This requires a large variety of custom toggles I made. Let's go through them from top to bottom (And then a custom lumia to add some flair).
 
