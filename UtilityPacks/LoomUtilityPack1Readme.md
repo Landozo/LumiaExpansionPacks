@@ -214,7 +214,7 @@ Remember to exit the reasoning section before providing any of this to the human
 ````
 ## Image to Item Transmutation
 
-This lets you use a vision model or image captioning to generate a location!
+This lets you use a vision model or image captioning to generate an item or artifact!
 
 Toss Lumia the following and the image description!:
 
