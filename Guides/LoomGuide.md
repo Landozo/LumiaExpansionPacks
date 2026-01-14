@@ -570,7 +570,7 @@ Chat Completions Reasoning Section:
 
 Request Model Reasoning should be OFF/Unchecked
 
-Model Reasoning Effort is PER MODEL.
+Model Reasoning Effort is PER MODEL, check below sections for the actual setting for your model!
 
 <img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
@@ -585,7 +585,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-Model Reasoning Effort is Minimum!
+Model Reasoning Effort is Auto! (ST 1.14 or earlier should be minimum!)
 
 CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini [Lumiverse if using extension]
 
