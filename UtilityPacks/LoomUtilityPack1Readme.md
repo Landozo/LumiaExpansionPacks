@@ -113,7 +113,7 @@ Remember to exit the reasoning section before providing any of this to the human
 ---
 ````
 
-## Image to NPC Transmutation
+## Image to Location Transmutation
 
 This lets you use a vision model or image captioning to generate a location!
 
