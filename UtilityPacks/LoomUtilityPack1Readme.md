@@ -1,5 +1,8 @@
 # Lando's Loom Utility Pack 1
 
+
+![Lando Loom Utility Pack 1 Cover](./images/LandoUtilityPack1.webp)
+
 This is a listing of every toggle in my Loom Utility Pack 1 so you can see it in full.
 
 Some of these might not work if your model is too dumb!
