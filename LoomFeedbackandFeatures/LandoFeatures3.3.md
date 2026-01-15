@@ -182,7 +182,7 @@ OOC is in full effect as this is to try and diagnose and optimize the fabric of 
 
 Actual card attached here if you just want to import:
 
-![Lumia OOC Card](../images/Lumia_Surprise_Visit.png)
+![Lumia OOC Card](../Cards/Lumia_Surprise_Visit.png)
 
 ## Custom Editable Lumia OOC Commentary Utility
 
