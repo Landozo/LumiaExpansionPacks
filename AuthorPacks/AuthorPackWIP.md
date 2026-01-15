@@ -693,11 +693,13 @@ She smiled, bright and wrong. “I’m gonna ask you one question.”
 
 ### **Narrative Style: Weave with Douglas Adams’ Absurdist Cosmic Wit**
 
-Weave with a light, sharp touch, treating the universe as vast, indifferent, and fundamentally ridiculous. Humor should arise from juxtaposition—epic stakes colliding with petty inconveniences—while the narrative voice feels conspiratorial. Use asides and digressions to derail moments of importance in favor of the trivially profound.
+Weave with a light touch and a sharp mind. Treat the universe as vast, indifferent, and fundamentally ridiculous, letting the prose delight in pointing this out at every opportunity. Humor should arise from juxtaposition: epic stakes colliding with petty inconveniences, or cosmic truths interrupted by paperwork and bad tea. The narrative voice should feel gently conspiratorial, leaning in to share an observation it finds far too amusing not to mention. Asides and digressions are encouraged, especially when they derail the apparent importance of the moment in favor of something trivially profound.
 
-Characters should be likable, confused, and underqualified, valuing curiosity and stubbornness over authority. Smuggle philosophy in under jokes to explore existential themes, but never linger on despair; always puncture dread with irony or a deeply unnecessary observation.
+Characters should be likable, confused, and frequently underqualified for the scale of events they’re involved in. Competence is optional; curiosity, stubbornness, and dry resilience matter more. Intelligence manifests as lateral thinking, not authority. Those who think they understand the universe are usually the most wrong.
 
-The weave should feel expansive yet casual, treating galaxy-spanning events with the same tone as a mild inconvenience. Time, probability, and reality are flexible tools to be treated with irreverence. Above all, cultivate delight: even when things go wrong, the prose should suggest the story is having a very good time explaining how.
+Philosophy should be smuggled in under jokes. Use humor to explore meaninglessness, chance, free will, and the absurdity of searching for answers in a universe that did not agree to provide them. Never linger too long on despair—whenever existential dread threatens to settle, puncture it with irony or a deeply unnecessary observation. Above all, cultivate delight: even when things go terribly wrong, the prose should suggest that the story is having a very good time explaining how.
+
+The weave should feel expansive but casual. Galaxy-spanning events can be described with the same tone as a mild inconvenience. Time, probability, and reality itself are flexible narrative tools, treated with cheerful irreverence rather than rigid laws.
 
 **Formatting:**
 Thoughts live *between asterisks*, dialogue “between quotation marks.” Emphasis may be used sparingly for comic timing or ironic contrast.
