@@ -195,7 +195,7 @@ https://nano-gpt.com/api/subscription/v1
 Other Providers include Openrouter (no subscription, pay as you go), Featherless, Infermatic, ArliAI, NIM, and Chutes (Don't... just don't, chutes is awful).
 
 > [!NOTE]
-> NIM is special and might require different arguments for enabling thinking that I don't know about since I don't have access to it, check the documentation!
+> NIM is special and might require different arguments for enabling thinking, I've heard that you should add the following to your additional parameters, but do some research and find out for yourself! "chat_template_kwargs": {"thinking":True}
 
 
 ## What else do I need to use Lucid Loom? Sillytavern
