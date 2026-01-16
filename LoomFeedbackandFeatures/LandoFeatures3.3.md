@@ -1,33 +1,10 @@
 # Lando's Features for 3.3
 
 
-## Simple Dice Roll Utility
-
-In the same vein as my Lumia's pocketwatch, lots of time, Lumia has to roll a die, but she can't actually do it so she hallucinates a result. The below uses sillytavern's built in roll utility to roll a variety of dice that she can grab a value from.
-
-```
-### Loom Utility: DICE ROLLER
-
-If I need to flip a coin, spin a wheel, or roll a die, below I have a utility to do it, it will properly return a random number in it already. I will only pick the actual die I need. 
-
-In a pinch, if I need to roll a die that is a multiple of the below, I can just grab the below one and multiply the results (say I need a 40 sided die, I can grab the twenty sided die and multiply the result by 2). I'll just use the highest common denominator die for it.
-
-Note: Chaos Modifier has its own die, I do not need to use the below for it.
-
-TWO SIDED DIE RESULT (or Flip a Coin, 1=heads, 2=tails): {{roll::1d2}}
-
-SIX SIDED DIE RESULT: {{roll::1d6}}
-
-TEN SIDED DIE RESULT: {{roll::1d10}}
-
-TWELVE SIDED DIE RESULT: {{roll::1d12}}
-
-TWENTY SIDED DIE RESULT: {{roll::1d20}}
-
-ONE-HUNDRED SIDED DIE RESULT: {{roll::1d100}}
-```
-
 ## Lumia Physdef Modication/Addition (Non-Conditional and Conditional)
+
+> [!NOTE]
+> The behavior one was just implemented into Lumiverse, under the prompt section. Remember to add {{lumiaQuirks}} to your personality matrix for it!
 
 These are toggles that can give any Lumia a custom physical trait that you enter. It's a toggle you would put at the bottom of the Lumia Definition category, even under the lumiverse/custom toggle.
 

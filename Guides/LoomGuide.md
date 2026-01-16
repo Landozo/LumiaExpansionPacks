@@ -630,7 +630,7 @@ Reasoning Formatting (Advanced Formatting Tab, lower left):
 
 Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\> (preceded by a newline) suffix.
 
-Start Reply With: *EMPTY, ALWAYS EMPTY FOR EVERY CHINESE REASONING MODEL*
+Start Reply With: *EMPTY, ALWAYS EMPTY FOR EVERY NATIVE/CHINESE REASONING MODEL*
 
 <img width="405" height="98" alt="image" src="https://github.com/user-attachments/assets/a3840793-962e-412c-9762-3b2cf688bb54" />
 
@@ -638,9 +638,9 @@ Hit save on your api profile after this since it's saved there.
 
 Chat Completions Reasoning Section:
 
-Request Model Reasoning should be ON/Checked
+Request Model Reasoning should be ON/Checked *(This is essential)*
 
-Model Reasoning Effort should be MAXIMUM.
+Model Reasoning Effort is set per model! (GLM and Deepseek should both have it set to Auto, as reasoning effort is not supported according to official docs.)
 
 <img width="383" height="174" alt="image" src="https://github.com/user-attachments/assets/fb983139-bb22-4887-8086-0a57b0d3fddc" />
 
@@ -653,6 +653,8 @@ Prompt Post Processing: Semi-Strict
 Hit save on the api profile to save the above after setting it.
 
 CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini [Lumiverse if using extension]
+
+Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
 
 Global Think Trigger: OFF (The one at the start of the preset)
 
@@ -677,6 +679,8 @@ If these don't work you can use the below settings as a fallback.
 
 ### ZAI GLM 4.6
 
+Unlike GLM 4.7, GLM 4.6 isn't mostly smart enough to know when to close its own reasoning, so we use a different setup.
+
 Prompt Post Processing: Single User
 
 Hit save on the api profile to save the above after setting it.
@@ -686,6 +690,8 @@ Global Think Trigger: ON (The one at the very start of the preset)
 GLM Think Trigger: On (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
 
 CoT Choice in Loom: CoT Zipbomb Mini or CoT Zipbomb (System) [Lumiverse if using extension]
+
+Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
 
 Context and Samplers:
 Context Size 128-200k
@@ -712,6 +718,8 @@ Global Think Trigger: OFF (The one at the start of the preset)
 Hit save on the api profile to save the above after setting it.
 
 CoT Choice in Loom: Reasoner Zip Mini or Reasoner Zipbomb (System) [Lumiverse if using ext]
+
+Reasoning Effort: Auto (Deepseek does not support Reasoning Effort according to the Deepseek API Docs)
 
 Context and Samplers:
 Context Size 128k
