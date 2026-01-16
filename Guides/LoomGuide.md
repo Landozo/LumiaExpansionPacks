@@ -725,7 +725,7 @@ Context and Samplers:
 Context Size 128k
 Response Size: 16384
 Streaming ON
-Temperature: 1-1.5
+Temperature: 1-1.5 (Deepseek Recommends 1.5 on the Deepseek API, Everywhere else, for 3.2, use 1.0)
 Top K: 0 (Might not support it)
 Top P: .95
 
