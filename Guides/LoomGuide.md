@@ -514,7 +514,7 @@ So it's ON / Auto for GLM and Deepseek, OFF / Auto for Gemini and Claude!
 
 To save these you hit the save button by the preset dropdown up top:
 
-<img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
+<img width="380" height="104" alt="image" src="https://github.com/user-attachments/assets/ad7efca2-8ec5-498e-a944-3b3e7f480c2e" />
 
 ## Configuring Lucid Loom - Non-Reasoning Related Options in Sillytavern
 
@@ -538,7 +538,7 @@ These are the main three samplers people play around it, the rest are to user's 
 
 To save these you also hit the preset save button up top.
 
-<img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
+<img width="380" height="104" alt="image" src="https://github.com/user-attachments/assets/48ef904b-1ae9-4ddb-9008-74574a9839c6" />
 
 So which setting is the recommended for each model?
 
