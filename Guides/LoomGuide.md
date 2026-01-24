@@ -34,12 +34,11 @@ Best Settings for Each Model are [Here](#best-settings-for-each-model)
     - [Planning Effort Section](#planning-effort)
     - [Reasoning Trigger Section](#reasoning-triggers)
     - [CoT Selections](#cot-selections---zipbombs)
-- [Configuring Lucid Loom - Reasoning Options in Sillytavern](#configuring-lucid-loom)
+- [Configuring Lucid Loom - Reasoning related Options in Sillytavern](#configuring-lucid-loom)
 	- [Prompt post processing](#prompt-post-processing)
 	- [Reasoning Formatting](#advanced-formatting---context-formatting-and-reasoning-formatting)
 	- [Request Model Reasoning and Reasoning Effort](#chat-completion-reasoning-settings)
-    - [Zipbomb Choices](#zipbomb-choice)
-- [Configuring Lucid Loom - Non-Reasoning Related Options in Sillytavern](#non-reasoning-related-options)
+- [Configuring Lucid Loom - Non-Reasoning related Options in Sillytavern](#non-reasoning-related-options)
 	- [Context Size and Max Response](#non-reasoning-related-options)
 	- [Streaming](#non-reasoning-related-options)
 	- [Most commonly changed samplers (Temp, Top P, and Top K)](#non-reasoning-related-options)
@@ -424,9 +423,9 @@ Yes it is, thankfully you don't have to remember most of it. It's mostly here fo
 
 Now that you have a better idea of what Loom looks like. Let's get to installing it!
 
-## Configuring Lucid Loom
+## Configuring Lucid Loom - Reasoning Options in Sillytavern
 
-Okay, now that you've imported Loom and we've gone over the structure, we can configure it for proper reasoning!
+Okay, now that you've imported Loom and we've gone over the structure, we can configure it for proper reasoning! First we'll start with Sillytavern options.
 
 Thankfully there are only a few places we'll have to look to get reasoning up and running. I'll point out the locations and what they do first, and then we'll tackle how to set them up for each model afterwards. There are only three locations to set, prompt post processing, reasoning formatting, and chat completion settings. After that you just pick the right zipbomb, set your samplers to your flavor, and you are good to go!
 
