@@ -423,7 +423,7 @@ Yes it is, thankfully you don't have to remember most of it. It's mostly here fo
 
 Now that you have a better idea of what Loom looks like. Let's get to installing it!
 
-## Configuring Lucid Loom - Reasoning Options in Sillytavern
+## Configuring Lucid Loom - Reasoning Related Options in Sillytavern
 
 Okay, now that you've imported Loom and we've gone over the structure, we can configure it for proper reasoning! First we'll start with Sillytavern options.
 
@@ -514,7 +514,7 @@ To save these you hit the save button by the preset dropdown up top:
 
 <img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
 
-## Non-Reasoning Related Options
+## Configuring Lucid Loom - Non-Reasoning Related Options in Sillytavern
 
 Next there are some universally useful options for every model.
 
@@ -540,7 +540,7 @@ To save these you also hit the preset save button up top.
 
 So which setting is the recommended for each model?
 
-## Best Settings for each model 
+## Configuring Lucid Loom - Best Settings for each model 
 
 These best settings are current as of Lucid Loom 3.3 (January 23, 2025).
 
