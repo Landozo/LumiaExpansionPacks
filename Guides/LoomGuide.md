@@ -14,7 +14,7 @@ The latest release is 3.3 from https://lucid.cards/chat-presets
 > [!WARNING]
 > 3.3 Final Test is a BETA release from BEFORE 3.3. Upgrade to 3.3 if you still use it! 
 
-Best Settings for Each Model are [Here](#best-settings-for-each-model)
+Best Settings for Each Model are [Here](#configuring-lucid-loom---best-settings-for-each-model)
 
 ## Table of Contents:
 
@@ -34,15 +34,15 @@ Best Settings for Each Model are [Here](#best-settings-for-each-model)
     - [Planning Effort Section](#planning-effort)
     - [Reasoning Trigger Section](#reasoning-triggers)
     - [CoT Selections](#cot-selections---zipbombs)
-- [Configuring Lucid Loom - Reasoning related Options in Sillytavern](#configuring-lucid-loom)
+- [Configuring Lucid Loom - Reasoning related Options in Sillytavern](#configuring-lucid-loom---reasoning-related-options-in-sillytavern)
 	- [Prompt post processing](#prompt-post-processing)
 	- [Reasoning Formatting](#advanced-formatting---context-formatting-and-reasoning-formatting)
 	- [Request Model Reasoning and Reasoning Effort](#chat-completion-reasoning-settings)
-- [Configuring Lucid Loom - Non-Reasoning related Options in Sillytavern](#non-reasoning-related-options)
+- [Configuring Lucid Loom - Non-Reasoning related Options in Sillytavern](#configuring-lucid-loom---non-reasoning-related-options-in-sillytavern)
 	- [Context Size and Max Response](#non-reasoning-related-options)
 	- [Streaming](#non-reasoning-related-options)
 	- [Most commonly changed samplers (Temp, Top P, and Top K)](#non-reasoning-related-options)
-- [Configuring Lucid Loom - Best Settings for each model (For Loom 3.3 Release)](#best-settings-for-each-model)
+- [Configuring Lucid Loom - Best Settings for each model (For Loom 3.3 Release)](#configuring-lucid-loom---best-settings-for-each-model)
 	- [Fake Reasoning](#fake-reasoning-models-gemini-claude)
 		- [Gemini 3 Pro/Flash (CoT Trigger)](#google-gemini-3-pro--flash-25-pro--flash)
 		- [Claude Sonnet/Opus (CoT Trigger)](#claude-sonnet-and-opus-1)
