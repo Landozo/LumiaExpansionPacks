@@ -344,7 +344,7 @@ Next up are the Reasoning related toggles. But first, some reasoning terminology
 CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning process of an llm. Lots of chat completion presets use them. There are two different ones in Loom. And we control them with various toggles dynamically.
 
 > [!WARNING]
-> **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
+> **ONLY USE ONE COT AT A TIME (Zipbomb Full or Zipbomb Mini). THIS IS IMPORTANT.**
 
 ## Reasoning or non-Reasoning?
 
@@ -353,7 +353,9 @@ Lucid Loom is built with reasoning in mind. It works a lot better if you are usi
 So what do we mean by reasoning. Well reasoning is using the first part of the response of an llm to "think through" or plan the response, and then it follows it with the final actual response.
 
 > [!WARNING]
-> In Sillytavern, the reasoning block should be contained in a dedicated dropdown box (see picture below). If it isn't, your reasoning settings are wrong. 
+> In Sillytavern, the reasoning block should be contained in a dedicated dropdown box (see picture below). **If it isn't, your reasoning settings are wrong.**
+
+<img width="680" height="142" alt="image" src="https://github.com/user-attachments/assets/2cb6617e-0e73-44c2-bb54-e8107de08971" />
 
 I will be going over how to set up reasoning settings later in the guide.
 
@@ -566,8 +568,6 @@ Request Model Reasoning should be OFF/Unchecked, **always**!
 
 Model Reasoning Effort is set to auto, **always**!
 
-<img width="499" height="108" alt="image" src="https://github.com/user-attachments/assets/b3265c7e-1cc5-4506-8dcd-33e97c7c25a4" />
-
 Hit save on the preset panel after setting the above.
 
 > [!NOTE]
@@ -581,6 +581,8 @@ Hit save on the api profile to save the above after setting it.
 
 Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
+<img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/94d09188-e203-42b2-b749-692e0b082373" />
+
 Context and Samplers:
 Context Size 600k-1000k
 Response Size: 32762
@@ -588,8 +590,6 @@ Streaming ON
 Temperature: 1
 Top K: 255
 Top P: .96
-
-<img width="368" height="183" alt="image" src="https://github.com/user-attachments/assets/62970b4d-43d6-4c43-a1b8-630ae305c0c6" />
 
 Hit save in the profile preset after setting these.
 
@@ -601,14 +601,14 @@ Hit save on the api profile to save the above after setting it.
 
 Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
+<img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/e83da328-f6ce-435b-8c4c-bc9e425e3f24" />
+
 Context and Samplers:
 Context Size 120k-200k
 Response Size: 32762
 Streaming ON
 Temperature: 1
 Top P: 1
-
-<img width="368" height="183" alt="image" src="https://github.com/user-attachments/assets/62970b4d-43d6-4c43-a1b8-630ae305c0c6" />
 
 Hit save in the profile preset after setting these.
 
@@ -644,6 +644,8 @@ Hit save on the api profile to save the above after setting it.
 
 Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi).
 
+<img width="412" height="115" alt="image" src="https://github.com/user-attachments/assets/2dc95892-2236-4ca5-a99d-261bacb30383" />
+
 Global Think Trigger: OFF (The one at the start of the preset)
 
 Context and Samplers:
@@ -653,8 +655,6 @@ Streaming ON
 Temperature: .85-1
 Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
 Top P: .93
-
-<img width="369" height="185" alt="image" src="https://github.com/user-attachments/assets/b827f070-a0ac-4313-afca-792f60f30fa9" />
 
 Hit save in the profile preset after setting these.
 
@@ -675,6 +675,8 @@ Global Think Trigger: ON (The one at the very start of the preset)
 
 Reasoning Trigger in Loom: CoT Triggers (Gem/Claude). (4.6 has trouble with injecting reasoning compared to 4.7)
 
+<img width="412" height="82" alt="image" src="https://github.com/user-attachments/assets/ec72a58e-3743-4b72-93d1-8be4c5e8cf09" />
+
 Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
 
 Context and Samplers:
@@ -684,8 +686,6 @@ Streaming ON
 Temperature: .85-1
 Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
 Top P: .93
-
-<img width="384" height="196" alt="image" src="https://github.com/user-attachments/assets/d2f30046-bd54-461f-8e69-d8253b9de83b" />
 
 Hit save in the profile preset after setting these.
 
@@ -703,6 +703,8 @@ Global Think Trigger: OFF (The one at the start of the preset)
 
 Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi). (You can try CoT Triggers as a fallback if it's not catching reasoning properly.)
 
+<img width="412" height="115" alt="image" src="https://github.com/user-attachments/assets/c01cb801-7ae5-435e-aa67-e3d46d495000" />
+
 Reasoning Effort: Auto (Deepseek does not support Reasoning Effort according to the Deepseek API Docs)
 
 Context and Samplers:
@@ -712,8 +714,6 @@ Streaming ON
 Temperature: 1-1.5 (Deepseek Recommends 1.5 on the Deepseek API, Everywhere else, for DS 3.2, use 1.0)
 Top K: 0 (Might not support it)
 Top P: .95
-
-<img width="369" height="185" alt="image" src="https://github.com/user-attachments/assets/71c70080-8c22-4c6b-9df7-2b8ffda41ac1" />
 
 Hit save in the profile preset after setting these.
 
@@ -742,12 +742,12 @@ Chat Completion Settings:
 **Request Model Reasoning should be UNCHECKED.**
 Model Reasoning Effort should be set to Auto.
 
+<img width="402" height="113" alt="image" src="https://github.com/user-attachments/assets/aff9700d-238c-4036-99a0-db2ff6060a46" />
+
 Global Think Trigger at the top of Loom: **TOGGLED OFF**
 
 CoT Selection: 
-**Ensure no CoT is selected at all**, check all 4 sections in loom to ensure none are on.
-
-Think Trigger (GLM/Qwen) in Assistant section: **TOGGLED OFF**
+**Ensure no CoT is selected at all**, so ensure that neither Zipbomb Full nor Zipbomb Mini are checked.
 
 You should be good to go with no reasoning now.
 
@@ -770,7 +770,6 @@ https://discordapp.com/channels/1357259252116488244/1414663352428396574
 Prolix, the creator of Lucid Loom, hangs out in here. I also hang out in there, as well as other helpful regulars. Feel free to ask in the channel for help!
 
 ---
-
 
 # Appendix
 
@@ -809,8 +808,8 @@ Features:
 To use Lumiverse features you have to enable the proper feature in Lumiverse first and then pick the right toggles in Lucid Loom: 
 
 - To use Lumiverse Summarization, turn on the Summarization toggle in the Story Details part of Lucid Loom
-- To use Custom Lumias, you have to ensure both the Lumia Definitions and Lumia Modifiers section have their (Custom) or (Lumiverse) toggles on (near the bottom of said section). You also have to make sure to use the (Lumiverse) version of the CoT (in 3.2, in 3.3 it'll be automatic).
-- To use Sov Hand, first ensure it's on in the extension, then pick the (Lumiverse) CoT in Lucid Loom (These are 3.2 instructions, in 3.3 once it releases it'll use the new directive mode toggle.)
+- To use Custom Lumias, you have to ensure both the Lumia Definitions and Lumia Modifiers section have their (Custom) or (Lumiverse) toggles on (near the bottom of said section).
+- To use Lumiverse Sov Hand, first ensure it's on in the extension, then pick the Sovereign Hand (Lumiverse) toggle in core directives!
 - For custom Utilities, Narrative Styles, and Human Retrofits, ensure the proper custom/lumiverse toggle is on in the respective Lucid Loom section!
 
 ## Nemo Preset Extension (Better organization for Prompts)
@@ -885,36 +884,5 @@ https://github.com/Coneja-Chibi/VectHare
 - BananaBread (A vectorization/embedding server, you'd use the above to connect to it)
 
 https://github.com/prolix-oc/BananaBread
-
-
-# FUTURE MEMES (References for future versions)
-
-## 3.3 Beta 1 Settings flowchart:
-
-```mermaid
-flowchart TD
-    A(Reasoning: Yes) --> B{Planning Effort}
-    B --> C(Low/High/Extreme) & D(Custom)
-    C --> E{Reasoning Type}
-    D -->|Set token vars| E{Reasoning Type}
-    E -->|Gemini/Claude| F[CoT Triggers]
-    E -->|GLM/DS/Kimi| G[Reasoner Triggers]
-    F & G--> H{Unified Zip Type}
-    H --> I(Zip Full) & J(Zip Mini)
-```
-
-
-flowchart TD
-    A(Reasoning: Yes) --> B{Planning Effort}
-    B --> C(Low/High/Extreme)
-    C --> D{Reasoning Type}
-    D -->|Gemini/Claude| E[Fake Reasoning]
-    D -->|GLM/DS/Kimi| F[Native Reasoning]
-    E --> G(Lumiverse?)
-    F --> H(Lumiverse?)
-    G -->|Yes| I(CoT Zipbomb #lpar;Lumiverse#rpar;) & J(CoT Zip Mini #lpar;Lumiverse#rpar;)
-    G -->|No| K(CoT Zipbomb #lpar;System#rpar;) & L(CoT Zip Mini #lpar;System#rpar;)
-    H -->|Yes| M(Reasoner Zipbomb #lpar;Lumiverse#rpar;) & N(Reasoner Zip Mini #lpar;Lumiverse#rpar;)
-    H -->|No| O(Reasoner Zipbomb #lpar;System#rpar;) & P(Reasoner Zip Mini #lpar;System#rpar;)
 
 
