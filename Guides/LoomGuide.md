@@ -28,6 +28,7 @@ Best Settings for Each Model are [Here](#best-settings-for-each-model)
 - [About Sillytavern and setting it up](#what-else-do-i-need-to-use-lucid-loom-sillytavern)
 - [Downloading and Importing Lucid Loom](#getting-lucid-loom)
 - [Lucid Loom's Structure and Categories](#getting-the-lay-of-the-loom-the-categories)
+- [Lucid Loom's Reasoning Categories](#lay-of-the-loom-reasoning-related-toggles)
 - [Reasoning](#reasoning-or-non-reasoning-cot)
 	- [Reasoning or Non-Reasoning](#reasoning-or-non-reasoning-cot)
 	- [What is a CoT](#cots-what-are-those)
@@ -346,7 +347,7 @@ CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning proce
 > [!WARNING]
 > **ONLY USE ONE COT AT A TIME (Zipbomb Full or Zipbomb Mini). THIS IS IMPORTANT.**
 
-## Reasoning or non-Reasoning?
+### Reasoning or non-Reasoning?
 
 Lucid Loom is built with reasoning in mind. It works a lot better if you are using the reasoning capabilities of an LLM. If you don't want to use Reasoning, I'll have a section at the end for you.
 
