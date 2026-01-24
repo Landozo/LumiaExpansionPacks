@@ -576,9 +576,6 @@ Model Reasoning Effort is set to auto, **always**! This means it won't send an e
 
 Hit save on the preset panel after setting the above.
 
-> [!NOTE]
-> Lucid Loom is NOT Claude cache friendly, lots of things change from gen to gen. Prolix's recommendations are to try to shut off Chaos Modifier and SillySim Tracker in Utilities/Trackers.
-
 ### Google Gemini 3 Pro / Flash, 2.5 Pro / Flash
 
 Prompt Post Processing: Semi-strict or Merge
@@ -624,6 +621,9 @@ Hit save in the profile preset after setting these.
 
 > [!NOTE]
 > If you are having trouble with Claude models, try removing the newline from after \<think\> in Start Reply With and maybe even try removing the \<think\> in Start Reply With entirely!
+
+> [!WARNING]
+> Lucid Loom is NOT Claude cache friendly, lots of things change from gen to gen. Prolix's recommendations are to try to shut off Chaos Modifier and SillySim Tracker in Utilities/Trackers.
 
 ## Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
 
