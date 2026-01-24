@@ -401,7 +401,7 @@ You'll find two Zipbombs, full and mini. They are similar but full has more deta
 <img width="496" height="138" alt="image" src="https://github.com/user-attachments/assets/4d3db73e-ef45-476f-9ca8-14323e1273e6" />
 
 > [!WARNING]
-> Remember to only enable one trigger type at a time!
+> Remember to only enable one CoT at a time!
 
 To summarize, here's a chart of how to pick your CoT options.
 
