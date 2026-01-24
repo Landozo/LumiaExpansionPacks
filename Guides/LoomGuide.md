@@ -7,12 +7,12 @@ So you want to use **Prolix's** wonderful Lucid Loom preset? There are a lot of 
 
 If you have any feedback on this guide or questions about the guide, you can find me on the Lucid Loom Thread on the AI Presets discord (Link [here](#where-to-go-for-help)).
 
-This Loom guide is current as of 3.2 release (December 30, 2025)!
+This Loom guide is current as of 3.3 release (January 23, 2025)!
 
-The latest release is 3.2 from https://lucid.cards/chat-presets
+The latest release is 3.3 from https://lucid.cards/chat-presets
 
 > [!WARNING]
-> 3.2 Last Call is a BETA release from BEFORE 3.2. Upgrade to 3.2 if you still use it! 
+> 3.3 Final Test is a BETA release from BEFORE 3.3. Upgrade to 3.3 if you still use it! 
 
 Best Settings for Each Model are [Here](#best-settings-for-each-model)
 
@@ -283,7 +283,20 @@ Important things like card, user persona, and scenario information are pulled in
 
 <img width="390" height="411" alt="image" src="https://github.com/user-attachments/assets/bbd25b89-6c13-4d77-98d0-1c0502cf1584" />
 
-Then comes the core instructions and modes for the Loom. Human Controls User and Sov Hand are the two options here. The former limits control of {{user}} to only you, the Human. The latter is more complex, see the appendix for details on Sov Hand.
+Then comes the core instructions for the Loom. Of note here is Aperture of Cynicism. If you use a very dark flavored LLM and want a lighter story, you can try toggling this off.
+
+### Directives (PICK ONE)
+
+Next up are the modes for the Loom. These changed a lot in 3.3 when Prolix implemented my directive rework and they should be a lot more straightforward now. Not only do these directives insert instructions here, they also pass on instructions to later parts of the Loom like the reasoning and prose sections!
+
+There are 4 options here:
+
+- Human Controls User - This makes it so only you, the Human, can control what {{user}} does. Pick this if you intend to be the only one guiding your character.
+- Sovereign Hand (Guided Weave) - This makes it so you can give stage directions for what {{user}} does and Lumia can elaborate on it on the following turn. For example, you can say {{user}} opens a door, and then in the following turn Lumia will describe the process of {{user}} opening the door. See the appendix for more details on it.
+- Sovereign Hand (Lumiverse) - This is the same as the above, but lets you use the enhanced Sovereign Hand from the Lumiverse Helper Extension (More details in the appendix.)
+- Weaver's Choice (Auto Weave) - This simply lets Lumia control the {{user}} whenever it's her turn and you can control {{user}} when it's your own turn. 
+
+ Human Controls User and Sov Hand are the two options here. The former limits control of {{user}} to only you, the Human. The latter is more complex, see the appendix for details on Sov Hand.
 
 ### Lumia Definitions and Personalities
 
@@ -320,19 +333,18 @@ Keep these off except for World Info (Before and After). Lumiverse summary can b
 
 This is where Chat History lives, it's the best place for it from experimentation in the past.
 
-### Planning Effort
+## Lay of the Loom: Reasoning Related-Toggles
 
-This helps tell your LLM how much work to put into the reasoning phase. Some models stubbornly ignore this (an alternate solution is on the way in 3.3). I recommend keeping it on extreme.
+Next up are the Reasoning related toggles. But first, some reasoning terminology:
 
-<img width="377" height="150" alt="image" src="https://github.com/user-attachments/assets/aa70b5ec-8d4e-4b92-8c7c-eb1e03ff4c7a" />
+### CoTs? What are those?
 
-### CoT Selections
+CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning process of an llm. Lots of chat completion presets use them. There are two different ones in Loom. And we control them with various toggles dynamically.
 
-These are the reasoning checklists for Loom. I'll explain them in more detail in the next section.
+> [!WARNING]
+> **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
 
-<img width="383" height="315" alt="image" src="https://github.com/user-attachments/assets/717dda8a-64b1-4cb0-9db8-fcb85fecc1ac" />
-
-## Reasoning or non-Reasoning? CoT?
+## Reasoning or non-Reasoning?
 
 Lucid Loom is built with reasoning in mind. It works a lot better if you are using the reasoning capabilities of an LLM. If you don't want to use Reasoning, I'll have a section at the end for you.
 
@@ -345,43 +357,47 @@ I will be going over how to set up reasoning settings later in the guide.
 
 The important thing is that this reasoning block is NOT sent as part of chat history. So all the planning will not clutter up your context!
 
-### CoTs? What are those?
+You'll see that the Loom CoT sections are split up into 3 sections.
 
-CoTs, or Chain of Thoughts, are a kind of checklist to guide the reasoning process of an llm. There are various kinds in Loom.
+### Planning Effort
 
-> [!WARNING]
-> **ONLY USE ONE COT AT A TIME. THIS IS IMPORTANT.**
+This helps tell your LLM how much work to put into the reasoning phase by dynamically injecting values into the CoT. I recommend keeping it on extreme by default.
 
-You'll see that the Loom CoT sections are split up into four sections.
+<img width="377" height="150" alt="image" src="https://github.com/user-attachments/assets/aa70b5ec-8d4e-4b92-8c7c-eb1e03ff4c7a" />
 
-### Cot Selections (Zipbomb) - The latest and greatest
+You might notice that certain models may speedrun the CoT (not enough detail, Gemini loves to do this), or overinflate the CoT (Sonnet is very guilty of this). For this I came up with custom planning effort toggles that Prolix was kind enough to add in.
 
-First up in the CoT sections are the Zipbombs. These are large, detailed checklists where Lumia thinks through her reasoning in character. This is where the lion's share of Loom's dev time for CoT goes to and the CoT type I will always recommend to people.
+They are in the section in the form of "Gemini Saver" and "Claude Killer". The former has a minimum word count per step by default, the latter has a maximum word count per step. They are interchangeable (you can edit maximum to minimum at will) and you can mix and match settings by editing the variables in the toggle toggle.
 
-You'll find two major types of Zipbomb. CoT Zipbomb and Reasoner Zipbomb. 
+### Reasoning Triggers
 
-The former includes language for `<think>` tags in the beginning and ending. These are useful for "fake reasoning" models like Gemini where you have to start the reply with a `<think>`.
+This little section has the option to switch between Fake Reasoning and Native Reasoning.
 
-The reasoner zipbomb are for models smart enough to handle the thinking block start and stop on their own, like GLM 4.7.
+For fake reasoning models like Gemini or Claude, you'll pick the 'CoT Triggers (Gem/Claude)' toggle. This will forward `<think>` tags into the beginning and end of the CoT. These are useful for "fake reasoning" models like Gemini where you have to start the reply with a `<think>`.
+
+For native reasoning models like GLM or deepseek, you'll pick the 'Reasoner Trigger (GLM/DS/Kimi)' toggle. This is for models smart enough to handle the thinking block start and stop on their own, like GLM 4.7.
+
+### Cot Selections - Zipbombs!
+
+First up in the CoT sections are the Zipbombs. These are large, detailed checklists where Lumia thinks through her reasoning in character. This is where the lion's share of Loom's dev time for CoT goes to.
+
+You'll find two Zipbombs, full and mini. They are similar but full has more detailed and longer language, while mini is smaller and sleeker. I recommend mini as a default, it's gotten more love lately.
 
 <img width="383" height="177" alt="image" src="https://github.com/user-attachments/assets/60490687-b9cb-498d-9fd2-a315a815b036" />
 
+A flowchart of how to pick the CoT settings.
 
-### CoT Selections (Lumiverse)
-
-If you use the Lumiverse Helper Extension (See Appendix) at all, you should pick your Zipbomb from here. This means if you use custom Lumias or the Extensions Summary or Sov Hand function from Lumiverse you NEED to pick your zipbomb from here if you want it to work.
-
-You will pick the same zipbomb you'd pick in the above section, just picking down here instead of the above.
-
-<img width="377" height="186" alt="image" src="https://github.com/user-attachments/assets/0e5681f2-aba5-40ae-9edb-21f6a5608ffe" />
-
-### CoT Selections (System) - The Old and Small
-
-Third is the CoT Selections (System) category. This one includes older and smaller checklists that aren't really the focus of Loom. They can be used if you desperately need to save on token usage.
-
-### CoT Selections (Assistant) - Alternate sending roles and utilities
-
-Lastly, these CoT's in here allow you to send them as assistant instead of system, something you won't be doing very often. In addition there is a /think flag that is useful in here for GLM on platforms that aren't NanoGPT.
+```mermaid
+flowchart TD
+    A(Reasoning: Yes) --> B{Planning Effort}
+    B --> C(Low/High/Extreme) & D(Custom)
+    C --> E{Reasoning Type}
+    D -->|Set token vars| E{Reasoning Type}
+    E -->|Gemini/Claude| F[CoT Triggers]
+    E -->|GLM/DS/Kimi| G[Reasoner Triggers]
+    F & G--> H{Unified Zip Type}
+    H --> I(Zip Full) & J(Zip Mini)
+```
 
 ### That's a lot of Information
 
@@ -464,62 +480,23 @@ In the left hand Chat Completion menu above where the loom toggles are and below
 
 In there is a toggle option call "Squash System Messages". This can be used for some prompt post processing options like None, but unless directed to, I'd recommend you leave this UNCHECKED.
 
-The important sectino is below that. Two options both related to Reasoning.
+The important section is below that. Two options both related to Reasoning.
 
 Request Model Reasoning affects the ability of Sillytavern to show incoming native/non-fake reasoning at all. If you are using native reasoning, this checkbox MUST BE ON (you'll still receive reasoning without it on, but sillytavern will not show it, meaning you just wasted tokens for no reason).
 
-Next is Reasoning Effort, this one is important for every model. For native reasoning models like Deepseek or GLM, you want it on Maximum. 
-
-<img width="373" height="165" alt="image" src="https://github.com/user-attachments/assets/37f54d62-8518-4184-b361-6fd318bbe90a" />
-
-For models where you don't want to use the reasoning and instead want to use "Fake" reasoning, you want it on minimum or auto (sometimes auto means off, your mileage may vary).
+Next is Reasoning Effort, you want this on Auto generally. The reasoning models we use (GLM/Deepseek) don't support reasoning effort, and the fake reasoning models we use (Gem/Claude) we don't want their reasoning at all!
 
 <img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
-So it's ON / Maximum for GLM and Deepseek, OFF / Minimum for Gemini and Claude!
+So it's ON / Auto for GLM and Deepseek, OFF / Auto for Gemini and Claude!
 
 To save these you hit the save button by the preset dropdown up top:
 
 <img width="369" height="157" alt="image" src="https://github.com/user-attachments/assets/3158b8ca-68bf-4aa6-9fea-fcb90b98936f" />
 
-### Zipbomb Choice
-
-I'll go over this in more detail in the per model best options, but typically you want CoT zipbombs for fake reasoning models (Gemini, Claude), and reasoner zipbomb for native reasoning models (GLM, Deepseek).
-
-<img width="375" height="188" alt="image" src="https://github.com/user-attachments/assets/07f4b597-a27a-484c-993a-6cecd6ef3b60" />
-
-CoT Zipbomb for Gemini, Claude, or GLM 4.6
-
-<img width="379" height="191" alt="image" src="https://github.com/user-attachments/assets/11ed54ca-4575-46af-8b8b-d493f13347bb" />
-
-Reasoner Zipbomb for GLM 4.7 or Deepseek
-
-As for what "Mini" means, they are new zipbombs rewritten to use language that is lighter on tokens. Try either or, they should work the same.
-
-If you use the lumiverse extension, you should pick the Zipbombs from the CoT Selections (Lumiverse) category instead. Custom Lumias and Extension Sov Hand will NOT work without it!
-
-<img width="378" height="180" alt="image" src="https://github.com/user-attachments/assets/630362e8-c1b4-48b0-a9e8-9facf1a3d532" />
-
-A flowchart of which CoT to pick (More details in the sections below!)
-
-```mermaid
-flowchart TD
-    A(Reasoning: Yes) --> B{Planning Effort}
-    B --> C(Low/High/Extreme)
-    C --> D{Reasoning Type}
-    D -->|Gemini/Claude| E[Fake Reasoning]
-    D -->|GLM/DS/Kimi| F[Native Reasoning]
-    E --> G(Lumiverse?)
-    F --> H(Lumiverse?)
-    G -->|Yes| I(CoT Zipbomb/Zip Mini #lpar;Lumiverse#rpar;)
-    G -->|No| J(CoT Zipbomb/Zip Mini #lpar;System#rpar;)
-    H -->|Yes| K(Reasoner Zipbomb/Zip Mini #lpar;Lumiverse#rpar;)
-    H -->|No| L(Reasoner Zipbomb/Zip Mini #lpar;System#rpar;)   
-```
-
 ## Non-Reasoning Related Options
 
-There are some universally useful options for every model.
+Next there are some universally useful options for every model.
 
 Context Size is how big the context is. Every model has a different value (GLM is 200k, Gemini is 1 million). Sometimes setting it to 2/3's the max context provides better results (I follow this rule as a law).
 
@@ -545,12 +522,26 @@ So which setting is the recommended for each model?
 
 ## Best Settings for each model 
 
-These best settings are current as of Lucid Loom 3.2 (December 30, 2025).
+These best settings are current as of Lucid Loom 3.3 (January 23, 2025).
 
 > [!NOTE]
 > The following is collected from the common regulars of the Lucid Loom discord chat.
 
-The way the below works is that you first set the common settings for your reasoning type and then move to your actual mode. So for Gemini, you'd follow the Fake Reasoning settings, and then go to the Gemini section and continue with those settings!
+The way the below works is that you first set the common settings for your reasoning type and then move to your actual model's settings. So for Gemini for example, you'd follow the Fake Reasoning settings, and then go to the Gemini section and continue with those settings!
+
+A flowchart of how to pick your CoT settings (More details in the sections below!)
+
+```mermaid
+flowchart TD
+    A(Reasoning: Yes) --> B{Planning Effort}
+    B --> C(Low/High/Extreme) & D(Custom)
+    C --> E{Reasoning Type}
+    D -->|Set token vars| E{Reasoning Type}
+    E -->|Gemini/Claude| F[CoT Triggers]
+    E -->|GLM/DS/Kimi| G[Reasoner Triggers]
+    F & G--> H{Unified Zip Type}
+    H --> I(Zip Full) & J(Zip Mini)
+```
 
 ## Fake Reasoning Models (Gemini, Claude)
 
@@ -568,9 +559,9 @@ Hit save on your api profile after this since it's saved there.
 
 Chat Completions Reasoning Section:
 
-Request Model Reasoning should be OFF/Unchecked
+Request Model Reasoning should be OFF/Unchecked, **always**!
 
-Model Reasoning Effort is PER MODEL, check below sections for the actual setting for your model!
+Model Reasoning Effort is **always** set to Auto!
 
 <img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
 
@@ -585,9 +576,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-Model Reasoning Effort is Auto! (ST 1.14 or earlier should be minimum!)
-
-CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini [Lumiverse if using extension]
+Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
 Context and Samplers:
 Context Size 600k-1000k
@@ -607,9 +596,7 @@ Prompt Post Processing: Semi-strict or Merge
 
 Hit save on the api profile to save the above after setting it.
 
-Model Reasoning Effort is Auto!
-
-CoT Choice in Loom: CoT Zipbomb (System) or CoT Zipbomb Mini  [Lumiverse if using extension]
+Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
 Context and Samplers:
 Context Size 120k-200k
@@ -640,7 +627,7 @@ Chat Completions Reasoning Section:
 
 Request Model Reasoning should be ON/Checked *(This is essential)*
 
-Model Reasoning Effort is set per model! (GLM and Deepseek should both have it set to Auto, as reasoning effort is not supported according to official docs.)
+Model Reasoning Effort is **always** set to Auto!
 
 <img width="383" height="174" alt="image" src="https://github.com/user-attachments/assets/fb983139-bb22-4887-8086-0a57b0d3fddc" />
 
@@ -652,13 +639,9 @@ Prompt Post Processing: Semi-Strict
 
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: CoT Reasoner Mini or CoT Reasoner Mini [Lumiverse if using extension]
-
-Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
+Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi).
 
 Global Think Trigger: OFF (The one at the start of the preset)
-
-GLM Think Trigger: Off (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (*IF you pick GLM 4.7:thinking* on nano, it will send this for you, so pick the thinking model option). But otherwise you want it on for other providers.
 
 Context and Samplers:
 Context Size 128k-200k
@@ -687,9 +670,7 @@ Hit save on the api profile to save the above after setting it.
 
 Global Think Trigger: ON (The one at the very start of the preset)
 
-GLM Think Trigger: On (This is at the bottom of the CoT section). This is not necessary if you pick GLM "thinking" models on NanoGPT (It will send this for you). But otherwise you want it on for other providers.
-
-CoT Choice in Loom: CoT Zipbomb Mini or CoT Zipbomb (System) [Lumiverse if using extension]
+Reasoning Trigger in Loom: CoT Triggers (Gem/Claude). (4.6 has trouble with injecting reasoning compared to 4.7)
 
 Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
 
@@ -713,11 +694,11 @@ Hit save in the profile preset after setting these.
 
 Prompt Post Processing: Semi-Strict or Merge
 
-Global Think Trigger: OFF (The one at the start of the preset)
-
 Hit save on the api profile to save the above after setting it.
 
-CoT Choice in Loom: Reasoner Zip Mini or Reasoner Zipbomb (System) [Lumiverse if using ext]
+Global Think Trigger: OFF (The one at the start of the preset)
+
+Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi). (You can try CoT Triggers as a fallback if it's not catching reasoning properly.)
 
 Reasoning Effort: Auto (Deepseek does not support Reasoning Effort according to the Deepseek API Docs)
 
@@ -725,7 +706,7 @@ Context and Samplers:
 Context Size 128k
 Response Size: 16384
 Streaming ON
-Temperature: 1-1.5 (Deepseek Recommends 1.5 on the Deepseek API, Everywhere else, for 3.2, use 1.0)
+Temperature: 1-1.5 (Deepseek Recommends 1.5 on the Deepseek API, Everywhere else, for DS 3.2, use 1.0)
 Top K: 0 (Might not support it)
 Top P: .95
 
@@ -734,7 +715,7 @@ Top P: .95
 Hit save in the profile preset after setting these.
 
 > [!NOTE]
-> As of January 11, 2026, Deepseek-Reasoner IS 3.2 Thinking.
+> As of January 23, 2026, Deepseek-Reasoner IS 3.2 Thinking.
 
 ### Settings for not using reasoning at all
 
@@ -756,7 +737,7 @@ Hit save to lock these in.
 Chat Completion Settings:
 
 **Request Model Reasoning should be UNCHECKED.**
-Model Reasoning Effort should be set to Auto for Claude and Minimum for Gemini.
+Model Reasoning Effort should be set to Auto.
 
 Global Think Trigger at the top of Loom: **TOGGLED OFF**
 
