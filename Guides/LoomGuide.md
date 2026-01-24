@@ -562,7 +562,7 @@ Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\
 Start Reply With: \<think\> followed by an empty newline.
 
 > [!NOTE]
-> Claude can break with newlines after \<think\> sometimes! So try without it! Also with Sonnet, \<think\> might not even be necessary!
+> Claude Sonnet and Opus can break with newlines or empty/whitespaces after \<think\> sometimes! So try without it if you have problems/refusals! Also with Sonnet, \<think\> might not even be necessary!
 
 <img width="427" height="560" alt="image" src="https://github.com/user-attachments/assets/63d6f764-51dc-4e96-a24a-dcc547d8a207" />
 
