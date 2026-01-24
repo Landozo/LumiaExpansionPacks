@@ -567,9 +567,9 @@ Hit save on your api profile after this since it's saved there.
 
 Chat Completions Reasoning Section:
 
-Request Model Reasoning should be OFF/Unchecked, **always**!
+Request Model Reasoning should be OFF/Unchecked, **always**! We do not use native reasoning for Gemini or Claude!
 
-Model Reasoning Effort is set to auto, **always**!
+Model Reasoning Effort is set to auto, **always**! This means it won't send an effort!
 
 Hit save on the preset panel after setting the above.
 
@@ -585,6 +585,8 @@ Hit save on the api profile to save the above after setting it.
 Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
 <img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/94d09188-e203-42b2-b749-692e0b082373" />
+
+Reasoning Effort: Auto (We do not use Gemini's native reasoning)
 
 Context and Samplers:
 - Context Size 600k-1000k
@@ -605,6 +607,8 @@ Hit save on the api profile to save the above after setting it.
 Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
 <img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/e83da328-f6ce-435b-8c4c-bc9e425e3f24" />
+
+Reasoning Effort: Auto (We do not use Claude's native reasoning)
 
 Context and Samplers:
 - Context Size 120k-200k
@@ -645,11 +649,13 @@ Prompt Post Processing: Semi-Strict
 
 Hit save on the api profile to save the above after setting it.
 
+Global Think Trigger: OFF (The one at the start of the preset)
+
 Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi).
 
 <img width="412" height="115" alt="image" src="https://github.com/user-attachments/assets/2dc95892-2236-4ca5-a99d-261bacb30383" />
 
-Global Think Trigger: OFF (The one at the start of the preset)
+Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
 
 Context and Samplers:
 - Context Size 128k-200k
