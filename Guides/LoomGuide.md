@@ -281,13 +281,15 @@ This toggle allows you to edit some variables and choose how long the "Custom Re
 
 Important things like card, user persona, and scenario information are pulled in first thing in the "Story Primers" category (Loom does not use the default Sillytavern prompts for those, hence why those are still in but off later).
 
-<img width="390" height="411" alt="image" src="https://github.com/user-attachments/assets/bbd25b89-6c13-4d77-98d0-1c0502cf1584" />
-
 Then comes the core instructions for the Loom. Of note here is Aperture of Cynicism. If you use a very dark flavored LLM and want a lighter story, you can try toggling this off.
 
-### Directives (PICK ONE)
+<img width="495" height="388" alt="image" src="https://github.com/user-attachments/assets/fa222d1e-15e3-4808-952f-298d41af1fda" />
 
-Next up are the modes for the Loom. These changed a lot in 3.3 when Prolix implemented my directive rework and they should be a lot more straightforward now. Not only do these directives insert instructions here, they also pass on instructions to later parts of the Loom like the reasoning and prose sections!
+### Directives - The Loom Modes
+
+Next up are the core operating modes (Directives) for the Loom. These changed a lot in 3.3 when Prolix implemented my directive rework and they should be a lot more straightforward now. Not only do these directives insert instructions here, they also pass on instructions to later parts of the Loom like the reasoning and prose sections!
+
+<img width="502" height="185" alt="image" src="https://github.com/user-attachments/assets/79ec2dc7-5e54-4660-a3e4-7c1f40eb8634" />
 
 There are 4 options here:
 
@@ -296,13 +298,11 @@ There are 4 options here:
 - Sovereign Hand (Lumiverse) - This is the same as the above, but lets you use the enhanced Sovereign Hand from the Lumiverse Helper Extension (More details in the appendix.)
 - Weaver's Choice (Auto Weave) - This simply lets Lumia control the {{user}} whenever it's her turn and you can control {{user}} when it's your own turn. 
 
- Human Controls User and Sov Hand are the two options here. The former limits control of {{user}} to only you, the Human. The latter is more complex, see the appendix for details on Sov Hand.
-
 ### Lumia Definitions and Personalities
 
-Then Lumia definitions (physical description) and personalities. Loom's main claim to fame is that it causes the AI to assume the role of a storyteller called Lumia. There are dozens of Lumias with different personalities available through an extension I'll talk about later by the same dev of Loom. For now, you get 7 personalities built in with a custom option to allow pulling in extra lumias from the extension.
+Then Lumia definitions (physical description) and personalities. Loom's main claim to fame is that it causes the AI to assume the role of a storyteller called Lumia. There are dozens of Lumias with different personalities available through an extension I'll talk about later by the same dev of Loom. For now, you get 7 personalities built in with a custom option at the end to allow pulling in extra lumias from the extension.
 
-<img width="371" height="695" alt="image" src="https://github.com/user-attachments/assets/3a73edcd-f4bf-42db-ac50-5e5db1149e26" />
+<img width="514" height="704" alt="image" src="https://github.com/user-attachments/assets/0edcc200-6fbb-426f-bdda-f796023d943b" />
 
 One thing to keep in mind under personalities is "Weave Lock". This helps mitigate the personality from affecting the story too much.
 
@@ -316,7 +316,9 @@ Then the rest of the toggles are all things that affect the generated story, lik
 
 ### Utilities and Trackers
 
-Utilities and Trackers (Might be a single category in 3.2) are categories that have little useful utilities like OOC commentary, time lookups, summarization utilities, and the like. Trackers are various little trackers that help Lumia keep track of what has happened thus far in the story (This is also where compatibility with Prolix's extension, Silly Sim Tracker, is turned on).
+Utilities and Trackers are two categories that have little useful utilities like OOC commentary, time lookups, summarization utilities, and the like. Trackers are various little trackers that help Lumia keep track of what has happened thus far in the story (This is also where compatibility with Prolix's extension, Silly Sim Tracker, is turned on).
+
+<img width="492" height="234" alt="image" src="https://github.com/user-attachments/assets/e18cfc16-29ef-4c3d-9836-b9e665ed2430" />
 
 ### Story Details
 
@@ -363,29 +365,42 @@ You'll see that the Loom CoT sections are split up into 3 sections.
 
 This helps tell your LLM how much work to put into the reasoning phase by dynamically injecting values into the CoT. I recommend keeping it on extreme by default.
 
-<img width="377" height="150" alt="image" src="https://github.com/user-attachments/assets/aa70b5ec-8d4e-4b92-8c7c-eb1e03ff4c7a" />
+<img width="504" height="245" alt="image" src="https://github.com/user-attachments/assets/5273cd2d-8893-4946-bc42-d0831240c041" />
 
 You might notice that certain models may speedrun the CoT (not enough detail, Gemini loves to do this), or overinflate the CoT (Sonnet is very guilty of this). For this I came up with custom planning effort toggles that Prolix was kind enough to add in.
 
-They are in the section in the form of "Gemini Saver" and "Claude Killer". The former has a minimum word count per step by default, the latter has a maximum word count per step. They are interchangeable (you can edit maximum to minimum at will) and you can mix and match settings by editing the variables in the toggle toggle.
+They are in the section in the form of "Gemini Saver" and "Claude Killer". The former has a minimum word count per step by default, the latter has a maximum word count per step. They are interchangeable (you can edit maximum to minimum at will) and you can mix and match settings by editing the variables in the toggle. Below you can see what the variables look like, you can freely edit the word counts and change minimum to maximum or vice versa at will.
+
+<img width="393" height="310" alt="image" src="https://github.com/user-attachments/assets/141a0466-1a90-496b-a1c5-a0dd6efe2d98" />
+
+> [!WARNING]
+> Remember to only enable one planning effort at a time!
 
 ### Reasoning Triggers
 
 This little section has the option to switch between Fake Reasoning and Native Reasoning.
 
+<img width="473" height="126" alt="image" src="https://github.com/user-attachments/assets/15a07468-a88f-4df3-8e36-4c330db2a0ca" />
+
 For fake reasoning models like Gemini or Claude, you'll pick the 'CoT Triggers (Gem/Claude)' toggle. This will forward `<think>` tags into the beginning and end of the CoT. These are useful for "fake reasoning" models like Gemini where you have to start the reply with a `<think>`.
 
 For native reasoning models like GLM or deepseek, you'll pick the 'Reasoner Trigger (GLM/DS/Kimi)' toggle. This is for models smart enough to handle the thinking block start and stop on their own, like GLM 4.7.
 
+> [!WARNING]
+> Remember to only enable one trigger type at a time!
+
 ### Cot Selections - Zipbombs!
 
-First up in the CoT sections are the Zipbombs. These are large, detailed checklists where Lumia thinks through her reasoning in character. This is where the lion's share of Loom's dev time for CoT goes to.
+For your CoT selection you have two Zipbombs. These are large, detailed multi-step checklists where Lumia thinks through her reasoning in character to plan the story.
 
-You'll find two Zipbombs, full and mini. They are similar but full has more detailed and longer language, while mini is smaller and sleeker. I recommend mini as a default, it's gotten more love lately.
+You'll find two Zipbombs, full and mini. They are similar but full has more detailed and longer language, while mini is smaller and sleeker. I personally recommend mini as a default, it's gotten more development lately.
 
-<img width="383" height="177" alt="image" src="https://github.com/user-attachments/assets/60490687-b9cb-498d-9fd2-a315a815b036" />
+<img width="496" height="138" alt="image" src="https://github.com/user-attachments/assets/4d3db73e-ef45-476f-9ca8-14323e1273e6" />
 
-A flowchart of how to pick the CoT settings.
+> [!WARNING]
+> Remember to only enable one trigger type at a time!
+
+To summarize, here's a chart of how to pick your CoT options.
 
 ```mermaid
 flowchart TD
@@ -484,9 +499,11 @@ The important section is below that. Two options both related to Reasoning.
 
 Request Model Reasoning affects the ability of Sillytavern to show incoming native/non-fake reasoning at all. If you are using native reasoning, this checkbox MUST BE ON (you'll still receive reasoning without it on, but sillytavern will not show it, meaning you just wasted tokens for no reason).
 
+<img width="490" height="55" alt="image" src="https://github.com/user-attachments/assets/32b06955-5f8b-42e1-8fdb-49e7a39b59db" />
+
 Next is Reasoning Effort, you want this on Auto generally. The reasoning models we use (GLM/Deepseek) don't support reasoning effort, and the fake reasoning models we use (Gem/Claude) we don't want their reasoning at all!
 
-<img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
+<img width="490" height="56" alt="image" src="https://github.com/user-attachments/assets/4df3cbe4-7ab9-48ea-abe0-3d2c83b9f551" />
 
 So it's ON / Auto for GLM and Deepseek, OFF / Auto for Gemini and Claude!
 
@@ -529,20 +546,6 @@ These best settings are current as of Lucid Loom 3.3 (January 23, 2025).
 
 The way the below works is that you first set the common settings for your reasoning type and then move to your actual model's settings. So for Gemini for example, you'd follow the Fake Reasoning settings, and then go to the Gemini section and continue with those settings!
 
-A flowchart of how to pick your CoT settings (More details in the sections below!)
-
-```mermaid
-flowchart TD
-    A(Reasoning: Yes) --> B{Planning Effort}
-    B --> C(Low/High/Extreme) & D(Custom)
-    C --> E{Reasoning Type}
-    D -->|Set token vars| E{Reasoning Type}
-    E -->|Gemini/Claude| F[CoT Triggers]
-    E -->|GLM/DS/Kimi| G[Reasoner Triggers]
-    F & G--> H{Unified Zip Type}
-    H --> I(Zip Full) & J(Zip Mini)
-```
-
 ## Fake Reasoning Models (Gemini, Claude)
 
 For all fake reasoning models like Gemini 3 Pro/Flash and Claude Sonnet/Opus we want the following settings in common:
@@ -561,14 +564,14 @@ Chat Completions Reasoning Section:
 
 Request Model Reasoning should be OFF/Unchecked, **always**!
 
-Model Reasoning Effort is **always** set to Auto!
+Model Reasoning Effort is set to auto, **always**!
 
-<img width="376" height="171" alt="image" src="https://github.com/user-attachments/assets/4526df98-e604-4f85-90b9-c0158278861b" />
+<img width="499" height="108" alt="image" src="https://github.com/user-attachments/assets/b3265c7e-1cc5-4506-8dcd-33e97c7c25a4" />
 
 Hit save on the preset panel after setting the above.
 
 > [!NOTE]
-> Lucid Loom is NOT cache friendly, lots of things change from gen to gen. Prolix's recommendations are to try to shut off Chaos Modifier and SillySim Tracker in Utilities/Trackers.
+> Lucid Loom is NOT Claude cache friendly, lots of things change from gen to gen. Prolix's recommendations are to try to shut off Chaos Modifier and SillySim Tracker in Utilities/Trackers.
 
 ### Google Gemini 3 Pro / Flash, 2.5 Pro / Flash
 
@@ -625,11 +628,11 @@ Hit save on your api profile after this since it's saved there.
 
 Chat Completions Reasoning Section:
 
-Request Model Reasoning should be ON/Checked *(This is essential)*
+Request Model Reasoning should be ON/Checked *(This is essential for all reasoner models)*!
 
-Model Reasoning Effort is **always** set to Auto!
+Model Reasoning Effort is set to Auto, **always**!
 
-<img width="383" height="174" alt="image" src="https://github.com/user-attachments/assets/fb983139-bb22-4887-8086-0a57b0d3fddc" />
+<img width="500" height="101" alt="image" src="https://github.com/user-attachments/assets/d00c258e-f6a3-4baf-805e-61980f8ab74b" />
 
 Hit save on the preset panel after setting the above.
 
