@@ -561,6 +561,9 @@ Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\
 
 Start Reply With: \<think\> followed by an empty newline.
 
+> [!NOTE]
+> Claude can break with newlines after \<think\> sometimes! So try without it! Also with Sonnet, \<think\> might not even be necessary!
+
 <img width="427" height="560" alt="image" src="https://github.com/user-attachments/assets/63d6f764-51dc-4e96-a24a-dcc547d8a207" />
 
 Hit save on your api profile after this since it's saved there.
@@ -618,6 +621,9 @@ Context and Samplers:
 - Top P: 1
 
 Hit save in the profile preset after setting these.
+
+> [!NOTE]
+> If you are having trouble with Claude models, try removing the newline from after \<think\> in Start Reply With and maybe even try removing the \<think\> in Start Reply With entirely!
 
 ## Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
 
