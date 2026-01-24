@@ -585,12 +585,12 @@ Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 <img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/94d09188-e203-42b2-b749-692e0b082373" />
 
 Context and Samplers:
-Context Size 600k-1000k
-Response Size: 32762
-Streaming ON
-Temperature: 1
-Top K: 255
-Top P: .96
+- Context Size 600k-1000k
+- Response Size: 32762
+- Streaming ON
+- Temperature: 1
+- Top K: 255
+- Top P: .96
 
 Hit save in the profile preset after setting these.
 
@@ -605,11 +605,11 @@ Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 <img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/e83da328-f6ce-435b-8c4c-bc9e425e3f24" />
 
 Context and Samplers:
-Context Size 120k-200k
-Response Size: 32762
-Streaming ON
-Temperature: 1
-Top P: 1
+- Context Size 120k-200k
+- Response Size: 32762
+- Streaming ON
+- Temperature: 1
+- Top P: 1
 
 Hit save in the profile preset after setting these.
 
@@ -650,12 +650,12 @@ Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi).
 Global Think Trigger: OFF (The one at the start of the preset)
 
 Context and Samplers:
-Context Size 128k-200k
-Response Size: 16384
-Streaming ON
-Temperature: .85-1
-Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
-Top P: .93
+- Context Size 128k-200k
+- Response Size: 16384
+- Streaming ON
+- Temperature: .85-1
+- Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
+- Top P: .93
 
 Hit save in the profile preset after setting these.
 
@@ -681,12 +681,12 @@ Reasoning Trigger in Loom: CoT Triggers (Gem/Claude). (4.6 has trouble with inje
 Reasoning Effort: Auto (GLM does not support Reasoning Effort according to the Z.AI API Docs)
 
 Context and Samplers:
-Context Size 128-200k
-Response Size: 16384
-Streaming ON
-Temperature: .85-1
-Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
-Top P: .93
+- Context Size 128-200k
+- Response Size: 16384
+- Streaming ON
+- Temperature: .85-1
+- Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
+- Top P: .93
 
 Hit save in the profile preset after setting these.
 
@@ -709,12 +709,12 @@ Reasoning Trigger in Loom: Reasoner Triggers (GLM/DS/Kimi). (You can try CoT Tri
 Reasoning Effort: Auto (Deepseek does not support Reasoning Effort according to the Deepseek API Docs)
 
 Context and Samplers:
-Context Size 128k
-Response Size: 16384
-Streaming ON
-Temperature: 1-1.5 (Deepseek Recommends 1.5 on the Deepseek API, Everywhere else, for DS 3.2, use 1.0)
-Top K: 0 (Might not support it)
-Top P: .95
+- Context Size 128k
+- Response Size: 16384
+- Streaming ON
+- Temperature: 1-1.5 (Deepseek Recommends 1.5 on the Deepseek API, Everywhere else, for DS 3.2, use 1.0)
+- Top K: 0 (Might not support it)
+- Top P: .95
 
 Hit save in the profile preset after setting these.
 
