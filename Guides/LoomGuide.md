@@ -14,7 +14,9 @@ The latest release is 3.3 from https://lucid.cards/chat-presets
 > [!WARNING]
 > 3.3 Final Test is a BETA release from BEFORE 3.3. Upgrade to 3.3 if you still use it! 
 
-Best Settings for Each Model are [Here](#configuring-lucid-loom---best-settings-for-each-model)
+Best Settings for Each Model are [Here](#configuring-lucid-loom---best-settings-for-each-model).
+
+General non-reasoning related questions about sillytavern are answered at my [SMUG Guide](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LandoSMUG.md).
 
 ## Table of Contents:
 
