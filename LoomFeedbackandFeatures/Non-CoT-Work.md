@@ -6,8 +6,7 @@ I'll be updating this as I work through.
 
 Everything below this line is what goes in the toggle. I'll leave it un-codeblocked for easier reading:
 
-
-
+---
 
 {{// This is written in second person to Lumia. We do not want to trigger introspection here, unlike the CoT's. Remember, the name of the game is rules and reminders, no questions, no double checking, no verification. }}{{trim}}
 
