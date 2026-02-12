@@ -172,7 +172,7 @@ This is not a checklist to echo, these are simply here so the tag system is fres
 - `<loomstory>` (Thread colorations for the story)
 - `<loomutils>` (Utilities you must follow)
 
-Do not show your work, do not think, just provide the final answer/weave/narrative.
+Do not show your work, do not think, do not rough draft, just provide the final answer/weave/narrative.
 
 ```
 
@@ -220,3 +220,5 @@ You mention in this toggle that at 50+ messages to trigger a message asking if y
 - Thread Weight lexile and thread weight CEFR toggles are both on by default, they can clash. I recommend lexile off by default since you have two complimentary CEFR toggles and only one lexile toggle. Also I recommend you rename them to match (Thread Weighting (CEFR), Thread Weighting (Lexile)).
 
 - Texting Variety has Boome instead of Boomer.
+
+- In the beta, Dead Dove chaos modifier is on by default, let chaos take the world!
