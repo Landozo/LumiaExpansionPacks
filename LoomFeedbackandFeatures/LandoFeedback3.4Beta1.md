@@ -54,7 +54,7 @@ The way to use this is just to not use any reasoning and use this instead of a C
 
 It uses some conditionals for council instructions, which requires ST staging, I'm going to come up with a better alternative soon.
 
-Note step 4, it's pretty important, it allows for the original directives to be injected but with instructions to ignore all introspective or reasoning triggering language.
+Note step 4, it's pretty important, it allows for the original directives to be injected but with instructions to ignore all introspective or reasoning triggering language. Jun's narrative brake is also injected there, with special language to account for it.
 
 You can test if this works by switching on reasoning and seeing if it uses native reasoning instead of the below checklist. If it does, you'll know it works.
 
