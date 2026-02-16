@@ -176,9 +176,116 @@ Do not show your work, do not think, do not rough draft, just provide the final 
 
 ```
 
-### Vars not initializing properly for slider macro toggle
+### Slider Macros initialization fix and toggle expansion
 
-The old sillytavern meme of it keeping whacko numbers from old versions when vars values aren't blanked/initialized properly. Gotta initialize to blank. Maybe we can fix this in slider macros by forcing a pull at gen time.
+The old sillytavern meme of it keeping whacko numbers from old versions when vars values aren't blanked/initialized properly.
+
+I fixed it with the below alterations to the slider toggle:
+
+```
+{{// Slider Macro values and initialization}}
+{{// Claude Killer/Gemini Saver initial clear}}{{trim}}
+{{setvar::step1token::}}{{trim}}
+{{setvar::step2token::}}{{trim}}
+{{setvar::step3token::}}{{trim}}
+{{setvar::step4token::}}{{trim}}
+{{setvar::step5token::}}{{trim}}
+{{setvar::step6token::}}{{trim}}
+{{setvar::step7token::}}{{trim}}
+{{setvar::step8token::}}{{trim}}
+{{setvar::step9token::}}{{trim}}
+{{setvar::step10token::}}{{trim}}
+{{setvar::step11token::}}{{trim}}
+{{setvar::step12token::}}{{trim}}
+{{setvar::token_inst::}}{{trim}}
+{{setvar::tokenstep10_inst::}}{{trim}}
+{{setvar::min_max::}}{{trim}}
+{{// Claude Killer/Gemini Saver slider flags}}{{trim}}
+{{setvar::step1token::{{step1macro}}}}{{trim}}
+{{setvar::step2token::{{step2macro}}}}{{trim}}
+{{setvar::step3token::{{step3macro}}}}{{trim}}
+{{setvar::step4token::{{step4macro}}}}{{trim}}
+{{setvar::step5token::{{step5macro}}}}{{trim}}
+{{setvar::step6token::{{step6macro}}}}{{trim}}
+{{setvar::step7token::{{step7macro}}}}{{trim}}
+{{setvar::step8token::{{step8macro}}}}{{trim}}
+{{setvar::step9token::{{step9macro}}}}{{trim}}
+{{setvar::step10token::{{step10macro}}}}{{trim}}
+{{setvar::step11token::{{step11macro}}}}{{trim}}
+{{setvar::step12token::{{step12macro}}}}{{trim}}
+{{setvar::min_max::{{minmaxmacro}}}}{{trim}}
+
+{{// If you have a custom length request, put it here. The first number will be paragraphs, the second will be words, and the third will be tokens. This is used for the "Custom Response Length" toggle, under the "Response Length Controls" section.}}{{trim}}
+{{setvar::paragraph_max::6}}{{trim}}
+{{setvar::word_max::850}}{{trim}}
+{{setvar::paragraph_max::{{paragraphmaxmacro}}}}{{trim}}
+{{setvar::word_max::{{wordmaxmacro}}}}{{trim}}
+
+{{//CEFR+Lexical level instructions for the two prompts in prose guidelines.}}{{trim}}
+{{setvar::reading_level::1200L}}{{trim}}
+{{setvar::cefr::B2}}{{trim}}
+{{setvar::reading_level::{{readinglevelmacro}}}}
+{{setvar::cefr::{{cefrmacro}}}}
+
+{{//Initial values for color overrides}}
+{{setvar::colorOverride::false}}{{trim}}
+{{setvar::userThoughtColor::}}{{trim}}
+{{setvar::userSpeechColor::}}{{trim}}
+{{setvar::charThoughtColor::}}{{trim}}
+{{setvar::charSpeechColor::}}{{trim}}
+```
+
+Note that they all pull from macros instead of relying on slider macro's sync to variables function.
+
+It will require an updated slider macros export that points to macros instead of variables which I will attach here:
+
+
+
+Note that I added some extra ones for colors, that will come to play in the next item:
+
+### New Color functionality via slider macros extension (Requires ST 1.16 Conditionals (in staging))
+
+By adding the below to Colored Character and NPC Dialogue under Text Formatting:
+
+```
+{{if colorOverride}}
+OVERRIDE PARAMETERS IN EFFECT.
+For {{user}}, use {{userSpeechColor}} for speech color.
+For the first/main {{char}}, use {{charSpeechColor}} for speech color. 
+{{/if}}
+```
+
+And adding the below to Colored Character and NPC Thoughts also in Text Formatting:
+
+```
+{{if colorOverride}}
+OVERRIDE PARAMETERS IN EFFECT.
+For {{user}}, use {{userThoughtColor}} for thought color.
+For the first/main {{char}}, use {{charThoughtColor}} for thought color. 
+{{/if}}
+```
+
+You can use the boolean colorOverride slider in slider macros and then the four color pickers to select custom colors for user and char!
+
+### Dynamic Large Text Length Toggle
+
+My old 1000 words dynamic text length toggle to cover the blindspot between medium and detailed since some people aren't having luck with custom length.
+
+```
+### **Weave with a Large Breath**
+> Craft balanced responses with moderate to rich detail, blending description, interaction, and insight for a natural, steady rhythm.
+
+**Output Requirement:** Balanced pacing to substantial depth.
+**Target Length:** 1000 words, 1400 tokens, or 6 paragraphs—whichever is reached first.
+**Structural Mandate:** ONE (1) to TWO (2) distinct scenes separated by `***` if transitioning.
+
+**Directives:**
+1. **Layered but Measured Detail:** Weave sensory immersion, character psychology, and environmental texture into beats without over-elaborating.
+2. **Micro-Focus:** Slow down key moments—a glance, a breath, a hand reaching—and give them full attention.
+3. **Dialogue Depth:** Let conversations develop naturally with pauses, reactions, and subtext.
+4. **Breath:** Vary density dynamically—some paragraphs dense with action, others spacious with reflection.
+5. **Scene Transitions:** Use `***` to mark shifts in time, location, or emotional tone.
+```
 
 ### Text Rendering Toggle
 
