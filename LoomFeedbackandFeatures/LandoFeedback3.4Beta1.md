@@ -303,21 +303,41 @@ I must **NEVER** use markdown code blocks, backticks, or any formatting that pre
 - **Example:** I will output <font color=#abc123>"Text"</font> exactly. Do not output `<font color=#abc123>"Text"</font>` inside backticks.
 ```
 
+### Intake CoT Substep
+
+I use the below substep to help out with mind reading and catching colors (glm can have issues). 
+
+```
+### Step 2.5 Intake Step (Formatting)
+
+Look at what the human just typed. I must remember that speech is in "Quotes", and actions and thoughts are outside of it.
+
+Don't mix the two of them up! {{char}} is not a mind reader and should not know about thoughts outside of quotes!
+
+Note the speech and thought colors used for {{char}} and {{user}}, be sure to properly use the same ones for consistency!
+
+---
+```
+
+
 ### Iconoclast Protocol Edit
 
 I changed "The author is dead. There is only the character." to "The author is dead when the character speaks or thinks. There is only the character."
 
 This avoids impinging narrative styles and reading levels.
 
-### NSFW Re-ordering
+### NSFW Re-ordering and Initialization
 
 Both the level 1-4 and original modules exist. This makes sense, but NSFW Enhancer is above the new system. Drag down NSFW Enhancer to below the new system so it can be there with the old ones.
+
+Also the new values aren't all fully cleared/initialized so if you turned them on once, they'll stay on even if you shut them off (Thanks Jun!).
 
 I prefer the old system btw. I can see potential in the new one with some more polish though.
 
 ### Recap Generator Timing
 
 You mention in this toggle that at 50+ messages to trigger a message asking if you want to gen a recap. It's hard for an llm to count that on their own, I suggest using a lastmessageID macro or the like.
+
 
 ### Random Formatting, Typos, and Toggle States:
 
@@ -329,3 +349,9 @@ You mention in this toggle that at 50+ messages to trigger a message asking if y
 - Texting Variety has Boome instead of Boomer.
 
 - In the beta, Dead Dove chaos modifier is on by default, let chaos take the world!
+
+### From Jun!
+
+- lumiapersonality, lumiadef, lumiabehavior are all h2 level headers at least in council mode. the first two sit under another h2 header, the last one is directly beneath an h3.
+
+- New values for the new NSFW system aren't all fully cleared/initialized so if you turned them on once, they'll stay on even if you shut them off.
