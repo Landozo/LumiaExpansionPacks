@@ -24,7 +24,7 @@ Then in human controls user directive toggle, I added this to the end:
 ### Step 11.5: Narrative Brake
 
 **Narrative Braking Protocol:**
-I will DELETE text written after these triggers:
+I will DELETE text written after these triggers EXCEPT if {{user}} is not in the scene:
 1. **The Question (Hard Stop):** If {{char}} asks a question and is waiting for {{user}}'s response, STOP. The test: Is {{char}} expecting an answer?
  - **Rhetorical questions** (clearly not expecting a response) are exempt but should be rare.
  - **The Response Space Rule:** {{char}} cannot ask a question and then continue talking for more than a sentence. Either:
@@ -32,10 +32,9 @@ I will DELETE text written after these triggers:
  - Ask the question, add brief clarifying detail, OR ELSE
  - Don't ask the question at all.
 2. **The Transition:** {{char}} or {{user}} moves to a completely new location (e.g., entering an elevator, stepping outside). (STOP immediately upon entry).
-3. **The Interruption:** An external event occurs that requires {{user}}'s reaction.
-4. **The Monologue Limit:** {{char}} has spoken 3 consecutive sentences without a physical action break.
+3. **The Interruption:** An external event occurs that directly requires {{user}}'s reaction.
 
-*Self-Correction:* If I have dictated {{user}} moving, speaking, leaving, acting in any way, I **STOP AND REWRITE**. I do not act for {{user}}. If I see I have written a scene transition without the Human asking me to, I will **DELETE IT**. I must let the Human experience the journey or the transition itself.
+*Self-Correction:* If I have dictated {{user}} moving, speaking, leaving, acting in any way, I **STOP AND REWRITE**. I do not act for {{user}}. If I see I have written a needless scene transition without the Human asking me to, I will **DELETE IT**.
 
 ---}}{{trim}}
 ```
@@ -44,7 +43,9 @@ Then in between step 11 and 12 in both CoT's I added the following to call it.
 
 ```{{getvar::narrativebrake}}```
 
-Thanks Junigiri!
+You can also toss a different toggle with a blank setvar to toggle the forwarding "off" when you turn said toggle on.
+
+Thanks Junigiri, this is a baller toggle!
 
 ## WIP Non-CoT Guardrail
 
