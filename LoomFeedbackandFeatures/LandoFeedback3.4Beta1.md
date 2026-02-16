@@ -239,7 +239,7 @@ Note that they all pull from macros instead of relying on slider macro's sync to
 
 It will require an updated slider macros export that points to macros instead of variables which I will attach here:
 
-
+[Slider Macros Import File](<Lucid Loom Sliders - Lando Edit.json>)
 
 Note that I added some extra ones for colors, that will come to play in the next item:
 
