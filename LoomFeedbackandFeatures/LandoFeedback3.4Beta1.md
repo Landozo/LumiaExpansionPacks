@@ -183,7 +183,7 @@ You don't reinitialize the variables for claude killer and gemini saver, and sin
 
 A couple possible solutions for this:
 
-1. To clear the values when you switch to non-custom Add the below to non-custom planning efforts, this will :
+1. To clear the values when you switch to non-custom, add the below to non-custom planning efforts, this will clear it:
 
 ```
 {{// Claude Killer/Gemini Saver clear}}{{trim}}
