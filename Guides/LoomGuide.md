@@ -52,7 +52,7 @@ General non-reasoning related questions about sillytavern are answered at my [SM
 		- [Gemini 3 Pro/Flash (CoT Trigger)](#google-gemini-3-pro--flash-25-pro--flash)
 		- [Claude Sonnet/Opus (CoT Trigger)](#claude-sonnet-and-opus-1)
 	- [Native Reasoning](#native-reasoning-models-glm-deepseek---common-settings)
-		- [GLM 4.7 (Reasoner Trigger)](#zai-glm-47)
+		- [GLM 4.7 (Reasoner Trigger)](#zai-glm-547)
 		- [GLM 4.6 (CoT Trigger)](#zai-glm-46)
 		- [Deepseek 3.2 Thinking (Reasoner Trigger)](#deepseek-32-thinking)
 - [Where to Ask for Help! Loom Chat](#where-to-go-for-help)
@@ -372,6 +372,18 @@ So what do we mean by reasoning. Well reasoning is using the first part of the r
 I will be going over how to set up reasoning settings later in the guide.
 
 The important thing is that this reasoning block is NOT sent as part of chat history. So all the planning will not clutter up your context!
+
+### Fake vs Native Reasoning
+
+So what does this actually mean?
+
+Below, you'll see the two kinds of reasoning. You can see that in native reasoning/chinese models, we want to use the native reasoning block of the model, so we use Loom's CoT to hijack it.
+
+Meanwhile for Western or fake reasoning models, we hide the model's reasoning block in ST using a checkbox and then stuff the CoT into the main post-reasoning reply.
+
+<img width="1332" height="636" alt="image" src="https://github.com/user-attachments/assets/e563a2cd-bad6-4713-bca9-a81f120fbf4a" />
+
+So how do we control this?
 
 You'll see that the Loom CoT sections are split up into 3 sections.
 
