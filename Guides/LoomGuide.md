@@ -870,6 +870,12 @@ To use Lumiverse features you have to enable the proper feature in Lumiverse fir
 - To use Lumiverse Sov Hand, first ensure it's on in the extension, then pick the Sovereign Hand (Lumiverse) toggle in core directives!
 - For custom Utilities, Narrative Styles, and Human Retrofits, ensure the proper custom/lumiverse toggle is on in the respective Lucid Loom section!
 
+## Slider Macros
+
+An extension by Prolix and I that allow you to control macro outputs and variables with sliders in the chat or text completions panel, similar to the custom sliders that let you control samplers.
+
+https://github.com/Landozo/Extension-SliderMacros
+
 ## Nemo Preset Extension (Better organization for Prompts)
 
 This extension by Nemo allows you to have the categories nest in dropdowns in the prompt manager, saving your scroll finger and your sanity. Link here:
@@ -890,7 +896,10 @@ https://github.com/prolix-oc/SillyTavern-LumiverseHelper
 
 https://github.com/NemoVonNirgend/NemoPresetExt
 
+SELF SHILLING:
+- Slider Macros (Control macros and variable outputs with custom sliders, like how samplers are controlled)
 
+https://github.com/Landozo/Extension-SliderMacros
 THE GOATS:
 - Guided Generations (Lets you send next reply guidance to the LLM without having to send a reply)
 
