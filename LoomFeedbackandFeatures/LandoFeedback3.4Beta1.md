@@ -10,6 +10,8 @@ The one I added seems to work though, maybe it triggers reasoning behavior to lo
 
 This also has the benefit of potentially adding the old drafting step 13 back in as a forwarded toggle for those who want drafts.
 
+Also full is missing an anti-draft line entirely.
+
 ## Junigiri's Narrative Brake in Human Controls User
 
 I've found Junigiri's narrative brake substep invaluable for when I use the human controls user directive. So I added it to forward from human controls user like so:
