@@ -12,6 +12,9 @@ This Loom guide is current as of 3.3 release (January 23, 2025)!
 The latest release is 3.3 from https://lucid.cards/chat-presets
 
 > [!WARNING]
+> This guide is not up to date for 3.4 betas! I'll update it for 3.4 when 3.4 final is out!
+
+> [!WARNING]
 > 3.3 Final Test is a BETA release from BEFORE 3.3. Upgrade to 3.3 if you still use it! 
 
 Best Settings for Each Model are [Here](#configuring-lucid-loom---best-settings-for-each-model).
@@ -138,11 +141,11 @@ There is a subscription too, but I don't know the limits of usage on it. Plenty 
 
 ### Claude Sonnet and Opus
 
-Claude is considered the state of the art for roleplay and coding at the moment. Claude has two models, Opus 4.5 and Sonnet 4.5. Sonnet is smaller and equivalent to Gemini 3 Flash from earlier, Opus 4.5 is newer, larger, and comparable to 3 pro. However Sonnet is MUCH smarter than 3 flash and Opus is MUCH smarter than 3 pro.
+Claude is considered the state of the art for roleplay and coding at the moment. Claude has two models, Opus 4.6 and Sonnet 4.6. Sonnet is smaller and equivalent to Gemini 3 Flash from earlier, Opus 4.6 is newer, larger, and comparable to 3 pro. However Sonnet is MUCH smarter than 3 flash and Opus is MUCH smarter than 3 pro.
 
-Sonnet was originally trained up for creative pursuits, and as such is very lauded for roleplaying in particular. It struggles with logic and things like formatting. It also tends to be very token heavy, overthinking everything.
+Sonnet was originally trained up for creative pursuits, and as such is very lauded for roleplaying in particular. It struggles with logic and things like formatting. It also tends to be very token heavy, overthinking everything. You can rein it in with Claude Killer (More on that later).
 
-Opus 4.5 is their brand new model. It is smarter than Sonnet, but some people say that hurts roleplay a bit. However those people have not tried the brand new effort parameter. Give it a try, medium effort is supposed to be similar to Sonnet.
+Opus is larger, more complex, and oriented primarily towards coding. People say this hurts roleplaying/storytelling potential. Try using the new effort parameter (controlled by verbosity in ST when you have claude endpoint selected) to set it to medium and cause it to behave a bit more like Sonnet. However, both models are rapidly heading towards coding, so expect roleplay to continue to take hits.
 
 The downside of both of these is that not only is Claude pay per token, it's the most expensive pay per token by far.
 
@@ -154,15 +157,19 @@ Every GPT I ever used for roleplay has been dogwater, don't use it.
 
 ## Open Weight Model Recommendations
 
-### ZAI's GLM 4.7-thinking
+### ZAI's GLM 5-thinking and GLM 4.7-thinking
 
-**GLM is my model of choice**, my daily driver. ZAI has two models, GLM (the big one, 355B parameters) and GLM Air (little brother, 105B parameters). They release them in an alternating fashion. Currently the latest as of December 2025 is GLM 4.7, and it's a doozy.
+**GLM is my model of choice**, my daily driver. ZAI has two model families, GLM (the big one, with GLM-5 being 744B parameters and 4.7 being 355B parameters) and GLM Air (little brother, 105B parameters). They release them in an alternating fashion. Currently the latest as of Feburary 2026 is GLM 5, and it's a doozy.
 
-GLM 4.7 is a reasoning model (we use the native reasoning for Lucid Loom, unlike Gemini, because the native reasoning is GOOD). It is 355B parameters, and regularly outsmarts 1 trillion parameter models like Gemini 3 Pro. I love it to death.  It's smart enough to handle complex formatting, html tags, keep track of stories very well. The downside is that it is slower than Gemini, because third party providers and even zai don't have as much compute as google or claude do. But it's so much cheaper as a result.
+GLM 5 is a brand new reasoning model (we use the GLM native reasoning for Lucid Loom and hijack it with our CoT, unlike Gemini, because the native reasoning is GOOD). It is 744B parameters, a record for ZAI, and is currently so hammered in usage that it's impossible to get a good read on it. I assume it's better than 4.7 just by virtue of its size, but I'm waiting until the initial usage rush dies down to truly put it through its paces.
+
+GLM 4.7 is a reasoning model (again, like GLM-5, we hook into native reasoning capabilities by forcing our CoT into it). It is 355B parameters, and regularly outsmarts 1 trillion parameter models like Gemini 3 Pro. It is my daily driver (I haven't gotten into GLM-5 much).
+
+Both of these models are smart enough to handle complex formatting, html tags, keep track of stories very well. The downside is that they are slower than Gemini, because third party providers and even zai don't have as much compute as google or claude do. But it's so much cheaper as a result.
 
 GLM 4.7 air... does not exist yet. The latest air is GLM 4.5 Air. GLM 4.6 skipped air and went straight to GLM 4.6V, a vision model (this means it can interpret pictures), which hurt the roleplay/text performance. I do not recommend using GLM 4.6V as a result.
 
-So yeah, just use GLM 4.7. How can you use it though? Since it's an open weight model you have two options, from the manufacturer or third party.
+So yeah, just use GLM 5/4.7. How can you use it though? Since it's an open weight model you have two options, from the manufacturer or third party.
 
 The company that makes it is Z.AI and they have a subscription plan for it. You can get GLM straight from them, however, they have been doing prompt injection lately to "clean up" the nsfw of the model. If you want to use it for smut roleplay, I do NOT recommend zai, in fact, I don't recommend ZAI at all. As a source company for the model, they have the infrastructure in place to mass collect data and sort it easily.
 
@@ -174,7 +181,7 @@ Deepseek is probably the most well known of the chinese model makers. They have 
 
 ### Kimi K2 and Qwen
 
-Kimi K2 Thinking is used by some people in the loomchat. It tends to be problematic and fight you, I don't recommmend it.
+Kimi K2/2.5 Thinking is used by some people in the loomchat. It tends to be problematic and fight you, I don't recommmend it.
 
 I don't know a single person who still uses Qwen, but people used to a lot.
 
@@ -278,7 +285,9 @@ There is an extension to allow things to collapse into nice categories, I'll go 
 
 ### Prompt Variables (EDIT ME PLEASE)
 
-This toggle allows you to edit some variables and choose how long the "Custom Response Length" toggle makes your reply, change the LLM's main output language, or change how often OOC happens (unless you use the extension, that one works better, more on that in the appendix). This must always remain toggled on, every variable in Loom is initialized (cleaned between gens) here.
+This toggle allows you to edit ALL OF THE LOOM'S variables and choose how long the "Custom Response Length" toggle makes your reply, change the LLM's main output language, or change how often OOC happens (unless you use the extension, that one works better, more on that in the appendix). This must always remain toggled on, every variable in Loom is initialized (cleaned between gens) here.
+
+It also controls the variables for other features like Claude Killer and Gem Saver (more on that later).
 
 ### Story Primers and Core Instructions
 
@@ -290,7 +299,7 @@ Then comes the core instructions for the Loom. Of note here is Aperture of Cynic
 
 ### Directives - The Loom Modes
 
-Next up are the core operating modes (Directives) for the Loom. These changed a lot in 3.3 when Prolix implemented my directive rework and they should be a lot more straightforward now. Not only do these directives insert instructions here, they also pass on instructions to later parts of the Loom like the reasoning and prose sections!
+Next up are the core operating modes (Directives) for the Loom. These changed a lot in 3.3 when Prolix implemented my directive rework and they should be a lot more straightforward now. Not only do these directives insert instructions here, they also pass on instructions (via variables) to later parts of the Loom like the reasoning and prose sections!
 
 <img width="502" height="185" alt="image" src="https://github.com/user-attachments/assets/79ec2dc7-5e54-4660-a3e4-7c1f40eb8634" />
 
@@ -559,10 +568,9 @@ Reasoning Formatting (Advanced Formatting Tab, lower left):
 
 Deepseek in the dropdown. \<think\> (followed by a newline) Prefix and \</think\> (preceded by a newline) suffix.
 
-Start Reply With: \<think\> followed by an empty newline.
+Start Reply With: Different per model (see below)!
 
-> [!NOTE]
-> Claude Sonnet and Opus can break with newlines or empty/whitespaces after \<think\> sometimes! So try without it if you have problems/refusals! Also with Sonnet, \<think\> might not even be necessary!
+
 
 <img width="427" height="560" alt="image" src="https://github.com/user-attachments/assets/63d6f764-51dc-4e96-a24a-dcc547d8a207" />
 
@@ -600,7 +608,15 @@ Hit save in the profile preset after setting these.
 
 ### Claude Sonnet and Opus
 
-Prompt Post Processing: Semi-strict or Merge
+Prompt Post Processing: Semi-strict (Merge Fallback)
+
+Start Reply with:
+
+- \<think\> for Sonnet
+- No/empty SRW for Opus (If this doesn't work, add a think, but sometimes a simple . in it can be enough).
+
+> [!NOTE]
+> Claude Sonnet and Opus can break with newlines or empty/whitespaces after \<think\> sometimes! So try without it if you have problems/refusals! Also with Opus, \<think\> might not even be necessary!
 
 Hit save on the api profile to save the above after setting it.
 
@@ -608,22 +624,29 @@ Reasoning Trigger in Loom: CoT Triggers (Gem/Claude).
 
 <img width="406" height="130" alt="image" src="https://github.com/user-attachments/assets/e83da328-f6ce-435b-8c4c-bc9e425e3f24" />
 
-Reasoning Effort: Auto (We do not use Claude's native reasoning)
+Reasoning Effort: Auto (We do not use Claude's native reasoning, and this value sets budget tokens which is soon to be deprecated!)
+Verbosity: Auto/Medium (For Opus 4.6+ and Sonnet 4.6+ only)
+
+> [!NOTE]
+> If and only if you have the CLAUDE Endpoint selected in Sillytavern, the verbosity dropdown will send the new effort parameter added recently to Claude models (4.6+). High is the default (auto sends none, so it'll be high). Max is only usable on Opus 4.6. I recommend default or medium to save on tokens. Read more about it [here](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking#adaptive-thinking-with-the-effort-parameter).
 
 Context and Samplers:
 - Context Size 120k-200k
 - Response Size: 32762
 - Streaming ON
 - Temperature: 1
+- Top K: 0
 - Top P: 1
 
 Hit save in the profile preset after setting these.
 
-> [!NOTE]
-> If you are having trouble with Claude models, try removing the newline from after \<think\> in Start Reply With and maybe even try removing the \<think\> in Start Reply With entirely!
-
 > [!WARNING]
 > Lucid Loom is NOT Claude cache friendly, lots of things change from gen to gen. Prolix's recommendations are to try to shut off Chaos Modifier and SillySim Tracker in Utilities/Trackers.
+
+> [!WARNING]
+> Claude Models like to prattle on and on and re-draft in step 12. If you get this add the below line to your step 12 in your chosen CoT:
+
+```*No Draft Reworks* I will not write out drafts here. Check for a step 13 for drafts, if not there, skip the drafting process.```
 
 ## Native Reasoning Models (GLM, Deepseek) - COMMON SETTINGS
 
@@ -649,9 +672,9 @@ Model Reasoning Effort is set to Auto, **always**!
 
 Hit save on the preset panel after setting the above.
 
-### ZAI GLM 4.7
+### ZAI GLM 5/4.7
 
-Prompt Post Processing: Semi-Strict
+Prompt Post Processing: Semi-Strict (Use Single User as a Fallback)
 
 Hit save on the api profile to save the above after setting it.
 
@@ -668,15 +691,23 @@ Context and Samplers:
 - Response Size: 16384
 - Streaming ON
 - Temperature: .85-1
-- Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
-- Top P: .93
+- Top K: 40 (Optional, Additional Parameters or Custom Slider to add it on openai custom)
+- Top P: .93 (Default is .95)
 
 Hit save in the profile preset after setting these.
 
 If these don't work you can use the below settings as a fallback.
 
 > [!NOTE]
-> Once again, for NanoGPT users, remember to pick the GLM4.7:thinking model, not the plain one without thinking.
+> Once again, for NanoGPT users, remember to pick the GLM-5/4.7:thinking model, not the plain one without thinking.
+
+> [!NOTE]
+> If you can't get proper adherence, switch the Reasoning Trigger in Loom to CoT Triggers as a fallback.
+
+> [!WARNING]
+> GLM 5 likes to prattle on and on and draft in step 12, a Claude-like behavior. If you get this add the below line to your step 12 in your chosen CoT:
+
+```*No Draft Reworks* I will not write out drafts here. Check for a step 13 for drafts, if not there, skip the drafting process.```
 
 ### ZAI GLM 4.6
 
@@ -700,7 +731,7 @@ Context and Samplers:
 - Streaming ON
 - Temperature: .85-1
 - Top K: 40 (Optional, Additional Parameters or Custom Slider to add it)
-- Top P: .93
+- Top P: .93 (Default is .95)
 
 Hit save in the profile preset after setting these.
 
