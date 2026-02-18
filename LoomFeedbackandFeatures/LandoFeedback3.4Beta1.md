@@ -179,7 +179,7 @@ Do not show your work, do not think, do not rough draft, just provide the final 
 
 ```
 
-### Claude Killer and Gemini saver Variables aren't properly cleared when toggle is turned off.
+## Claude Killer and Gemini saver Variables aren't properly cleared when toggle is turned off.
 
 You don't reinitialize the variables for claude killer and gemini saver, and since you moved them up top, if you switch from killer/saver to extreme or a non-custom planning effort, they stay on forever.
 
@@ -210,7 +210,7 @@ A couple possible solutions for this:
 
 3. For the slider macros one only, ditch the var sync altogether and use macros instead:
 
-### Slider Macros initialization fix and toggle expansion
+## Slider Macros initialization fix and toggle expansion
 
 The old sillytavern meme of it keeping whacko numbers from old versions when vars values aren't blanked/initialized properly.
 
@@ -277,7 +277,7 @@ It will require an updated slider macros export that points to macros instead of
 
 Note that I added some extra ones for colors, that will come to play in the next item:
 
-### New Color functionality via slider macros extension (Requires ST 1.16 Conditionals (in staging))
+## New Color functionality via slider macros extension (Requires ST 1.16 Conditionals (in staging))
 
 By adding the below to Colored Character and NPC Dialogue under Text Formatting:
 
@@ -301,7 +301,7 @@ For the first/main {{char}}, use {{charThoughtColor}} for thought color.
 
 You can use the boolean colorOverride slider in slider macros and then the four color pickers to select custom colors for user and char!
 
-### Dynamic Large Text Length Toggle
+## Dynamic Large Text Length Toggle
 
 My old 1000 words dynamic text length toggle to cover the blindspot between medium and detailed since some people aren't having luck with custom length.
 
@@ -321,7 +321,7 @@ My old 1000 words dynamic text length toggle to cover the blindspot between medi
 5. **Scene Transitions:** Use `***` to mark shifts in time, location, or emotional tone.
 ```
 
-### Text Rendering Toggle
+## Text Rendering Toggle
 
 For stubborn models that refuse to render things inline, a new toggle at the start of text formatting section:
 
@@ -337,7 +337,7 @@ I must **NEVER** use markdown code blocks, backticks, or any formatting that pre
 - **Example:** I will output <font color=#abc123>"Text"</font> exactly. Do not output `<font color=#abc123>"Text"</font>` inside backticks.
 ```
 
-### Intake CoT Substep
+## Intake CoT Substep
 
 I use the below substep to help out with mind reading and catching colors (glm can have issues). 
 
@@ -354,13 +354,13 @@ Note the speech and thought colors used for {{char}} and {{user}}, be sure to pr
 ```
 
 
-### Iconoclast Protocol Edit
+## Iconoclast Protocol Edit
 
 I changed "The author is dead. There is only the character." to "The author is dead when the character speaks or thinks. There is only the character."
 
 This avoids impinging narrative styles and reading levels.
 
-### NSFW Re-ordering and Initialization
+## NSFW Re-ordering and Initialization
 
 Both the level 1-4 and original modules exist. This makes sense, but NSFW Enhancer is above the new system. Drag down NSFW Enhancer to below the new system so it can be there with the old ones.
 
@@ -368,12 +368,12 @@ Also the new values aren't all fully cleared/initialized so if you turned them o
 
 I prefer the old system btw. I can see potential in the new one with some more polish though.
 
-### Recap Generator Timing
+## Recap Generator Timing
 
 You mention in this toggle that at 50+ messages to trigger a message asking if you want to gen a recap. It's hard for an llm to count that on their own, I suggest using a lastmessageID macro or the like.
 
 
-### Random Formatting, Typos, and Toggle States:
+## Random Formatting, Typos, and Toggle States:
 
 - H1 instead of H2 in neutrality mandate in core directives section
 - H4 instead of H3 in Thread Weighting
@@ -384,7 +384,7 @@ You mention in this toggle that at 50+ messages to trigger a message asking if y
 
 - In the beta, Dead Dove chaos modifier is on by default, let chaos take the world!
 
-### From Jun!
+## From Jun!
 
 - lumiapersonality, lumiadef, lumiabehavior are all h2 level headers at least in council mode. the first two sit under another h2 header, the last one is directly beneath an h3.
 
