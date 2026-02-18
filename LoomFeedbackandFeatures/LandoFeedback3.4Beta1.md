@@ -177,6 +177,37 @@ Do not show your work, do not think, do not rough draft, just provide the final 
 
 ```
 
+### Claude Killer and Gemini saver Variables aren't properly cleared when toggle is turned off.
+
+You don't reinitialize the variables for claude killer and gemini saver, and since you moved them up top, if you switch from killer/saver to extreme or a non-custom planning effort, they stay on forever.
+
+A couple possible solutions for this:
+
+1. To clear the values when you switch to non-custom Add the below to non-custom planning efforts, this will :
+
+```
+{{// Claude Killer/Gemini Saver clear}}{{trim}}
+{{setvar::step1token::}}{{trim}}
+{{setvar::step2token::}}{{trim}}
+{{setvar::step3token::}}{{trim}}
+{{setvar::step4token::}}{{trim}}
+{{setvar::step5token::}}{{trim}}
+{{setvar::step6token::}}{{trim}}
+{{setvar::step7token::}}{{trim}}
+{{setvar::step8token::}}{{trim}}
+{{setvar::step9token::}}{{trim}}
+{{setvar::step10token::}}{{trim}}
+{{setvar::step11token::}}{{trim}}
+{{setvar::step12token::}}{{trim}}
+{{setvar::token_inst::}}{{trim}}
+{{setvar::tokenstep10_inst::}}{{trim}}
+{{setvar::min_max::}}{{trim}}
+```
+
+2. Move the editable setvars down below to the actual custom toggles and add empty initialization to both edit me pleases that should not be edited (this allows for different values for saver and killer)
+
+3. For the slider macros one only, ditch the var sync altogether and use macros instead:
+
 ### Slider Macros initialization fix and toggle expansion
 
 The old sillytavern meme of it keeping whacko numbers from old versions when vars values aren't blanked/initialized properly.
