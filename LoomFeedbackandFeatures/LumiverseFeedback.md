@@ -2,17 +2,21 @@
 
 # Point of View/User Profile
 
-I tend to use LLM chats primarily from my mobile phone, connecting to a remote PC Client. I use Android 16/One UI 8.5 on a Samsung S25+, via Chromium based browsers.
+I tend to use LLM chats primarily from my mobile phone, connecting to a remote PC hosted Client. I use Android 16/One UI 8.5 on a Samsung S25+, via Chromium based browsers.
 
-I have 8.5k+ characters and 300+ groups. So it's good for stress testing and use cases for mass uses.
+I have 8.5k+ characters and 300+ groups on a single user account. So it's good for stress testing and use cases for mass uses.
+
+I tend to heavily edit presets, have made various extensions for sillytavern, comfyui, etc. and have contributed to loom in the past, so I can be considered a bit of a power user. I've done professional ui testing though and am familiar with thinking from outside my personal view so I can view things from the perspective of a new user as well.
 
 ---
 
-# UI Positive/Non-Request/ Feedback
+# UI Positive/Non-Request Feedback
 
 ## Performance - It zooms
 
 The feedback and responsiveness of the UI flies, even with 8.5k characters and a vast combination of different filters, positive and negative (thanks for adding negative filters so quickly after I requested it, Prolix!). You all NAILED IT with the database schema and performance. I still have yet to test vectorization, but I'm sure it'll be just as fast.
+
+Only warnings I see are random websocket message port terminations without termination reasons on context/chat/character switching, does not affect functionality at all.
 
 ## Migration - It Works Great
 
@@ -111,12 +115,12 @@ Implemented by Prolix the second I mentioned it, the madman. Tested thoroughly a
 
 ### Custom Front Page
 
-I want a text based front page option, if there's no interest, I'll make an extension for it.
+I want a text based front page option, or a least a clean front page, if there's no interest, I'll make an extension for it.
 
 ### Chub AI Importer
 
-Chub AI importer that uses the API and you can filter out already installed characters. I'll model it after character library probably.
+Chub AI importer that uses the API and you can filter out already installed characters. I'll model it after character library's chub importer probably.
 
 ### Dupe checker with customizable sentence similarity slider and A/B Comparisons
 
-I'll model it after character library's or dupe checker addons for ST.
+I'll model it after character library's or dupe checker addons for ST. There is already exact deduping in Lumiverse, this is for looking for 95% similarity, and then A/B comparisons to decide on which to keep (with an option for migrating chats to the not-deleted one).
