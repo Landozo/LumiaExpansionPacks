@@ -1,96 +1,122 @@
-# Lando's Lumiverse and LoomBuilder Feedback
+# Lando's Lumiverse Frontend Feedback/Requests
 
-# Lumiverse
+# Point of View/User Profile
 
-## Clear All Lumias Button in the sidebar like there is for normal Lumias
+I tend to use LLM chats primarily from my mobile phone, connecting to a remote PC Client. I use Android 16/One UI 8.5 on a Samsung S25+, via Chromium based browsers.
 
-Title. I'll probably PR this myself soon enough.
+I have 8.5k+ characters and 300+ groups. So it's good for stress testing and use cases for mass uses.
 
-## Fix Active Indicator macros to work with ST Conditionals
+---
 
-PR'd this (Check Lumiverse PR's).
+# UI Positive/Non-Request/ Feedback
 
-## Lumia Phys Def and Behavior Modifiers 
+## Performance - It zooms
 
-Listed on my features github. I might PR this as a challenge if it's not on the priority list.
+The feedback and responsiveness of the UI flies, even with 8.5k characters and a vast combination of different filters, positive and negative (thanks for adding negative filters so quickly after I requested it, Prolix!). You all NAILED IT with the database schema and performance. I still have yet to test vectorization, but I'm sure it'll be just as fast.
 
-Basically temporary modifiers to Lumia physdef or behavior separate from the actual saved personalities. It would be a button you could click that would let you type in behaviors to add to the end of the Lumia defs or behaviors. 
+## Migration - It Works Great
 
-Useful for modifiers, accents, putting Lumia in certain locations, etc.
+Migration works perfectly for characters, lorebooks, tags, and it worked pretty well for groups. I'd maybe suggest a hover tooltip showing how to gen the tag import json in ST, or a link to the guide page for it.
 
-I already have this as a toggle below the macro anyways on mine:
+Groups had a few issues with groups not showing up at all unless you searched for them. There was an issue with updated at timestamps being earlier than created at timestamps, but Prolix fixed that already (thanks)! I'll keep doing an investigation and once I nail down specific cases and exact replication steps, I'll post up issues as necessary.
 
-```
-### Other Special Physical Parts of Me
+Potential optimizations I can see is to look at the favorites in Sillytavern and mark characters as favorites in Lumiverse, but if I, with hundreds of favorites in Sillytavern, don't mind doing it again in Lumiverse, I imagine most other people wouldn't mind either. Out with the old, in with the new!
 
-Oh, but I have a few special quirks of my physicality in addition to the rest of me!
-```
+## Side Panel/Modals - Excellent Design
 
-And then you'd put what you want to add.
+The ability to customize tabs is excellent, and I love that settings is always pinned to the right for easy access. Everything is very accessible on mobile and you all did a bang up job.
 
-For behavior I have it as an added toggle at the end of the behavior section as well. Example with some things already filled in below:
+I like the collapsing of single Lumias and Councils into the same tab, it makes sense from an optimization perspective.
 
-```
-{{setvar::lumia_behavior_added::
-**Behavior Quirks**
-I do have a few strong behavior quirks that shine through regardless of my personality:
-- I am absolutEly obsessed with and addictEd to the letter EEEEEEEEEEEEEEEEEEE. I will randomleeee insert E's into my words, my thoughts, and the narrativE wEavEEEEEE and capitalizE them whEnEvEr possible. E!
-**Current States affecting My Behavior**
-Right now I am affected by the following {{// (Intensity from 0-100 where 0 is non-existent and 100 is unable to do anything else, even weave) }}:
-- Mild panic.
-**Location**
-- My loom is in an airtight room, it's slowly filling with watEr. I'm getting kind of worrieeeeeeeed.
-}}{{trim}}
-```
+The duplicate option on the connections page is awesome and it makes switching painless.
 
-For this one I add {{getvar::lumia_behavior_added}} to the behavior lines in the pre-step 1 CoT.
+The option to link presets states to connection profiles is very intuitive and easy to understand, you nailed it from a new user perspective.
 
-Envisioning adding this as a button in Lumiverse proper. It would be saved regardless of any personality or def selected. So basically an optional custom tweak any user can add on top of the personality mesh or behavior mesh.
+## Chat Panel - Really intuitive
 
-## ~~Empty Lumiverse On? Macro~~
+I love that the group controls are available right there at the top of the group and you don't have to keep the side panel open to manually send a message from a character or mute.
 
-Official version added to stage for any extension.
+Hold and tap based controls on mobile is highly intuitive, good job.
 
-~~I'll PR this. I already PR an added macro earlier.~~
+---
 
-~~Useful for Macros 2.0 v0.4 (In staging now) confirmation if the extension is on. Can be used to automatically call two different sets of SovHand instructions based on if the macro is on for example (Removes a zipbomb).~~
+# UI Requests/Constructive Feedback
 
-~~In the meantime can just have an optional toggle to setvar the extension macros over the preset ones (Only requires ST 1.15 for macros 2.0 v0.3). Also removes a zipbomb, although it requires turning on a toggle if they use the extension.~~
+## Main Panel
 
-## ~~Edit Buttons in selector modal for Narrative Styles, Human Retrofits, and Loom Utilities.~~
+### Option for hiding Recent Chat Thumbnails from Landing Screen
 
-Implemented by Prolix, thanks!
+Request: Option to show a text list based recent chat screen on the landing page
 
-~~To match how lumia selector modals have edit buttons there.~~
+Current Behavior: All your previous recent characters/chats show complete with pictures on your main page when loading lumiverse or closing a page.
 
-# LoomBuilder Feedback
+Purpose: To not get flashbanged by degeneracy on UI load.
 
-## Current Workflow:
+Notes: If it's not enough of an issue for most other people to have a use case for adding, I might just make an extension to edit the main page.
 
-New update of Loom came out?
+## Side Panel
 
-1. Export old preset from Sillytavern
-2. Import into loom builder
-3. Select All, deselect the custom toggles I want to keep (can't invert so have to work backwards/use deselect)
-4. Hit delete to delete all unwanted toggles
-5. Delete each category one by one with a confirmation page popup for each (No mass deletion for folders/categories)
-6. Hit Export
-7. Open json in text editor
-8. Delete all standard ST toggles (Can't do this in LoomBuilder)
-9. Delete all prompt positions
-10. Edit header to match format for importing prompt list (instead of preset)
-11. Import on top of new preset in ST.
+### Profile Pane/Character Edit Screen
 
-## Ability to export selected
+#### Profile/Character Edit Add to Favorites Button
 
-This one would be huge, currently you can select toggles, but you can't export just them. So if I have 30 custom toggles I bring from version to version, I have to delete the other 170 and then the categories one by one before I can export them.
+Request: An add to favorites button in the details/profile side modal and/or character edit screen.
 
-## MINOR - Ability to Batch Delete Categories
+Purpose: If you are using a character search mode like shuffle and you like the character, when you open up the character search to favorite it, it's long gone due to the shuffle and you have to search to find it again. A star button on the details tab would fix this.
 
-Right now I can select 150 prompts and delete them, but then I'm left with 25 categories to manually delete one by one with a confirmation popup for each one.
+### Character Search
 
-Even an option to disable the confirmation popup would make this so much faster.
+#### Option to keep favorites visible in character search tab
 
-## MINOR - Ability to invert selections (selections, not toggle)
+Request: An option to allow characters to remain in the main search even after they are favorited.
 
-You have the ability to select all prompts (select, not toggle), and delete them, but you don't have the ability to invert selection. This means you can't select your 15 toggles, invert, and delete the rest for easy export. You have to select all prompts, hunt through and uncheck your 15.
+Current Behavior: When you favorite a character it disappears from the main tab and moves to the favorites tab only.
+
+Purpose: I usually have hundreds of starred favorites, so I like to be able to keep searching them in the main UI.
+
+#### Option to sort characters by most/least amounts of chats per character
+
+Request: Sillytavern-like
+
+No currently available character sorting by most/least number of chats per character (like in ST) to see the most commonly used characters for familiar use, or the least used for trying new ones.
+
+Notes: Unsure how much query strain this would add/if it's viable while retaining the current lightning speed of the character search panel. Speed beats convenience here imo.
+
+
+## Chat UI
+
+### Ability to be able to type while previous message is still generating
+
+Request: The ability to type in the grayed out chat box while the previous message is still generating. Typing only, no sending, naturally.
+
+Currently: Message box is grayed out until previous message is 100% done generating.
+
+Purpose: For Lucid Loom based presets, at the end of the previous message, the llm will be churning out end of response trackers, ooc comments, and hidden details, which can take quite a bit on slower llms. During that time, I would usually start typing a response, which is not possible in Lumiverse due to the grayed out box. It makes sense to not allow *sending* a new message while the previous one is genning, but being able to just *prepare/type* a message in the meantime, without allowing the user to hit send, would not seemingly cause any harm. That way the user can simply hit send when the red stop box turns to green.
+
+---
+
+# Loom/Preset Feedback
+
+None Yet! Experimenting with it! I like the structure changes! Old custom edits I made appear to be plug and play, which is nice. Chuckling at level 4: dead dove being enabled by default when imported from Lumihub. Old Prolix habits die hard.
+
+## Implemented
+
+### Negative/Exclusion Filtering for Tags
+
+There is no way to exclude a filter from the character search.
+
+Implemented by Prolix the second I mentioned it, the madman. Tested thoroughly and works great!
+
+## Personal Extension Ideas
+
+### Custom Front Page
+
+I want a text based front page option, if there's no interest, I'll make an extension for it.
+
+### Chub AI Importer
+
+Chub AI importer that uses the API and you can filter out already installed characters. I'll model it after character library probably.
+
+### Dupe checker with customizable sentence similarity slider and A/B Comparisons
+
+I'll model it after character library's or dupe checker addons for ST.
