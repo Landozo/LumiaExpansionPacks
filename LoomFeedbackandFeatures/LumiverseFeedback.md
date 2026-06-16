@@ -50,7 +50,7 @@ Hold and tap based controls on mobile is highly intuitive, good job.
 
 ### Option for hiding Recent Chat Thumbnails from Landing Screen
 
-Request: Option to show a text list based recent chat screen on the landing page
+Request: Option to hide recent chat thumbnails from landing screen, or to simply show an empty landing page, or to show a text based equivalent.
 
 Current Behavior: All your previous recent characters/chats show complete with pictures on your main page when loading lumiverse or closing a page.
 
