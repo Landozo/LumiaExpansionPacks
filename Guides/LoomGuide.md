@@ -1,18 +1,30 @@
-# Lando's Lengthy Loom Lecture
-
-So you want to use **Prolix's** wonderful Lucid Loom preset? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
+# Lando's Lengthy Loom Lecture (ARCHIVED/OUTDATED)
 
 > [!WARNING]
-> This is an **UNOFFICIAL** Guide to Lucid Loom by me, Landozo. **I am NOT Prolix**, the dev of Lucid Loom, I'm an end user like you! If you have feedback, feature requests, or ultra-specific questions about Lucid Loom instead of just this guide, he's the man to ask in Loom Chat! (Link [here](#where-to-go-for-help))
-
-If you have any feedback on this guide or questions about the guide, you can find me on the Lucid Loom Thread on the AI Presets discord (Link [here](#where-to-go-for-help)).
-
-This Loom guide is current as of 3.3 release (January 23, 2025)!
-
-The latest release is 3.3 from https://lucid.cards/chat-presets
+> Prolix's Lucid Loom for Sillytavern (as of June 15, 2026), is currently deprecated/discontinued on Sillytavern. Newer versions of Lucid Loom continue to be developed for Prolix's newer hand-built LLM Chat frontend, Lumiverse! More information about the amazing Lumiverse, including install instructions can be found here: https://lumiverse.chat .
 
 > [!WARNING]
-> This guide is not up to date for 3.4 betas! I'll update it for 3.4 when 3.4 final is out!
+> Guides for Lumiverse can be found here: https://lumiverse.chat/guides/ and are better written than my old guides, so use them instead! Personally I've moved over to Lumiverse recently and I find it very easy to use, highly performant, and painless to move over to from Sillytavern. It even has features for migrating over all your characters, groups, lorebooks, and chats from Sillytavern and I used it to move over my 8.5k+ characters without issue.
+
+> [!WARNING]
+> Lumia/Loom packs, curated characters, and more are now available at LumiHub, located at https://lumi.spot/ . Lumihub has seamless one-click integration with Lumiverse! Instructions for setting it up can be found at: https://lumiverse.chat/guides/settings/lumihub/
+
+> [!WARNING]
+> The below guide is only kept for *archival purposes* for people still using older, unsupported versions of Loom on Sillytavern.
+
+---
+
+So you want to use **Prolix's** wonderful Lucid Loom preset on Sillytavern? There are a lot of toggles and options and a lot of models to use them with, and it might look daunting, but it's actually pretty easy with some guidance! 
+
+> [!WARNING]
+> This is an **UNOFFICIAL** Guide to *older/archived* versions of Lucid Loom by me, Landozo. **I am NOT Prolix**, the dev of Lucid Loom, I'm simply an end user like you! Old questions and resources about Lucid Loom on Sillytavern can be found in the help channel for it on the AI Presets discord! (Link [here](#where-to-go-for-help))
+
+This Loom guide is archived for the 3.3 release (January 23, 2025)!
+
+The matching release for this archived guide is Lucid Loom 3.3 from https://lucid.cards/chat-presets
+
+> [!WARNING]
+> This guide is not up to date for 3.4 beta 1 as it is not a final release! Expect minor changes!
 
 > [!WARNING]
 > 3.3 Final Test is a BETA release from BEFORE 3.3. Upgrade to 3.3 if you still use it! 
