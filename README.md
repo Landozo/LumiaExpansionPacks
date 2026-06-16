@@ -1,9 +1,13 @@
 # Lando's Lucid Loom Stuff 
 
-This is my github for stuff mostly related to Prolix's spectacular Lucid Loom Preset, which can be found at his site here:
-https://lucid.cards
+> [!WARNING]
+> This page is currently out of date, I need to prep it for being all about Prolix's new Lumiverse client, which hosts new versions of his lucid loom preset in it instead. More information about it can be found at https://lumiverse.chat
 
-THE LOOM GUIDE:
+Everything below is Archived/Out of Date, I need to update it for the new Lumiverse client!
+
+---
+
+THE LOOM GUIDE (For Sillytavern only/Archived/Outdated):
 [The Loom Guide](https://github.com/Landozo/LumiaExpansionPacks/blob/main/Guides/LoomGuide.md)
 
 LANDO'S Sillytavern M.U.G. (Mostly Useful Guide):
